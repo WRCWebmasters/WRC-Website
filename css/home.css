@@ -1,0 +1,85 @@
+html body {
+	background-color: white;
+	color: #13191E;
+	/*To clear the header/footer*/
+	margin-top: 75px; 
+}
+
+html h1 {
+	color: #BE3019;
+}
+
+html h2 {
+	color: #FECB33;
+}
+
+/*Navbar + Footer*/
+
+.navbar {
+	background-color: #BE3019;
+}
+
+.footer {
+	background-color: #FECB33;
+	color: #13191E;
+	height: 65px;
+}
+
+.footer p {
+	line-height: 65px;
+	color: #13191E;
+}
+
+.footer a {
+	text-decoration: none;
+	color: #13191E;
+}
+
+
+/*Body Content */
+
+.container {
+	margin-top: 20px;
+}
+
+.page-title {
+	position: relative;
+	left: -75px;
+	font-size: 100px;
+	color: #BE3019;
+	font-weight: bold;
+}
+
+.content {
+	background: #FAFAFA;
+	margin: 15px 0px;
+}
+
+.description-image {
+	width: 100%;
+}
+
+.content-title {
+	float: left;
+}
+
+.card-header-pills {
+	float: right;
+}
+
+.tab-pane {
+	padding: 10px;
+}
+
+/*Cards*/
+html .card {
+	border-radius: 0px;
+}
+
+/*To make anchor links account for the fixed header*/
+a.anchor {
+    display: block;
+    position: relative;
+    top: -75px;
+    visibility: hidden;
+}
