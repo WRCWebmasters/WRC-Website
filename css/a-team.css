@@ -43,8 +43,6 @@ html h2 {
 }
 
 .page-title {
-	position: relative;
-	left: -75px;
 	font-size: 100px;
 	color: #BE3019;
 	font-weight: bold;
@@ -74,7 +72,6 @@ html h2 {
 /*Cards*/
 html .card {
 	border-radius: 0px;
-	padding: 10px;
 }
 
 /*To make anchor links account for the fixed header*/

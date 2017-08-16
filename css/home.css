@@ -1,8 +1,8 @@
 html body {
 	background-color: white;
 	color: #13191E;
-	/*To clear the header/footer*/
-	margin-top: 75px; 
+	/*To clear the header*/
+	margin-top: 65px; 
 }
 
 html h1 {
