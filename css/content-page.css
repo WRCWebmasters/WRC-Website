@@ -81,3 +81,19 @@ a.anchor {
     top: -75px;
     visibility: hidden;
 }
+
+/* Button groups */
+html button {
+	background-color: #BE3019;
+	color: white;
+}
+
+button a {
+	text-decoration: none;
+	color: white;
+}
+
+button a:hover {
+	text-decoration: underline;
+	color: white;
+}
