@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-		<title>WRC A-Team</title>
+		<title>Calendar</title>
 		<link rel="shortcut icon" href="../resources/icons/favicon.ico">
 		<link rel="stylesheet" href="../css/content-page.css">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
@@ -21,8 +21,15 @@
 
 		  <div class="collapse navbar-collapse" id="navbarSupportedContent">
 		    <ul class="navbar-nav mr-auto">
-		      <li class="nav-item">
-		        <a class="nav-link" href="#">History</a>
+		      <li class="nav-item dropdown">
+		      	<a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+		          About
+		        </a>
+		        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+		          <a class="dropdown-item" href="./history.html">History</a>
+		          <a class="dropdown-item" href="#">Traditions</a>
+		          <a class="dropdown-item" href="#">Facilities</a>
+		        </div>
 		      </li>
 		      <li class="nav-item dropdown">
 		      	<a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
