@@ -3,9 +3,9 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-		<title>Will Rice College</title>
+		<title>WRC A-Team</title>
 		<link rel="shortcut icon" href="../resources/icons/favicon.ico">
-		<link rel="stylesheet" href="../css/home.css">
+		<link rel="stylesheet" href="../css/content-page.css">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
 	</head>
 
@@ -55,126 +55,17 @@
 		</nav>
 
 		<div class="container">
+		<div id="org-willrice-div-newsfeed" align="center">
+		<h2>Will Rice Calendar</h2>
 
-				<div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
-			  <div class="carousel-inner">
-			    <div class="carousel-item active">
-			      <img class="d-block w-100" src="../resources/images/Carousel1.jpg" alt="First slide">
-			    </div>
-			    <div class="carousel-item">
-			      <img class="d-block w-100" src="../resources/images/Carousel2.jpg" alt="Second slide">
-			    </div>
-			    <div class="carousel-item">
-			      <img class="d-block w-100" src="../resources/images/Carousel3.jpg" alt="Third slide">
-			    </div>
-			  </div>
+		  <h4>Don't see the calendar? Make sure you're logged in to your Rice account!</h4>
+		  <h4>Fill out this <a href = 'https://goo.gl/forms/Z6lMeyBdaaxPfja63'>form </a> to display your event on the calendar! 
+
+		  <h3 class="org-wrc-class-news-article">
+		    <iframe src="https://www.google.com/calendar/embed?title=WRC%20and%20RPC%20Calendar&amp;height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=riceprogramcouncil%40gmail.com&amp;color=%2328754E&amp;src=rice.edu_2rdcnf42kh41sausktc0qluq10%40group.calendar.google.com&amp;color=%23853104&amp;ctz=America%2FChicago" style=" border-width:0 " width="800" height="600" frameborder="0" scrolling="no"></iframe>
+		  </h3>
+		 
 		</div>
-
-			<br>
-			<h1> Quick Links </h1>
-			<br>
-
-			<div class="card-group">
-	
-				<div class="card">
-					<a href="./calendar">
-				  		<img class="card-img-top" src="../resources/icons/icon.svg" alt="Calendar">
-				  	</a>
-				  	<a href="./calendar">
-						<div class="card-body">
-							<h4 class="card-title">Calendar</h4>
-						</div>
-					</a>
-				</div>
-				</a>
-
-				<div class="card">
-					<a href="#coordinator-content">
-				  		<img class="card-img-top" src="../resources/icons/icon.svg" alt="Coordinator">
-				  	</a>
-				  	<a href="#coordinator-content">
-				  		<div class="card-body">
-				    		<h4 class="card-title">Diet</h4>
-				  		</div>
-				  	</a>
-				</div>
-
-				<div class="card">
-					<a href="#RAs-content">
-				  		<img class="card-img-top" src="../resources/icons/icon.svg" alt="Ras">
-				  	</a>
-				  	<a href="#RAs-content">
-					  	<div class="card-body">
-					    	<h4 class="card-title">Space Reservation</h4>
-					  	</div>
-				  	</a>
-				</div>
-
-				<div class="card">
-					<a href="#coordinator-content">
-				  		<img class="card-img-top" src="../resources/icons/icon.svg" alt="Coordinator">
-				  	</a>
-				  	<a href="#coordinator-content">
-				  		<div class="card-body">
-				    		<h4 class="card-title">Party Registration</h4>
-				  		</div>
-				  	</a>
-				</div>
-
-			</div>
-			<div class="card-group">
-
-				<div class="card">
-					<a href="#coordinator-content">
-				  		<img class="card-img-top" src="../resources/icons/icon.svg" alt="Coordinator">
-				  	</a>
-				  	<a href="#coordinator-content">
-				  		<div class="card-body">
-				    		<h4 class="card-title">Housing and Parking</h4>
-				  		</div>
-				  	</a>
-				</div>
-
-				<div class="card">
-					<a href="#coordinator-content">
-				  		<img class="card-img-top" src="../resources/icons/icon.svg" alt="Coordinator">
-				  	</a>
-				  	<a href="#coordinator-content">
-				  		<div class="card-body">
-				    		<h4 class="card-title">PAAs</h4>
-				  		</div>
-				  	</a>
-				</div>
-
-				<div class="card">
-					<a href="#coordinator-content">
-				  		<img class="card-img-top" src="../resources/icons/icon.svg" alt="Coordinator">
-				  	</a>
-				  	<a href="#coordinator-content">
-				  		<div class="card-body">
-				    		<h4 class="card-title">Fellows</h4>
-				  		</div>
-				  	</a>
-				</div>
-				
-				<div class="card">
-					<a href="#coordinator-content">
-				  		<img class="card-img-top" src="../resources/icons/icon.svg" alt="Coordinator">
-				  	</a>
-				  	<a href="#coordinator-content">
-				  		<div class="card-body">
-				    		<h4 class="card-title">Contact</h4>
-				  		</div>
-				  	</a>
-				</div>
-
-
-
-			</div>
-	
-
-
-
 		</div>
 
 
