@@ -1,0 +1,10 @@
+
+pages/\.idea/
+
+\.idea/inspectionProfiles/Project_Default\.xml
+
+\.DS_Store
+
+*.iml
+
+\.idea/
