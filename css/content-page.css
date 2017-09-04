@@ -83,6 +83,10 @@ html h2 {
 	padding: 10px;
 }
 
+html address {
+	margin-left: 5%;
+}
+
 /*Cards*/
 html .card {
 	border-radius: 0px;
