@@ -62,6 +62,12 @@ html h2 {
 	font-weight: bold;
 }
 
+@media screen and (min-width: 480px) {
+	.page-title {
+		font-size: 48px;
+	}
+}
+
 .content {
 	background: #FAFAFA;
 	margin: 15px 0px;
