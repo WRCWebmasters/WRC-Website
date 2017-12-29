@@ -62,18 +62,10 @@ html h2 {
 	font-weight: bold;
 }
 
-@media screen and (max-width: 480px) {
-	html h1 {
-		font-size: 9vw;
-	}
-
-	html h2 {
-		font-size: 6vw;
-	}
-
-	.page-title {
-		font-size: 10vw;
-	}
+/* For nav bars to flex into column major order on mobile */
+.btn-group.btn-group-flex {
+	display: flex;
+	flex-direction: row;
 }
 
 .content {
@@ -132,4 +124,47 @@ button a {
 button a:hover {
 	text-decoration: underline;
 	color: white;
+}
+
+
+/* 576 px to match Bootstrap v4 col-sm breakpoint */
+@media screen and (max-width: 576px) {
+	html h1 {
+		font-size: 9vw;
+	}
+
+	html h2 {
+		font-size: 6vw;
+	}
+
+	.page-title {
+		font-size: 10vw;
+	}
+
+	.btn-group.btn-group-flex {
+		flex-direction: column;
+	}
+
+	/* making the border-radius correct */
+	.btn-group.btn-group-flex > .btn:first-child {
+		border-radius: 6px 6px 0 0;
+		border-bottom: 1px solid black;
+	}
+	
+	.btn-group.btn-group-flex > .btn:first-child:not(:last-child):not(.dropdown-toggle) {
+	    border-top-right-radius: 6px;
+	}
+
+	.btn-group.btn-group-flex > .btn:not(:first-child):not(:last-child):not(.dropdown-toggle) {
+		border-bottom: 1px solid black;
+	}
+	  
+	.btn-group.btn-group-flex > .btn:last-child:not(:first-child) {
+	    border-radius: 0 0 6px 6px;
+	}
+
+	/* fixing margin */
+	.btn-group.btn-group-flex .btn + .btn {
+	    margin-left: 0;
+	}
 }
