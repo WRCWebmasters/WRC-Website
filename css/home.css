@@ -75,10 +75,28 @@ html h4 {
 	padding: 10px;
 }
 
+.card-group-flex {
+	display:flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+@media screen and (max-width: 768px) {
+	.card-group-flex {
+		flex-direction: column;
+	}
+
+
+	.footer p {
+		line-height: 30px;
+	}
+}
+
 /*Cards*/
 html .card {
 	border-radius: 0px;
 	padding: 10px;
+	min-width: 230px;
 }
 
 /*To make anchor links account for the fixed header*/
