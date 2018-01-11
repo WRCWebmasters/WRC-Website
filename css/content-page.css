@@ -2,7 +2,17 @@ html body {
 	background-color: white;
 	color: #13191E;
 	/*To clear the header/footer*/
-	margin-top: 75px; 
+	margin: 75px 0;
+}
+
+html {
+	position: relative;
+	min-height: 100%;
+}
+
+body {
+	/* Margin bottom by footer height */
+	margin-bottom: 60px;
 }
 
 html h1 {
@@ -37,18 +47,22 @@ html h2 {
 	background-color: #BE3019;
 }
 
-.footer {
+footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	/* Set the fixed height of the footer here */
 	background-color: #FECB33;
 	color: #13191E;
 	height: 65px;
+
 }
 
-.footer p {
-	line-height: 65px;
+footer p {
 	color: #13191E;
 }
 
-.footer a {
+footer a {
 	text-decoration: none;
 	color: #13191E;
 }
