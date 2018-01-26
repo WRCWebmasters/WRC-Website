@@ -3,7 +3,7 @@ html body {
 	color: #13191E;
 	/*To clear the header*/
 	/*margin-top: 65px; */
-	margin: 75px 0;
+	margin: 75px 0 100px 0;
 }
 
 html {
@@ -13,7 +13,7 @@ html {
 
 body {
 	/* Margin bottom by footer height */
-	margin-bottom: 60px;
+	margin-bottom: 70px;
 }
 html h1 {
 	color: #BE3019;
