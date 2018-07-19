@@ -20,6 +20,32 @@
           integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
 </head>
 
+<!-- Specific style to emulate flexbox of homepage -->
+<style>
+    .card-group-flex {
+        display:flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    @media screen and (max-width: 768px) {
+        .card-group-flex {
+            flex-direction: column;
+        }
+
+
+        .footer p {
+            line-height: 30px;
+        }
+    }
+
+    /*Cards*/
+    html .card {
+        border-radius: 0px;
+        min-width: 230px;
+    }
+</style>
+
 <body>
 <nav class="navbar fixed-top navbar-expand-lg navbar-dark">
     <a class="navbar-brand" href="home.html">
@@ -91,34 +117,203 @@
         </div>
     </div>
 
+    <h2>About</h2>
+    <br>
+
+    <div class="row">
+        <div class="col">
+            Rice Health Advisors, or RHAs, are students who have been trained on a variety of wellbeing topics, and are here to support you and your mental and physical wellbeing. These students work at their college to provide health education opportunities, peer guidance, and act as liaisons between the Student Wellbeing Office and the residential colleges. Feel free to talk to them, or contact them, if you need some guidance, need health supplies, or just want to chat! 
+        </div>
+    </div>
+
+    <br>
+    <h2> Your RHAs </h2>
+    <br>
+
     <!-- RHAs -->
     <div class="row">
         <div class="col">
-            <ul class="list-group">
-                <li class="list-group-item">
-                    <h3 class="card-title"> Katie Lobodzinski </h3>
-                    <a href="mailto:kcl2@rice.edu"><h6 class="card-subtitle text-muted"> kcl2@rice.edu </h6></a>
-                </li>
-                <li class="list-group-item">
-                    <h3 class="card-title"> Hiren Patel </h3>
-                    <a href="mailto:hap4@rice.edu"><h6 class="card-subtitle text-muted"> hap4@rice.edu </h6></a>
-                </li>
-                <li class="list-group-item">
-                    <h3 class="card-title"> Denise Zheng </h3>
-                    <a href="mailto:dz14@rice.edu"><h6 class="card-subtitle text-muted"> dz14@rice.edu </h6></a>
-                </li>
-                <li class="list-group-item">
-                    <h3 class="card-title"> Christian Capo </h3>
-                    <a href="mailto:cc62@rice.edu"><h6 class="card-subtitle text-muted"> cc62@rice.edu </h6></a>
-                </li>
-                <li class="list-group-item">
-                    <h3 class="card-title"> Anna Cole</h3>
-                    <a href="mailto:acc17@rice.edu"><h6 class="card-subtitle text-muted"> acc17@rice.edu </h6></a>
-                </li>
-            </ul>
-            <br>
+            <div class="card-group card-group-flex">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-3 col-sm-12">
+                                <img class="card-img-top" src="../resources/images/rha/sara.jpg" alt="Sara Lopez">  
+                            </div>
+                            <div class="col-9 col-sm-12">
+                                <div class="card-body">
+                                    <a href="mailto:sll8@rice.edu"><h4 class="card-title">Sara Lopez</h4> </a>
+                                    <h5>Senior - Cognitive Sciences & Anthropology </h5>
+                                    <p> Family, Homesickness, Relationships, Hookups, Anxiety and Stress, Drinking Culture </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-3 col-sm-12">
+                                <img class="card-img-top" src="../resources/images/rha/lindsay.jpg" alt="Lindsay Mathys">       
+                            </div>
+                            <div class="col-9 col-sm-12">
+                                <div class="card-body">
+                                    <a href="mailto:lrm7@rice.edu"><h4 class="card-title">Lindsay Mathys</h4></a>
+                                    <h5> Sophomore - Biochemistry and Cell Biology </h5>
+                                    <p> Family, Relationships, Anxiety/Stress, Health/Wellness (diet, exercise etc.) </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-3 col-sm-12">
+                                <img class="card-img-top" src="../resources/images/rha/johnny.jpg" alt="Johnny Busquets">
+                            </div>
+                            <div class="col-9 col-sm-12">
+                                <div class="card-body">
+                                    <a href="mailto:jbb8@rice.edu"><h4 class="card-title">Johnny Busquets</h4></a>
+                                    <h5> Junior - Biochemistry and Cell Biology </h5>
+                                    <p> Family (issues), Health/Wellness (nutrition, exercise, sleep) </p>
+                                </div>  
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-3 col-sm-12">            
+                                <img class="card-img-top" src="../resources/images/rha/madeline.jpg" alt="Madeline Ngo"> 
+                            </div>
+                            <div class="col-9 col-sm-12">
+                                <div class="card-body">
+                                    <a href="mailto:man9@rice.edu"><h4 class="card-title">Madeline Ngo</h4></a>
+                                    <h5> Sophomore - Biochemistry and Cell Biology </h5>
+                                    <p> Adjusting to college life, Time/Stress management, Relationships </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-3 col-sm-12">            
+                                <img class="card-img-top" src="../resources/images/rha/tolu.jpg" alt="Toluwani Fasina">
+                            </div>
+                            <div class="col-9 col-sm-12">
+                                <div class="card-body">
+                                    <a href="mailto:ttf1@rice.edu"><h4 class="card-title">Toluwani Fasina</h4></a>
+                                    <h5> Sophomore - Economics </h5>
+                                    <p> Social Anxiety, Stress, Relationships, Grief/Loss </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-3 col-sm-12">
+                                <img class="card-img-top" src="../resources/images/rha/hiren.jpg" alt="Hiren Patel">    
+                            </div>
+                            <div class="col-9 col-sm-12">
+                                <div class="card-body">
+                                    <a href="mailto:hap4@rice.edu"><h4 class="card-title">Hiren Patel</h4></a>
+                                    <h5> Senior - Kinesiology (Sports Medicine) </h5>
+                                    <p> Work/Life Balance, Time Management, Mental Health (anxiety/stress), Nutrition, Homesickness </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-3 col-sm-12">            
+                                <img class="card-img-top" src="../resources/images/rha/katie.jpg" alt="Katie Lobodzinski">
+                            </div>
+                            <div class="col-9 col-sm-12">
+                                <div class="card-body">
+                                    <a href="mailto:kcl2@rice.edu"><h4 class="card-title">Katie Lobodzinski</h4></a>
+                                    <h5> Senior - Psychology and SWGS </h5>
+                                    <p> Relationships, Work/Life Balance, Mental Health </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-3 col-sm-12">
+                                <img class="card-img-top" src="../resources/images/rha/anna.jpg" alt="Anna Cole">
+                            </div>
+                            <div class="col-9 col-sm-12">
+                                <div class="card-body">
+                                    <a href="mailto:acc17@rice.edu"><h4 class="card-title">Anna Cole</h4></a>
+                                    <h5> Junior - Biochemistry and Cell Biology </h5>
+                                    <p> Relationships, Mental Health, Family, Stress Management </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
+
+    <br>
+    <h2> RHA Top Picks </h2>
+    <p>Here are some of our favorite wellbeing websites, podcasts, apps, and more:</p>
+    <br>
+
+    <div class="row">
+        <div class="col">
+            <div class="card-group card-group-flex">
+                    <div class="card">
+                        <div class="card-body">
+                            <h3> Podcasts </h3>
+                            <ul>
+                                <li><a href="https://greatergood.berkeley.edu/podcasts/series/the_science_of_happiness">The Science of Happiness</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-body">
+                            <h3> Websites </h3>
+                            <ul>
+                                <li><a href="https://www.mentalhealth.gov/">Mental Health</a></li>
+                                <li><a href="https://www.nami.org/">National Alliance on Mental Illness</a></li>
+                                <li><a href="http://ok2talk.org/">OK2TALK</a></li>
+                                <li><a href="https://www.trevorspace.org/">Trevor Space</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-body">
+                            <h3> Apps </h3>
+                            <ul>
+                                <li><a href="https://www.stopbreathethink.com/ ">Stop, Breathe & Think</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
 </div>
 
 
