@@ -1,0 +1,1 @@
+Here includes a csv of all associates and the python script to generate all of the HTML entires given those associates. Run using 'python generate_associates.py'. For best results, pipe output to another file. Then just copy/paste the output into the associates.html page and replace what was there.

@@ -3,7 +3,7 @@ pages/\.idea/
 
 \.idea/inspectionProfiles/Project_Default\.xml
 
-\.DS_Store
+*.DS_Store
 
 *.iml
 
