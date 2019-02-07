@@ -42,25 +42,22 @@ with open("associates.csv") as file:
 
 	divs = defaultdict(list)
 	for row in reader:
-		if line_count > 0:
-			name = row["Name"]
-			photo_name = name
-			cat = row["Category"]
-			email1 = row["Email"]
-			email2 = row["Second Email"]
-			job1 = row["Job"]
-			job2 = row["Second Job"]
-			bio = row["Bio"]
+		name = row["Name"].strip()
+		photo_name = name
+		cat = row["Category"].strip()
+		email1 = row["Email"]
+		email2 = row["Second Email"]
+		job1 = row["Job"]
+		job2 = row["Second Job"]
+		bio = row["Bio"]
 
+		# Fix inconsistent formatting for category
+		if "Associates" not in cat:
+			cat += "s"
 
-			# Fix inconsistent formatting for category
-			if "Associates" not in cat:
-				cat += "s"
+		div = create_div(name, photo_name, email1, email2, job1, job2, bio)
+		divs[cat].append(div)
 
-			div = create_div(name, photo_name, email1, email2, job1, job2, bio)
-			divs[cat].append(div)
-
-		line_count += 1
 
 
 	# Put it together, with section headers
