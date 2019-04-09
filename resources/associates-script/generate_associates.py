@@ -1,6 +1,10 @@
 import csv
 from collections import defaultdict
 
+# Escape for HTML
+def escape(input):
+	return input.translate(str.maketrans({"\"":"&quot;"}))
+
 def create_div(name, photo_name, email1, email2, job1, job2, bio):
 	# If one person
 	div1 = "<div class=\"row content\" style=\"padding: 10px\">\n\
@@ -50,6 +54,9 @@ with open("associates.csv") as file:
 		job1 = row["Job"]
 		job2 = row["Second Job"]
 		bio = row["Bio"]
+
+		photo_name = escape(photo_name)
+
 
 		# Fix inconsistent formatting for category
 		if "Associates" not in cat:
