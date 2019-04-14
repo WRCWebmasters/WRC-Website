@@ -1,0 +1,3 @@
+These JSON files populate almost all of the name/email/title fields on the website. Each page includes the populate-people.js script that will replace @-tags with their appropriate values, as specified by the JSON files. This runs in-browser, on page load.
+
+The JSON files are automatically generated (don't bother trying to make/edit them manually) from their corresponding CSVs using the csv_to_json.py script. So long as the CSVs adhere to the same format, running the script will replace the on-disk version of the JSON file with one generated from the CSV. So if you need to update people on the website, just obtain an updated copy of the CSV (or do it yourself), run the python script, and commit. 

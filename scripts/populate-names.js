@@ -1,4 +1,4 @@
-var jsonPath = "./people.json";
+var jsonPath = "./config/people.json";
 
 $.getJSON(jsonPath, function( data ) {
     $.each( data, function( key, value ) {
