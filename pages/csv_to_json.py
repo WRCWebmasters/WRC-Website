@@ -4,6 +4,7 @@ import sys
 
 
 BASIC_ENTRY_JSON_NAME = "people.json"
+PAA_JSON_NAME = "paa.json"
 
 class BasicEntry:
     def __init__(self, role, tag, email, names):
@@ -43,14 +44,47 @@ def generateBasicEntries(inputFile):
     
     print("Created {} with {} entries".format(BASIC_ENTRY_JSON_NAME, len(list(finalDict.keys()))))
 
+class PaaEntry:
+    def __init__(self, name, email, subjects ):
+        self.subjects = ", ".join(filter(lambda x: x != '', subjects))
+        self.email = email if len(email) > 0 else None
+        self.name = name
+
+def generatePaaEntries(inputFile):
+    allEntries = []
+
+    # CSV columns are: [name] [email] [subject] [subject] ...
+    with open(inputFile) as csv_file:
+        csv_reader = csv.reader(csv_file, delimiter=',')
+        line_count = 0
+        for row in csv_reader:
+            if line_count > 0:
+                allEntries.append(PaaEntry(row[0], row[1], [x for x in row[2:]]))
+            
+            line_count += 1
+
+    # Export all entries to dictionary 
+    finalDict = {}
+    for entry in allEntries:
+        val = {'subjects': entry.subjects, 'email': entry.email}
+        finalDict[entry.name] = val
+
+    with open(PAA_JSON_NAME, 'w') as fp:
+        json.dump(finalDict, fp)
+    
+    print("Created {} with {} entries".format(PAA_JSON_NAME, len(list(finalDict.keys()))))
+
 
 
 if len(sys.argv) == 1 or "-h" in sys.argv:
     print("-b [filename.csv] for basic people generation (student leadership, a-team)")
-    print("-paa [filename.csv] for PAAs")
+    print("-p [filename.csv] for PAAs")
     print("-f [filename.csv] for fellows")
-
 else:
     if "-b" in sys.argv:
         # name of file must follow 
         generateBasicEntries(sys.argv[1 + sys.argv.index("-b")])
+    
+    if "-p" in sys.argv:
+        # name of file must follow 
+        generatePaaEntries(sys.argv[1 + sys.argv.index("-p")])
