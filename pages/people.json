@@ -1,7 +1,35 @@
 {
     "coordinator": {
         "tag": "@coordinator",
-        "value": "Dale Thomas",
-        "email": "wrc@rice.edu"
+        "value": "Dale Thomas"
+    },
+    "email-coordinator": {
+        "tag": "@email-coordinator",
+        "value": "wrc@rice.edu"
+    },
+    "email-webmasters": {
+        "tag": "@email-webmasters",
+        "value": "djc5@rice.edu"
+    },
+    "cj": {
+        "tag": "@cj",
+        "value": "Jake Lesher"
+    }, 
+    "email-cj": {
+        "tag": "@email-cj",
+        "value": "willricecj@gmail.com"
+    },
+    "president": {
+        "tag": "@president",
+        "value": "Juliette Richert"
+    },
+    "email-president": {
+        "tag": "@email-president",
+        "value": "wrcpres@rice.edu"
+    },
+    "vp": {
+        "tag": "@vp",
+        "value": ["Maya Pai", "Rahul Popat"]
     }
+
 }
