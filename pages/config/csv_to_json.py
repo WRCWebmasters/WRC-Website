@@ -52,23 +52,41 @@ class PaaEntry:
         self.name = name
 
 def generatePaaEntries(inputFile):
-    allEntries = []
+    headEntries = []
+    yearlongEntries = []
 
     # CSV columns are: [name] [email] [subject] [subject] ...
     with open(inputFile) as csv_file:
         csv_reader = csv.reader(csv_file, delimiter=',')
         line_count = 0
+        is_head_paa = True
         for row in csv_reader:
             if line_count > 0:
-                allEntries.append(PaaEntry(row[0], row[1], [x for x in row[2:]]))
+                if row[0] == "BREAK":
+                    is_head_paa = False
+                    continue
+                if is_head_paa: 
+                    headEntries.append(PaaEntry(row[0], row[1], [x for x in row[2:]]))
+                else:
+                    yearlongEntries.append(PaaEntry(row[0], row[1], [x for x in row[2:]]))
             
             line_count += 1
 
     # Export all entries to dictionary 
     finalDict = {}
-    for entry in allEntries:
+    headDict = {}
+    yearlongDict = {}
+    
+    for entry in yearlongEntries:
         val = {'subjects': entry.subjects, 'email': entry.email}
-        finalDict[entry.name] = val
+        yearlongDict[entry.name] = val
+    
+    for entry in headEntries:
+        val = {'subjects': entry.subjects, 'email': entry.email}
+        headDict[entry.name] = val
+
+    finalDict["head"] = headDict
+    finalDict["yearlong"] = yearlongDict
 
     with open(PAA_JSON_NAME, 'w') as fp:
         json.dump(finalDict, fp)
