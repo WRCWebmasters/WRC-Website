@@ -6,6 +6,7 @@ import sys
 BASIC_ENTRY_JSON_NAME = "people.json"
 PAA_JSON_NAME = "paa.json"
 FELLOWS_JSON_NAME = "fellows.json"
+STRIVE_JSON_NAME = "strive.json"
 
 class BasicEntry:
     def __init__(self, role, tag, email, names):
@@ -129,12 +130,42 @@ def generateFellowEntries(inputFile):
     
     print("Created {} with {} entries".format(FELLOWS_JSON_NAME, len(list(finalDict.keys()))))
 
+class StriveEntry:
+    def __init__(self, name, email):
+        self.name = name
+        self.email = email
+
+def generateStriveEntries(inputFile):
+    allEntries = []
+
+    # CSV columns are: [name] [email]
+    with open(inputFile) as csv_file:
+        csv_reader = csv.reader(csv_file, delimiter=',')
+        line_count = 0
+        for row in csv_reader:
+            if line_count > 0:
+                allEntries.append(StriveEntry(row[0], row[1]))
+            
+            line_count += 1
+
+    # Export all entries to dictionary 
+    finalDict = {}
+    for entry in allEntries:
+        finalDict[entry.name] = {"email": entry.email}
+
+    with open(STRIVE_JSON_NAME, 'w') as fp:
+        json.dump(finalDict, fp)
+    
+    print("Created {} with {} entries".format(STRIVE_JSON_NAME, len(list(finalDict.keys()))))
+
+
 
 
 if len(sys.argv) == 1 or "-h" in sys.argv:
     print("-b [filename.csv] for basic people generation (student leadership, a-team)")
     print("-p [filename.csv] for PAAs")
     print("-f [filename.csv] for fellows")
+    print("-s [filename.csv] for STRIVE")
 else:
     if "-b" in sys.argv:
         # name of file must follow 
@@ -147,5 +178,10 @@ else:
     if "-f" in sys.argv:
         # name of file must follow
         generateFellowEntries(sys.argv[1 + sys.argv.index("-f")])
+
+    if "-s" in sys.argv:
+        # name of file must follow
+        generateStriveEntries(sys.argv[1 + sys.argv.index("-s")])
+
 
 

@@ -1,11 +1,6 @@
 var jsonPath = "./config/paa.json";
 
 $.getJSON(jsonPath, function( data ) {
-
-    $.each( data, function( key, value ) {
-        console.log(key);
-    });
-    
     $.each( data["head"], function( key, value ) {
         var outer = document.createElement("div");
         outer.className = "card";
