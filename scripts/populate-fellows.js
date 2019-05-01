@@ -35,6 +35,9 @@ $.getJSON(jsonPath, function( data ) {
         if (category.indexOf( "Humanities") !== -1) {
             document.getElementById("fellows-hum-body-table").appendChild(tr.cloneNode(true));
         }
+        if (category.indexOf( "Social Science") !== -1) {
+            document.getElementById("fellows-ss-body-table").appendChild(tr.cloneNode(true));
+        }
 
     });
 });
