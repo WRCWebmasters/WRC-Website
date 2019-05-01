@@ -2,11 +2,11 @@ import csv
 import json
 import sys
 
-
 BASIC_ENTRY_JSON_NAME = "people.json"
 PAA_JSON_NAME = "paa.json"
 FELLOWS_JSON_NAME = "fellows.json"
 STRIVE_JSON_NAME = "strive.json"
+LEADERSHIP_JSON_NAME = "leadership.json"
 
 class BasicEntry:
     def __init__(self, role, tag, email, names):
@@ -158,14 +158,70 @@ def generateStriveEntries(inputFile):
     
     print("Created {} with {} entries".format(STRIVE_JSON_NAME, len(list(finalDict.keys()))))
 
+class LeadershipEntry:
+    def __init__(self, role, email, names):
+        self.role = role
+        self.email = email if len(email) > 0 else None
+        nyDelim = "|"
+        placeholderName = "TBD"
+        names = filter(lambda x: x != '', names)
+        # people is a list with everyone in the names list, but transformed from "David Cai | 2019" to "David Cai '19"
+        people = [(x.split(nyDelim)[0].strip() + " '" + str(x.split(nyDelim)[1].strip()[2:]) if x.strip() != placeholderName else x) for x in names] # wrap the string concat portion in parenthesis to avoid getting "TBD 'TBD" on TBD cases
+        self.names = ", ".join(people)
+
+def generateLeadershipEntries(inputFile):
+    allSections = {}
+    currentSection = []
+    sectionOrder = [] # Kept track of so we can render the sections in the proper order on the page, since iterating through a dictionary is unordered
+
+    # CSV columns are: [role] [email] [name | year] [name | year]...
+    # The names are literally like "David Cai | 2019". The pipe is specified as nyDelim in the LeadershipEntry class
+    with open(inputFile) as csv_file:
+        csv_reader = csv.reader(csv_file, delimiter=',')
+        line_count = 0
+        currentSectionName = ""
+        sectionHasEmail = False
+        for row in csv_reader:
+            if line_count > 0:
+                if "#" in row[0]:
+                    if line_count > 1: # Start of new section, avoid adding a blank entry at the beginning
+                        currentSection = [{"role": x.role, "email": x.email, "names": x.names} for x in currentSection]
+                        # If one of them has an email, fill the rest with empty string emails so the HTML Table can inflate the rest of the rows
+                        if sectionHasEmail:
+                            currentSection = [{"role": x["role"], "email": " ", "names": x["names"]} if not x["email"] else x for x in currentSection]
+                        allSections[currentSectionName] = currentSection
+                        sectionOrder.append(currentSectionName)
+                        currentSection = []
+                        sectionHasEmail = False
+                    currentSectionName = row[0].replace("#", "").strip() # Place outside if block so it catches the first title, and doesn't update before it's saved in the allSections dict
+                else:
+                    currentSection.append(LeadershipEntry(row[0], row[1], [x for x in row[2:]]))
+                    sectionHasEmail = row[1] != "" or sectionHasEmail
+            
+            line_count += 1
+
+        # Add last section
+        currentSection = [{"role": x.role, "email": x.email, "names": x.names} for x in currentSection]
+        if sectionHasEmail:
+            currentSection = [{"role": x["role"], "email": " ", "names": x["names"]} if not x["email"] else x for x in currentSection]
+        allSections[currentSectionName] = currentSection
+        sectionOrder.append(currentSectionName)            
+    
+    allSections["order"] = sectionOrder
+    # Export all entries to dictionary  
+    with open(LEADERSHIP_JSON_NAME, 'w') as fp:
+        json.dump(allSections, fp)
+    
+    print("Created {} with {} entries".format(LEADERSHIP_JSON_NAME, len(list(allSections.keys()))))
 
 
 
 if len(sys.argv) == 1 or "-h" in sys.argv:
     print("-b [filename.csv] for basic people generation (student leadership, a-team)")
     print("-p [filename.csv] for PAAs")
-    print("-f [filename.csv] for fellows")
+    print("-f [filename.csv] for Fellows")
     print("-s [filename.csv] for STRIVE")
+    print("-l [filename.csv] for Student Leadership")
 else:
     if "-b" in sys.argv:
         # name of file must follow 
@@ -182,6 +238,10 @@ else:
     if "-s" in sys.argv:
         # name of file must follow
         generateStriveEntries(sys.argv[1 + sys.argv.index("-s")])
+
+    if "-l" in sys.argv:
+        # name of file must follow
+        generateLeadershipEntries(sys.argv[1 + sys.argv.index("-l")])
 
 
 

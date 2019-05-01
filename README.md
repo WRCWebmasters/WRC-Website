@@ -1,5 +1,10 @@
 # WRC-Website
-2017 Redesign of the Will Rice College website. 
+## General
+
+## 2019 Dynamic JS Name System Update
+To address issues of 
+
+## 2017 Redesign of the Will Rice College Website
 
 **Why?**
 
