@@ -20,37 +20,35 @@ $.getJSON(jsonPath, function( data ) {
         var tbody = document.createElement("tbody");
 
         var hasEmail = false;
-        if (value.length > 0) { // Only create the table if there are entries. Blank entries signify 
-            for (i = 0; i < value.length; i++) {
-                var row = document.createElement("tr");
-                var role = document.createElement("td");
-                role.innerHTML = value[i].role;
-                var name = document.createElement("td");
-                name.innerHTML = value[i].names;
-                row.appendChild(role);
-                row.appendChild(name);
-                if (value[i]["email"]) {
-                    var email = document.createElement("td");
-                    email.innerHTML = "<a href=mailto:" + value[i]["email"] + ">" + value[i]["email"] + "</a>";
-                    row.appendChild(email);
-                    hasEmail = true;
-                }
-                tbody.appendChild(row);
+        for (i = 0; i < value.length; i++) {
+            var row = document.createElement("tr");
+            var role = document.createElement("td");
+            role.innerHTML = value[i].role;
+            var name = document.createElement("td");
+            name.innerHTML = value[i].names;
+            row.appendChild(role);
+            row.appendChild(name);
+            if (value[i]["email"]) {
+                var email = document.createElement("td");
+                email.innerHTML = "<a href=mailto:" + value[i]["email"] + ">" + value[i]["email"] + "</a>";
+                row.appendChild(email);
+                hasEmail = true;
             }
-            
-            headerRow.appendChild(officeHeader);
-            headerRow.appendChild(nameHeader);
-            if (hasEmail) {
-                var emailHeader = document.createElement("th");
-                emailHeader.innerHTML = "Email";
-                headerRow.appendChild(emailHeader);
-            }
-            header.appendChild(headerRow);
-            body.appendChild(header);
-
-            body.appendChild(tbody);
-            outer.appendChild(body);
+            tbody.appendChild(row);
         }
+        
+        headerRow.appendChild(officeHeader);
+        headerRow.appendChild(nameHeader);
+        if (hasEmail) {
+            var emailHeader = document.createElement("th");
+            emailHeader.innerHTML = "Email";
+            headerRow.appendChild(emailHeader);
+        }
+        header.appendChild(headerRow);
+        body.appendChild(header);
+
+        body.appendChild(tbody);
+        outer.appendChild(body);
         titleAndTable.appendChild(title);
         titleAndTable.appendChild(outer);
 

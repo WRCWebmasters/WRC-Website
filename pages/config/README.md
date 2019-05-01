@@ -58,5 +58,5 @@ Notes:
 Notes for the @-tag system:
 - Note the particular ordering of the @-tag naming convention, namely `@coordinator` and `@email-coordinator`. While it might seem intuitive to specify the email as `@coordinator-email`, this will lead to an overeager regex if the search is not done in the proper order. To protect against this, the naming is such that no regex overlap can occur. 
 - The script that performs the @-tag replacement (`populate-names.js`) is included on every page. This frees the webmaster from keeping track of the contents of each page -- as long as you are judicious about using the @-tag system when creating pages, you will never have to worry about stale names/emails.
-- This system has a different naming structure: `people.csv`/`people.json`/`populate-names.js`.
+- This is also how external links are kept track in the webpage, as the same link may appear in multiple places.
 - The regex methods, JSON handling, and DOM manipulation methods, require JQuery.

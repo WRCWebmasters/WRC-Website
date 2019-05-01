@@ -1,8 +1,11 @@
 # WRC-Website
 ## General
+Hello webmasters! 
+- A checklist of things to check before the start of each semester can be found in the checklist.txt document. Please update it as requirements change.
+- For information on how to use to dynamic name updating system, read the README in `pages/config`.
 
 ## 2019 Dynamic JS Name System Update
-To address issues of 
+To address issues of stale names floating around random pages on the site, as well as to facilitate yearly updates to fellows/paas/leadership/etc, a system to transform CSVs of information into dynamically inserted HTML element via JS has been developed. Read more about it in the README doc in the `pages/config` directory.
 
 ## 2017 Redesign of the Will Rice College Website
 

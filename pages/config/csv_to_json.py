@@ -2,29 +2,30 @@ import csv
 import json
 import sys
 
-BASIC_ENTRY_JSON_NAME = "people.json"
+GENERAL_JSON_NAME = "general.json"
 PAA_JSON_NAME = "paa.json"
 FELLOWS_JSON_NAME = "fellows.json"
 STRIVE_JSON_NAME = "strive.json"
 LEADERSHIP_JSON_NAME = "leadership.json"
+LINKS_JSON_NAME = "links.json"
 
-class BasicEntry:
+class GeneralEntry:
     def __init__(self, role, tag, email, names):
         self.tag = tag
         self.role = role
         self.email = email if len(email) > 0 else None
         self.names = " & ".join(filter(lambda x: x != '', names))
 
-def generateBasicEntries(inputFile):
+def generateGeneralEntries(inputFile):
     allEntries = []
 
-    # CSV columns are: [role] [tag] [email] [name] [name]...
+    # CSV columns are: [role] [tag] [email] [value] [value]...
     with open(inputFile) as csv_file:
         csv_reader = csv.reader(csv_file, delimiter=',')
         line_count = 0
         for row in csv_reader:
             if line_count > 0:
-                allEntries.append(BasicEntry(row[0], row[1], row[2], [x for x in row[3:]]))
+                allEntries.append(GeneralEntry(row[0], row[1], row[2], [x for x in row[3:]]))
             
             line_count += 1
 
@@ -41,10 +42,10 @@ def generateBasicEntries(inputFile):
             emailVal = {'tag': entry.tag.replace("@", "@email-"), 'value': entry.email}
             finalDict["email-" + entry.role] = emailVal
 
-    with open(BASIC_ENTRY_JSON_NAME, 'w') as fp:
+    with open(GENERAL_JSON_NAME, 'w') as fp:
         json.dump(finalDict, fp)
     
-    print("Created {} with {} entries".format(BASIC_ENTRY_JSON_NAME, len(list(finalDict.keys()))))
+    print("Created {} with {} entries".format(GENERAL_JSON_NAME, len(list(finalDict.keys()))))
 
 class PaaEntry:
     def __init__(self, name, email, subjects ):
@@ -214,34 +215,31 @@ def generateLeadershipEntries(inputFile):
     
     print("Created {} with {} entries".format(LEADERSHIP_JSON_NAME, len(list(allSections.keys()))))
 
-
-
 if len(sys.argv) == 1 or "-h" in sys.argv:
-    print("-b [filename.csv] for basic people generation (student leadership, a-team)")
-    print("-p [filename.csv] for PAAs")
-    print("-f [filename.csv] for Fellows")
-    print("-s [filename.csv] for STRIVE")
-    print("-l [filename.csv] for Student Leadership")
+    print("-general [filename.csv] for general information (commonly cited people, links, etc)")
+    print("-paa [filename.csv] for PAAs")
+    print("-fellow [filename.csv] for Fellows")
+    print("-strive [filename.csv] for STRIVE")
+    print("-leadership [filename.csv] for Student Leadership")
 else:
-    if "-b" in sys.argv:
+    if "-general" in sys.argv:
         # name of file must follow 
-        generateBasicEntries(sys.argv[1 + sys.argv.index("-b")])
+        generateGeneralEntries(sys.argv[1 + sys.argv.index("-general")])
     
-    if "-p" in sys.argv:
+    if "-paa" in sys.argv:
         # name of file must follow 
-        generatePaaEntries(sys.argv[1 + sys.argv.index("-p")])
+        generatePaaEntries(sys.argv[1 + sys.argv.index("-paa")])
 
-    if "-f" in sys.argv:
+    if "-fellow" in sys.argv:
         # name of file must follow
-        generateFellowEntries(sys.argv[1 + sys.argv.index("-f")])
+        generateFellowEntries(sys.argv[1 + sys.argv.index("-fellow")])
 
-    if "-s" in sys.argv:
+    if "-strive" in sys.argv:
         # name of file must follow
-        generateStriveEntries(sys.argv[1 + sys.argv.index("-s")])
+        generateStriveEntries(sys.argv[1 + sys.argv.index("-strive")])
 
-    if "-l" in sys.argv:
+    if "-leadership" in sys.argv:
         # name of file must follow
-        generateLeadershipEntries(sys.argv[1 + sys.argv.index("-l")])
-
+        generateLeadershipEntries(sys.argv[1 + sys.argv.index("-leadership")])
 
 
