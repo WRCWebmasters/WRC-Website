@@ -4,10 +4,14 @@ import sys
 
 GENERAL_JSON_NAME = "general.json"
 PAA_JSON_NAME = "paa.json"
-FELLOWS_JSON_NAME = "fellows.json"
+FELLOWS_JSON_NAME = "fellow.json"
 STRIVE_JSON_NAME = "strive.json"
 LEADERSHIP_JSON_NAME = "leadership.json"
-LINKS_JSON_NAME = "links.json"
+
+def exportDict(dict, name):
+    with open(name, 'w') as fp:
+        json.dump(dict, fp)
+    print("Created {} with {} entries".format(name, len(list(dict.keys()))))
 
 class GeneralEntry:
     def __init__(self, role, tag, email, names):
@@ -42,10 +46,7 @@ def generateGeneralEntries(inputFile):
             emailVal = {'tag': entry.tag.replace("@", "@email-"), 'value': entry.email}
             finalDict["email-" + entry.role] = emailVal
 
-    with open(GENERAL_JSON_NAME, 'w') as fp:
-        json.dump(finalDict, fp)
-    
-    print("Created {} with {} entries".format(GENERAL_JSON_NAME, len(list(finalDict.keys()))))
+    exportDict(finalDict, GENERAL_JSON_NAME)
 
 class PaaEntry:
     def __init__(self, name, email, subjects ):
@@ -61,13 +62,13 @@ def generatePaaEntries(inputFile):
     with open(inputFile) as csv_file:
         csv_reader = csv.reader(csv_file, delimiter=',')
         line_count = 0
-        is_head_paa = True
+        isHeadPaa = True
         for row in csv_reader:
             if line_count > 0:
                 if row[0] == "BREAK":
-                    is_head_paa = False
+                    isHeadPaa = False
                     continue
-                if is_head_paa: 
+                if isHeadPaa: 
                     headEntries.append(PaaEntry(row[0], row[1], [x for x in row[2:]]))
                 else:
                     yearlongEntries.append(PaaEntry(row[0], row[1], [x for x in row[2:]]))
@@ -90,10 +91,7 @@ def generatePaaEntries(inputFile):
     finalDict["head"] = headDict
     finalDict["yearlong"] = yearlongDict
 
-    with open(PAA_JSON_NAME, 'w') as fp:
-        json.dump(finalDict, fp)
-    
-    print("Created {} with {} entries".format(PAA_JSON_NAME, len(list(finalDict.keys()))))
+    exportDict(finalDict, PAA_JSON_NAME)
 
 class FellowEntry:
     def __init__(self, name, email, major, classes, category):
@@ -126,10 +124,7 @@ def generateFellowEntries(inputFile):
         val = {'email': entry.email, 'major': entry.major, 'classes': entry.classes, 'category': entry.category}
         finalDict[entry.name] = val
 
-    with open(FELLOWS_JSON_NAME, 'w') as fp:
-        json.dump(finalDict, fp)
-    
-    print("Created {} with {} entries".format(FELLOWS_JSON_NAME, len(list(finalDict.keys()))))
+    exportDict(finalDict, FELLOWS_JSON_NAME)
 
 class StriveEntry:
     def __init__(self, name, email):
@@ -154,16 +149,13 @@ def generateStriveEntries(inputFile):
     for entry in allEntries:
         finalDict[entry.name] = {"email": entry.email}
 
-    with open(STRIVE_JSON_NAME, 'w') as fp:
-        json.dump(finalDict, fp)
-    
-    print("Created {} with {} entries".format(STRIVE_JSON_NAME, len(list(finalDict.keys()))))
+    exportDict(finalDict, STRIVE_JSON_NAME)
 
 class LeadershipEntry:
     def __init__(self, role, email, names):
         self.role = role
         self.email = email if len(email) > 0 else None
-        nyDelim = "|"
+        nyDelim = "|" # name-year delimiter
         placeholderName = "TBD"
         names = filter(lambda x: x != '', names)
         # people is a list with everyone in the names list, but transformed from "David Cai | 2019" to "David Cai '19"
@@ -172,7 +164,7 @@ class LeadershipEntry:
 
 def generateLeadershipEntries(inputFile):
     allSections = {}
-    currentSection = []
+    currentSection = [] # Section headers are marked with a hashtag (#) before the section name
     sectionOrder = [] # Kept track of so we can render the sections in the proper order on the page, since iterating through a dictionary is unordered
 
     # CSV columns are: [role] [email] [name | year] [name | year]...
@@ -209,11 +201,8 @@ def generateLeadershipEntries(inputFile):
         sectionOrder.append(currentSectionName)            
     
     allSections["order"] = sectionOrder
-    # Export all entries to dictionary  
-    with open(LEADERSHIP_JSON_NAME, 'w') as fp:
-        json.dump(allSections, fp)
-    
-    print("Created {} with {} entries".format(LEADERSHIP_JSON_NAME, len(list(allSections.keys()))))
+
+    exportDict(allSections, LEADERSHIP_JSON_NAME)
 
 if len(sys.argv) == 1 or "-h" in sys.argv:
     print("-general [filename.csv] for general information (commonly cited people, links, etc)")
@@ -222,24 +211,33 @@ if len(sys.argv) == 1 or "-h" in sys.argv:
     print("-strive [filename.csv] for STRIVE")
     print("-leadership [filename.csv] for Student Leadership")
 else:
+    didSomething = False
     if "-general" in sys.argv:
         # name of file must follow 
         generateGeneralEntries(sys.argv[1 + sys.argv.index("-general")])
+        didSomething = True
     
     if "-paa" in sys.argv:
         # name of file must follow 
         generatePaaEntries(sys.argv[1 + sys.argv.index("-paa")])
+        didSomething = True
 
     if "-fellow" in sys.argv:
         # name of file must follow
         generateFellowEntries(sys.argv[1 + sys.argv.index("-fellow")])
+        didSomething = True
 
     if "-strive" in sys.argv:
         # name of file must follow
         generateStriveEntries(sys.argv[1 + sys.argv.index("-strive")])
+        didSomething = True
 
     if "-leadership" in sys.argv:
         # name of file must follow
         generateLeadershipEntries(sys.argv[1 + sys.argv.index("-leadership")])
+        didSomething = True
+
+    if not didSomething:
+        print ("Incorrect flag(s) -- nothing was generated.")
 
 

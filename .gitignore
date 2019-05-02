@@ -8,3 +8,5 @@ pages/\.idea/
 *.iml
 
 \.idea/
+
+*.icloud
