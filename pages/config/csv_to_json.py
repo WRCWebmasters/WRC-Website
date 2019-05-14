@@ -7,6 +7,7 @@ PAA_JSON_NAME = "paa.json"
 FELLOWS_JSON_NAME = "fellow.json"
 STRIVE_JSON_NAME = "strive.json"
 LEADERSHIP_JSON_NAME = "leadership.json"
+RHA_JSON_NAME = "rha.json"
 
 def exportDict(dict, name):
     with open(name, 'w') as fp:
@@ -204,12 +205,43 @@ def generateLeadershipEntries(inputFile):
 
     exportDict(allSections, LEADERSHIP_JSON_NAME)
 
+class RhaEntry:
+    def __init__(self, name, email, phone, major, topics):
+        self.name = name.strip()
+        self.email = email if len(email) > 0 else None
+        self.phone = phone if len(phone) > 0 else None
+        self.major = major
+        self.topics = topics
+
+def generateRhaEntries(inputFile):
+    allEntries = []
+
+    # CSV columns are: [name] [email] [phone] [year+major] [topics]
+    with open(inputFile) as csv_file:
+        csv_reader = csv.reader(csv_file, delimiter=',')
+        line_count = 0
+        for row in csv_reader:
+            if line_count > 0:
+                allEntries.append(RhaEntry(row[0], row[1], row[2], row[3], row[4]))
+            
+            line_count += 1
+
+    # Export all entries to dictionary 
+    finalDict = {}
+    for entry in allEntries:
+        val = {'email': entry.email, 'phone': entry.phone, 'major': entry.major, 'topics': entry.topics}
+        finalDict[entry.name] = val
+
+    exportDict(finalDict, RHA_JSON_NAME)
+
+
 if len(sys.argv) == 1 or "-h" in sys.argv:
     print("-general [filename.csv] for general information (commonly cited people, links, etc)")
     print("-paa [filename.csv] for PAAs")
     print("-fellow [filename.csv] for Fellows")
     print("-strive [filename.csv] for STRIVE")
     print("-leadership [filename.csv] for Student Leadership")
+    print("-rha [filename.csv] for RHA")
 else:
     didSomething = False
     if "-general" in sys.argv:
@@ -235,6 +267,11 @@ else:
     if "-leadership" in sys.argv:
         # name of file must follow
         generateLeadershipEntries(sys.argv[1 + sys.argv.index("-leadership")])
+        didSomething = True
+
+    if "-rha" in sys.argv:
+        # name of file must follow
+        generateRhaEntries(sys.argv[1 + sys.argv.index("-rha")])
         didSomething = True
 
     if not didSomething:
