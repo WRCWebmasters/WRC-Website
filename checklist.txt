@@ -1,0 +1,10 @@
+Things to check at the start of each semester:
+- That the CSVs for all dynamic pages are up to date:
+    - PAAs
+    - Fellows
+    - STRIVE
+    - Student Leadership
+    - Caregivers
+- That the links in the links configuration file are up to date
+- If spring semester, work with the O-Week Coords to update the "New students" page
+- If there's a new president, make sure the "Today" page reflects whatever messaging they want to provide
