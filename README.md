@@ -7,6 +7,9 @@ Hello webmasters!
 ## 2019 Dynamic JS Name System Update
 To address issues of stale names floating around random pages on the site, as well as to facilitate yearly updates to fellows/paas/leadership/etc, a system to transform CSVs of information into dynamically inserted HTML element via JS has been developed. Read more about it in the README doc in the `pages/config` directory.
 
+
+Also, the navbar has been switched to using a similar system. Instead of copy/pasting the HTML for the navbar, now its source-of-truth is in `navbar.js` and is injected on every page.
+
 ## 2017 Redesign of the Will Rice College Website
 
 **Why?**
