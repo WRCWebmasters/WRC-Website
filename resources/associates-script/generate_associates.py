@@ -13,7 +13,7 @@ def create_div(name, photo_name, email1, email2, job1, job2, bio):
 			</div>\n\
 			<div class=\"col-3\">\n\
 				<h1>{}</h1>\n\
-				<p>{}<br><a href=\"{}\">{}</a></p>\n\
+				<p>{}<br><a href=\"mailto:{}\">{}</a></p>\n\
 			</div>\n\
 			<div class=\"col-5\">\n\
 				<p>{}</p>\n\
@@ -27,8 +27,8 @@ def create_div(name, photo_name, email1, email2, job1, job2, bio):
 		</div>\n\
 		<div class=\"col-3\">\n\
 			<h1>{}</h1>\n\
-			<p>{}<br><a href=\"{}\">{}</a></p>\n\
-			<p>{}<br><a href=\"{}\">{}</a></p>\n\
+			<p>{}<br><a href=\"mailto:{}\">{}</a></p>\n\
+			<p>{}<br><a href=\"mailto:{}\">{}</a></p>\n\
 		</div>\n\
 		<div class=\"col-5\">\n\
 			<p>{}</p>\n\
