@@ -9,7 +9,7 @@ def create_div(name, photo_name, email1, email2, job1, job2, bio):
 	# If one person
 	div1 = "<div class=\"row content\" style=\"padding: 10px\">\n\
 			<div class=\"col-4\">\n\
-				<img src=\"../resources/images/associates/{}.jpg\" style=\"width:100%\">\n\
+				<img src=\"../resources/images/associates/{}.jpg\" style=\"width:100%\" alt=\"Picture of {}\">\n\
 			</div>\n\
 			<div class=\"col-3\">\n\
 				<h1>{}</h1>\n\
@@ -23,7 +23,7 @@ def create_div(name, photo_name, email1, email2, job1, job2, bio):
 	# If two people
 	div2 = "<div class=\"row content\" style=\"padding: 10px\">\n\
 		<div class=\"col-4\">\n\
-			<img src=\"../resources/images/associates/{}.jpg\" style=\"width:100%\">\n\
+			<img src=\"../resources/images/associates/{}.jpg\" style=\"width:100%\" alt=\"Picture of {}\">\n\
 		</div>\n\
 		<div class=\"col-3\">\n\
 			<h1>{}</h1>\n\
@@ -36,9 +36,9 @@ def create_div(name, photo_name, email1, email2, job1, job2, bio):
 	</div>"
 
 	if email2 == "":
-		return str.format(div1, photo_name, name, job1, email1, email1, bio)
+		return str.format(div1, photo_name, name, name, job1, email1, email1, bio)
 	else:
-		return str.format(div2, photo_name, name, job1, email1, email1, job2, email2, email2, bio)
+		return str.format(div2, photo_name, name, name, job1, email1, email1, job2, email2, email2, bio)
 
 with open("associates.csv") as file:
 	reader = csv.DictReader(file)
