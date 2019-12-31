@@ -128,9 +128,10 @@ def generateFellowEntries(inputFile):
     exportDict(finalDict, FELLOWS_JSON_NAME)
 
 class StriveEntry:
-    def __init__(self, name, email):
+    def __init__(self, name, email, year):
         self.name = name
         self.email = email
+        self.year = year
 
 def generateStriveEntries(inputFile):
     allEntries = []
@@ -141,14 +142,14 @@ def generateStriveEntries(inputFile):
         line_count = 0
         for row in csv_reader:
             if line_count > 0:
-                allEntries.append(StriveEntry(row[0], row[1]))
+                allEntries.append(StriveEntry(row[0], row[1], row[2]))
             
             line_count += 1
 
     # Export all entries to dictionary 
     finalDict = {}
     for entry in allEntries:
-        finalDict[entry.name] = {"email": entry.email}
+        finalDict[entry.name] = {"email": entry.email, "year": entry.year}
 
     exportDict(finalDict, STRIVE_JSON_NAME)
 
