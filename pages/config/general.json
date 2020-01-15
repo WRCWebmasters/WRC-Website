@@ -37,7 +37,7 @@
   },
   "work order": {
     "tag": "@link-work-order",
-    "value": "http://campushousing.rice.edu/home/submit-a-work-order/"
+    "value": "http://facilities.rice.edu"
   },
   "discretionary funds": {
     "tag": "@link-discretionary",
