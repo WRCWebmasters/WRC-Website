@@ -88,6 +88,18 @@
 	</div>
 <div class="row content" style="padding: 10px">
 			<div class="col-4">
+				<img src="../resources/images/associates/Jonathan Miles.jpg" style="width:100%" alt="Picture of Jonathan Miles">
+			</div>
+			<div class="col-3">
+				<h1>Jonathan Miles</h1>
+				<p>Lecturer, Jones Graduate School of Business<br><a href="mailto: jem10@rice.edu"> jem10@rice.edu</a></p>
+			</div>
+			<div class="col-5">
+				<p>While growing up in Kansas, Jon thought that he would get a job working in information technology and spend the rest of his life happily sitting alone at a computer. Once he had completed a Computer Science degree from Kansas State University and several years in the IT industry, Jon realized that a future in technology without significant interaction with other people was quickly becoming his own private hell. After a short dalliance with managerial roles (and an MBA from KSU), Jon found the love of his life: teaching. He began a PhD in Organizational Behavior from Michigan State University. During his pre-PhD life, Jon held such varied roles as Comic Book Store Owner, UNIX Systems Administrator, Project Manager, and Statistics Instructor. Despite top-notch training in OB research (and much to the chagrin of his professors), Jon chose to turn away from a research-based life and pursue a career as a teaching-focused professor. He spent three years at the University of Cincinnati, creating, teaching, and managing an undergraduate course on professionalism and ethics before moving on to Rice Business in the summer of 2018. He loves creating interactive classrooms, where students work together with the instructor to teach each other and experience the material directly through personal stories and classroom exercises. </p>
+			</div>
+		</div>
+<div class="row content" style="padding: 10px">
+			<div class="col-4">
 				<img src="../resources/images/associates/Alma Novotny.jpg" style="width:100%" alt="Picture of Alma Novotny">
 			</div>
 			<div class="col-3">
@@ -198,6 +210,18 @@
 			</div>
 		</div>
 <div class="row content" style="padding: 10px">
+			<div class="col-4">
+				<img src="../resources/images/associates/Christoph Wagner.jpg" style="width:100%" alt="Picture of Christoph Wagner">
+			</div>
+			<div class="col-3">
+				<h1>Christoph Wagner</h1>
+				<p>Graduate Student, Shepherd School of Music; Personal Trainer, Rice Recreation Center<br><a href="mailto:cw68@rice.edu">cw68@rice.edu</a></p>
+			</div>
+			<div class="col-5">
+				<p>Christoph Wagner, a native of Germany, is a prize-winning cellist and has concertized on four continents. In 2018, he received the Sviatoslav Richter Grant from Rice University, followed by the Amici di Via Gabina Fellowship in 2019. He participated in a summer residency with Street Symphony in Los Angeles in 2018, before joining the DA CAMERA Young Artist Program. He received his Bachelor’s degree in Germany and a Master of Music degree from Indiana University. He is currently pursuing a Doctor of Musical Arts at Rice University and teaches at Lone Star College University Park. Besides music, Christoph is a passionate fitness instructor and personal trainer at the Rice Recreation Center and loves vegan cooking. For his versatile engagement for the Rice community - as club president, on numerous university committees and in the GSA cabinet - he received the Robert Lowry Patten Award in 2018 and 2019, as well as a Leadership Award from the DOERR Institute. Christoph is a consultant for the Houston Methodist Center for Performing Arts Medicine, is co-organizer of the Performing Arts Conference at Lonestar College, and is currently completing the CoachRICE Certification. If you have any fitness, performance, or coaching related questions, Christoph is the right contact and would love to get together with you.</p>
+			</div>
+		</div>
+<div class="row content" style="padding: 10px">
 		<div class="col-4">
 			<img src="../resources/images/associates/Anne & Gregg Walker.jpg" style="width:100%" alt="Picture of Anne & Gregg Walker">
 		</div>
@@ -210,6 +234,18 @@
 			<p>Anne Walker works in the Office of Enrollment at Rice where she is the Executive Director of Financial Aid Services.  Her husband Gregg has worked at Nalco Water for over thirty years and is currently a Senior Account Manger there.  Anne and Gregg are devoted outdoor enthusiasts, spending their recreational time fishing on their boat, hunting, and playing or watching sports.</p>
 		</div>
 	</div>
+<div class="row content" style="padding: 10px">
+			<div class="col-4">
+				<img src="../resources/images/associates/Michael Whitehead.jpg" style="width:100%" alt="Picture of Michael Whitehead">
+			</div>
+			<div class="col-3">
+				<h1>Michael Whitehead</h1>
+				<p>Assistant Coach, Men's Golf<br><a href="mailto:mdw1@rice.edu">mdw1@rice.edu</a></p>
+			</div>
+			<div class="col-5">
+				<p>I graduated from Rice in 2011, a member of Will Rice college and a member of the University's golf team. I then played professionally until just recently when the current head coach asked if I would return and help coach the golf team.  I love fitness, golf, outdoors (hiking particularly!), people and Rice kids. What a truly great privilege to work for the university you attended.</p>
+			</div>
+		</div>
 <div class="row">
 		<h2>Community Associates</h2>
 	</div><div class="row content" style="padding: 10px">
@@ -338,6 +374,19 @@
 		</div>
 	</div>
 <div class="row content" style="padding: 10px">
+		<div class="col-4">
+			<img src="../resources/images/associates/Dave & Sonia Katz.jpg" style="width:100%" alt="Picture of Dave & Sonia Katz">
+		</div>
+		<div class="col-3">
+			<h1>Dave & Sonia Katz</h1>
+			<p>Managing Director, JP Morgan<br><a href="mailto:davekatzesq@yahoo.com">davekatzesq@yahoo.com</a></p>
+			<p>Substitute Teacher, Conroe ISD<br><a href="mailto:sonia@dreadnought.net">sonia@dreadnought.net</a></p>
+		</div>
+		<div class="col-5">
+			<p>Dave graduated Will Rice in 1999. After college, he lived in Houston and then moved to London. When there, he met his wife, Sonia, who is from Spain. The two then moved to Chicago, where Dave got his MBA from Kellogg. Dave has worked at JP Morgan since 2006, living first in New York and now in Houston (in The Woodlands). He heads up a team which approves large corporate loans, and, no, it is even more exciting than you are imagining. Sonia is a substitute teacher, a job which has taught her the patience necessary to live with Dave. They have two middle-school aged daughters and two dogs (the dogs are school aged, but refuse to go).</p>
+		</div>
+	</div>
+<div class="row content" style="padding: 10px">
 			<div class="col-4">
 				<img src="../resources/images/associates/Christopher Kilgore.jpg" style="width:100%" alt="Picture of Christopher Kilgore">
 			</div>
@@ -448,19 +497,6 @@
 				<p>I'm a proud WRC alum from the Class of 2001.  I loved my days at WRC as a student, having served as an O-week Advisor, Beer Bike Coordinator, Associates Committee member and loads more. I've come full circle because I'm now serving as an Associate and want to do so much more! Since 2009 (the same amount of years that I've been an Associate), I've been working at Baylor College of Medicine as a Physician Assistant; I see patients and teach students at Baylor. I'm always excited to chat it up with our WRCers so if you don't see me at an Associates' event, you can catch me at WRC Commons when I take a break from my jogs at 5:30 AM on weekdays (YIKES!) or weekends before 10:00 AM.  WRWS! </p>
 			</div>
 		</div>
-<div class="row content" style="padding: 10px">
-		<div class="col-4">
-			<img src="../resources/images/associates/Dave & Sonia Katz.jpg" style="width:100%" alt="Picture of Dave & Sonia Katz">
-		</div>
-		<div class="col-3">
-			<h1>Dave & Sonia Katz</h1>
-			<p>Managing Director, JP Morgan<br><a href="mailto:davekatzesq@yahoo.com">davekatzesq@yahoo.com</a></p>
-			<p>Substitute Teacher, Conroe ISD<br><a href="mailto:sonia@dreadnought.net">sonia@dreadnought.net</a></p>
-		</div>
-		<div class="col-5">
-			<p>Dave graduated Will Rice in 1999. After college, he lived in Houston and then moved to London. When there, he met his wife, Sonia, who is from Spain. The two then moved to Chicago, where Dave got his MBA from Kellogg. Dave has worked at JP Morgan since 2006, living first in New York and now in Houston (in The Woodlands). He heads up a team which approves large corporate loans, and, no, it is even more exciting than you are imagining. Sonia is a substitute teacher, a job which has taught her the patience necessary to live with Dave. They have two middle-school aged daughters and two dogs (the dogs are school aged, but refuse to go).</p>
-		</div>
-	</div>
 <div class="row content" style="padding: 10px">
 			<div class="col-4">
 				<img src="../resources/images/associates/Albert Wei.jpg" style="width:100%" alt="Picture of Albert Wei">
