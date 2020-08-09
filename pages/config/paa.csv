@@ -1,24 +1,21 @@
-Name,Email,Major
-Sophia Amstutz,sga3@rice.edu,Social Policy Analysis, Sociology minor
-Lea Godret-Miertschin,lmg9@rice.edu,Chemical & Biomedical Engineering, Biochemistry & Cell Biology minor
-Smeet Madhani,smp6@rice.edu,Cognitive Sciences, Spanish certificate, Civic Leadership certificate, Pre-Med 
-BREAK,,
-Sophia Amstutz,sga3@rice.edu,Social Policy Analysis, Sociology minor
-Tiffany Bauman,tnb3@rice.edu,Mechanical Engineering, RCEL certificate
-Samiksha Deme,srd8@rice.edu,Biological Sciences, Pre-Grad
-Lea Godret-Miertschin,lmg9@rice.edu,Chemical & Biomedical Engineering, Biochemistry & Cell Biology minor
-Shryans Goyal,sg71@rice.edu,Computer Science, Pre-Business
-Emily Hwang,eyh2@rice.edu,Asian Studies, Computer Science, Pre-Grad
-Izzie Karohl,iak5@rice.edu,Social Policy Analysis, Pre-Grad
-Maddie Kendall,mek3@rice.edu,Psychology, Neuroscience, Pre-Grad
-Edward Liew,zl47@rice.edu,Architecture
-Smeet Madhani,smp6@rice.edu,Cognitive Sciences, Spanish certificate, Pre-Med 
-Lindsay Mathys,lrm7@rice.edu,Biological Sciences, Neuroscience, Pre-Med
-Ashley Messineo,aem15@rice.edu,Kinesiology, Pre-Med
-Annalena Riebeling,ar87@rice.edu,Philosophy, Pre-Grad
-Lauren Ross,lkr7@rice.edu,Music, Pre-Grad
-Manuj Shah,mms13@rice.edu,Chemistry, Pre-Med
-Clara Tian,cht3@rice.edu,Computer Science
-Heather Tsong,ht18@rice.edu,Biochemistry & Cell Biology, Neuroscience minor, Pre-Grad 
-Nikit Venishetty,nv10@rice.edu,Neuroscience, Pre-Med
-Margaret Wang,mw61@rice.ed,Psychology, Pre-Med 
+Name,Email,Major,,
+Lea Godret-Miertschin,lmg9@rice.edu,Chemical & Biomolecular Engineering, Biochemistry & Cell Biology minor,Pre-med
+Lindsay Mathys,lrm7@rice.edu,Biological Sciences,Pre-med,
+Manuj Shah,mms13@rice.edu,Chemistry, Pre-Med,
+BREAK,,,,
+Alex Nuyda,aln8@rice.edu,Sociology,,
+Riley Meve,rpm8@rice.edu,Social Policy Analysis and History,,
+Annie Xu,ax5@rice.edu,"Enviornmental Science, Civil and Enviornmental Engineering",,
+Samiksha Deme,srd8@rice.edu,Biological Sciences, Pre-Grad,
+Shryans Goyal,sg71@rice.edu,Computer Science, Pre-Business,
+Kaitlyn Crowley,kdc9@rice.edu,Kinesiology,Pre-med,
+George Liu,gxl2@rice.edu,Biological Sciences and English,Pre-med,
+Wills Rutherford,wwr1@rice.edu,Mechanical Engineering,Business minor,
+Juhi Parikh,jap16@rice.edu,Architecture,,
+Talha Arif,tsa4@rice.edu,Cognitive Science and Medical Humanities,Biochemistry minor,Pre-med
+Zaid Nathani,zin1@rice.edu,Psychology and Kinesiology,Business minor,Pre-med
+Ashley Messineo,aem15@rice.edu,Kinesiology, Pre-Med,
+Jim Zhang,jlz4@rice.edu,Biochemistry and Cell Biology,Pre-grad,
+Lauren Ross,lkr3@rice.edu,Music, Pre-Grad,
+Gulnihal Tomur,bgt2@rice.edu,Chemistry,,
+Tyra Cole,tjc6@rice.edu,Computer Science,,
