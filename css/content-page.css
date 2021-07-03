@@ -1,6 +1,15 @@
+:root {
+	--rust: #BE3019;
+	--gold: #FECB33;
+	--muted-rust: #E2D2CB;
+	--muted-gold: #EEEBD8;
+	--white: #FFFFFF;
+	--black: #000000;
+}
+
 html body {
-	background-color: white;
-	color: #13191E;
+	background-color: var(--white);
+	color: var(--black);
 	/*To clear the header/footer*/
 	margin: 75px 0 100px 0;
 }
@@ -16,7 +25,7 @@ body {
 }
 
 html h1 {
-	color: #BE3019;
+	color: var(--rust);
 }
 
 html h2 {
@@ -44,7 +53,7 @@ html h2 {
 /*Navbar + Footer*/
 
 .navbar {
-	background-color: #BE3019;
+	background-color: var(--muted-gold);
 }
 
 footer {

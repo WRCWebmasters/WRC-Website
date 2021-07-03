@@ -1,3 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,700;1,400&display=swap');
+
+:root {
+	--rust: #BE3019;
+	--gold: #FECB33;
+	--muted-rust: #E2D2CB;
+	--muted-gold: #EEEBD8;
+	--white: #FFFFFF;
+	--black: #000000;
+}
+
 html body {
 	background-color: white;
 	color: #13191E;
@@ -30,7 +41,20 @@ html h4 {
 /*Navbar + Footer*/
 
 .navbar {
-	background-color: #BE3019;
+	background-color: var(--muted-gold);
+	font-family: 'Poppins', sans-serif;
+	vertical-align: middle;
+}
+
+.navbar-title {
+	color: var(--rust);
+	font-weight: bold;
+	font-size: 30px;
+	margin-bottom: 0;
+}
+
+.nav-link {
+	color: var(--black);
 }
 
 footer {
