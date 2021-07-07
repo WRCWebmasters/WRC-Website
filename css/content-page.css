@@ -78,6 +78,10 @@ html h4 {
 	color: var(--grey);
 }
 
+.nav-link:hover {
+	color: var(--rust);
+}
+
 .nav-highlight {
 	color: var(--rust);
 	font-weight: bold;
@@ -88,13 +92,23 @@ html h4 {
 	font-weight: bold;
 }
 
+.dropdown-menu {
+	border: none!important;
+	border-radius: 0!important;
+}
+
+.dropdown-item:hover {
+	color: var(--rust)!important;
+	background-color: var(--white)!important;
+}
+
 footer {
 	position: absolute;
 	bottom: 0;
 	width: 100%;
 	/* Set the fixed height of the footer here */
-	background-color: var(--gold);
-	color: var(--black);
+	background-color: #FECB33;
+	color: #13191E;
 	height: 65px;
 
 }

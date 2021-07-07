@@ -60,6 +60,10 @@ html h4 {
 	color: var(--grey);
 }
 
+.nav-link:hover {
+	color: var(--rust);
+}
+
 .nav-highlight {
 	color: var(--rust);
 	font-weight: bold;
@@ -68,6 +72,16 @@ html h4 {
 .nav-bold {
 	color: var(--black);
 	font-weight: bold;
+}
+
+.dropdown-menu {
+	border: none!important;
+	border-radius: 0!important;
+}
+
+.dropdown-item:hover {
+	color: var(--rust)!important;
+	background-color: var(--white)!important;
 }
 
 footer {
