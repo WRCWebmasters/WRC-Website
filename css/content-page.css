@@ -33,11 +33,11 @@ html h1 {
 }
 
 html h2 {
-	color: #FECB33;
+	color: var(--gold);
 }
 
 html h4 {
-	color: #FECB33;
+	color: var(--gold);
 }
 
 /* Convenience */
@@ -64,6 +64,7 @@ html h4 {
 	background-color: var(--muted-gold);
 	font-family: 'Poppins', sans-serif;
 	vertical-align: middle;
+	padding: 0.3rem!important;
 }
 
 .navbar-title {
@@ -92,19 +93,19 @@ footer {
 	bottom: 0;
 	width: 100%;
 	/* Set the fixed height of the footer here */
-	background-color: #FECB33;
-	color: #13191E;
+	background-color: var(--gold);
+	color: var(--black);
 	height: 65px;
 
 }
 
 footer p {
-	color: #13191E;
+	color: var(--black);
 }
 
 footer a {
 	text-decoration: none;
-	color: #13191E;
+	color: var(--black);
 }
 
 
@@ -116,7 +117,7 @@ footer a {
 
 .page-title {
 	font-size: 6vw;
-	color: #BE3019;
+	color: var(--rust);
 	font-weight: bold;
 }
 
@@ -127,7 +128,7 @@ footer a {
 }
 
 .content {
-	background: #FAFAFA;
+	background: var(--white);
 	margin: 15px 0px;
 	padding: 10px;
 }
@@ -158,7 +159,7 @@ html .card {
 }
 
 html .card-header {
-	background-color: #BE3019;
+	background-color: var(--rust);
 }
 
 /*To make anchor links account for the fixed header*/
@@ -171,7 +172,7 @@ a.anchor {
 
 /* Button groups */
 html button {
-	background-color: #BE3019;
+	background-color: var(--rust);
 	color: white;
 }
 
