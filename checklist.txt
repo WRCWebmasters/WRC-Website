@@ -6,5 +6,5 @@ Things to check at the start of each semester:
     - Student Leadership
     - Caregivers
 - That the links in the links configuration file are up to date
-- If spring semester, work with the O-Week Coords to update the "New students" page
+- If spring semester, work with the O-Week Coords and President to update the "New students" page
 - If there's a new president, make sure the "Today" page reflects whatever messaging they want to provide

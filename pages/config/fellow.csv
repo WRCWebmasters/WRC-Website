@@ -1,26 +1,27 @@
 Name,Email,Major,Classes,Category
-Habeen Chang,ahc8@rice.edu,MATH,"COMP 140, COMP 182, MATH (all)","Engineering, Natural Science"
-Shryans Goyal,sg71@rice.edu,COMP,"MATH 212, PHYS 101/102",Natural Science
-Bella Gutierrez,iag2@rice.edu,"EBIO, ENST (minor)",BIOC 201,Natural Science
-Maia Helterbrand,mrh9@rice.edu,BIOC,"CHEM 121/122, BIOC 201",Natural Science
-Izzie Karohl,iak5@rice.edu,SOPA,Writing,Humanities
-Jake Lesher,jal22@rice.edu,"NEUR, BIOC (minor), MDHM (minor)","PHYS 125/126, NEUR 380/385",Natural Science
-George Liu,gxl2@rice.edu,BIOS,"STAT 305, Writing","Humanities, Engineering"
-Smeet Madhani,spm6@rice.edu,"CSCI, BIOC (minor), SPAN (minor)","SPAN (all), BIOC 301",Natural Science
-Ellen McMullen,emm10@rice.edu,"BIOE, EBIO","BIOE (all), EBIO (all), MATH 101/102","Engineering, Natural Science"
-Christina Oh,cso3@rice.edu,BIOC,CHEM 151/152,Natural Science
-Sofia Opel,sco3@rice.edu,"POLI, SOPA","POLI (all), SOPA (all)",Social Science
-Cole Ponsi,cap10@rice.edu,"BIOE, CAAM (minor)","CHEM 121/122, CAAM 210","Natural Science, Engineering"
-Mandy Quan,aiq2@rice.edu,"ANTH, SWGS","ANTH (all), SWGS (all), Writing","Humanities, Social Science"
-Rishab Ramapriyan,rr41@rice.edu,"BIOC, MDHM (minor)","CHEM 211/212, MATH 211",Natural Science
-Mark Saving,mcs12@rice.edu,"MATH, COMP, PHYS","COMP 140, COMP 182, MATH (all), PHYS (all)","Engineering, Natural Science"
-Manuj Shah,mms13@rice.edu,"CHEM, NEUR","PHYS 125/126, CHEM 211/212",Natural Science
-Jacob Simon,jds24@rice.edu,POLI,"POLI (all), SOPA (all), Writing","Humanities, Social Science"
-Tory Songyang,vls3@rice.edu,ELEC,"COMP 140, ELEC (all), MATH 101/102","Engineering, Natural Science"
-James Suffoletta,jjs11@rice.edu,"BIOE, BUSI (minor)","CHEM 121/122, PHYS 101/102",Natural Science
-Anna Ta,axt1@rice.edu,ENGL,Writing,Humanities
-Heather Tsong,ht18@rice.edu,"BIOC, NEUR (minor)","BIOC 301, NEUR 380/385",Natural Science
-Aseem Utrankar,au10@rice.edu,"SOPA, MDHM (minor)","BIOC 301, CHEM 211/212",Natural Science
-Nikit Venishetty,nv10@rice.edu,NEUR,"CHEM 151/152, NEUR (all)",Natural Science
-Emily Wang,eyw3@rice.edu,"MTEC, STAT, FCAM (minor)","ECON (all), STAT (all)","Social Science, Engineering"
-Margaret Wang,mw61@rice.edu,"PSYC, BIOC (minor)","PSYC (all), CHIN (all)","Social Science, Humanities"
+Sean Bishop,smb27@rice.edu,CHEM,"MATH 101/102, CHEM 201, Writing", "Natural Science, Humanities"
+Avery Bullock,amb23@rice.edu,PSYC,"PSYC (all), Writing",Social Science
+Kaitlyn Crowley,kdc9@rice.edu,KINE,KINE 300+,Natural Science
+Sarah Elsaim,sae8@rice.edu,CSCI,CHEM 121/122,Natural Science
+Bella Gutierrez,iag2@rice.edu,"EBIO, ENST (minor)","BIOS (EBIO) 300+,EDUC (all)",Natural Science
+Maia Helterbrand,mrh9@rice.edu,CHEM,"CHEM 121/122, BIOS 201",Natural Science
+Izzie Karohl,iak5@rice.edu,SOPA,"SOPA (all), SWGS (all), Writing",Humanities
+Jacob Koelsch,jjk7@rice.edu,"SOPA, ASIA","FREN (all), CHIN (1/2/300), Writing",Humanities
+Jasmine Lee,jjl10@rice.edu,COMP,"PHYS 101/102",Natural Science
+Michelle Miao,mjm19@rice.edu,BIOS,"PHYS 125/126, CHEM 211/212",Natural Science
+Maggy Nino,mn48@rice.edu,"BIOS, ENGL","BIOS 201/202, BIOS labs (200s)",Natural Science
+Alex Nuyda,aln8@rice.edu,SOCI,"SOCI (all), Writing",Social Science
+Cole Ponsi,cap10@rice.edu,BIOE,"BIOE (all), CAAM 210","Natural Science, Engineering"
+Sahana Prasanna,sp94@rice.edu,BIOE, "CHEM 121/122, MATH 211",Natural Science
+Henry Qin,hq5@rice.edu,"COMP, DSCI (minor)","COMP 140, MATH 101",Natural Science
+Paige Russell,par6@rice.edu,"ECON, HIST","ECON 100, Writing","Social Science, Humanities"
+Thomas Ryu,hr20@rice.edu,BIOS,"CHEM 211/212, BIOS 301, BIOS 341",Natural Science
+Dyllon Schmehl,dws8@rice.edu,"ECON, MANA","BUSI (all), ENTR (all), ECON (all)",Social Science
+Rishi Shridharan,rvs1@rice.edu,NEUR,"MATH 212, PHYS 125, NEURO 300+",Natural Science
+Jacob Simon,jds24@rice.edu,"POLI, VADA","POLI (all), SOSC (all), Writing","Humanities, Social Science"
+Gulnihal Tomur,bgt2@rice.edu,CHEM,"CHEM 121/122, CHEM 211/212",Natural Science
+Tiffany Xiang,tx5@rice.edu,COMP,"COMP 140, COMP 215, CHIN (all)","Natural Science, Humanities"
+Annie Xu,ax5@rice.edu,CEVE,PHYS 101/102,Natural Science
+Anthony Yan,ady2@rice.edu,COMP,"COMP 140, COMP 182, STAT 315",Engineering
+Kevin Yin,kxy1@rice.edu,"BIOE, BIOS (minor)","MATH 211/212, PHYS 101/102, BIOS 311, BIOE (all)",Natural Science
+Jim Zhang,jlz4@rice.edu,BIOS,"BIOS 301, BIOS 302, BIOS 201, BIOS 341",Natural Science
