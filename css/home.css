@@ -7,7 +7,7 @@
 	--muted-gold: #EEEBD8;
 	--white: #FFFFFF;
 	--black: #000000;
-	--grey: #747474;
+	--grey: #242424;
 }
 
 html body {
@@ -58,25 +58,32 @@ html h4 {
 
 .nav-link {
 	color: var(--grey);
+	transition: 0.3s;
+
 }
 
 .nav-link:hover {
-	color: var(--rust);
+	color: var(--rust)!important;
 }
 
 .nav-highlight {
-	color: var(--rust);
+	color: var(--rust)!important;
 	font-weight: bold;
 }
 
 .nav-bold {
-	color: var(--black);
+	color: var(--black)!important;
 	font-weight: bold;
 }
 
 .dropdown-menu {
 	border: none!important;
 	border-radius: 0!important;
+}
+
+.dropdown-item {
+	color: var(--grey)!important;
+	transition: 0.3s!important;
 }
 
 .dropdown-item:hover {
@@ -91,7 +98,6 @@ footer {
 	/* Set the fixed height of the footer here */
 	background-color: #FECB33;
 	color: #13191E;
-	height: 65px;
 
 }
 
@@ -104,6 +110,18 @@ footer a {
 	color: var(--black);
 }
 
+.bg-rust {
+	background-color: var(--rust);
+	vertical-align: center;
+}
+
+@media only screen and (max-width: 960px) {
+	/* For tablets: */
+	.float-center {
+		float: none!important;
+		text-align: center;
+	}
+  }
 
 /*Body Content */
 

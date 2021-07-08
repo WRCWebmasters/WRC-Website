@@ -27,7 +27,7 @@ let categories = {
 
 var navbarContent = `
     
-<nav class="navbar fixed-top navbar-expand-lg">
+<nav class="navbar navbar-light fixed-top navbar-expand-lg">
     <a class="navbar-brand" href="home.html">
         <img src="../resources/wrc-logos/classic-crest-transparent [png].png" width="50" height="50" alt="">
     </a>
@@ -102,7 +102,7 @@ var navbarContent = `
                 </a>
             </li>
             <li class="nav-item">
-                <a class="nav-link nav-bold" href="https://riceconnect.rice.edu/donation/support-will-rice">
+                <a class="nav-link nav-bold" target = "_blank" href="https://riceconnect.rice.edu/donation/support-will-rice">
                     DONATE
                 </a>
             </li>
