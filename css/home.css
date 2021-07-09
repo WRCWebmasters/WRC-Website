@@ -1,9 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,700;1,400&display=swap');
+
+:root {
+	--rust: #BE3019;
+	--gold: #FECB33;
+	--muted-rust: #E2D2CB;
+	--muted-gold: #EEEBD8;
+	--white: #FFFFFF;
+	--black: #000000;
+	--grey: #242424;
+}
+
 html body {
-	background-color: white;
-	color: #13191E;
+	background-color: var(--white);
+	color: var(--black);
 	/*To clear the header*/
 	/*margin-top: 65px; */
 	margin: 75px 0 100px 0;
+	overscroll-behavior-y: none;
 }
 
 html {
@@ -16,21 +29,66 @@ body {
 	margin-bottom: 70px;
 }
 html h1 {
-	color: #BE3019;
+	color: var(--rust);
 }
 
 html h2 {
-	color: #FECB33;
+	color: var(--gold);
 }
 
 html h4 {
-	color: #FECB33;
+	color: var(--gold);
 }
 
 /*Navbar + Footer*/
 
 .navbar {
-	background-color: #BE3019;
+	background-color: var(--muted-gold);
+	font-family: 'Poppins', sans-serif;
+	vertical-align: middle;
+	padding: 0.3rem!important;
+}
+
+.navbar-title {
+	color: var(--rust);
+	font-weight: bold;
+	font-size: 30px;
+	margin-bottom: 0;
+}
+
+.nav-link {
+	color: var(--grey);
+	transition: 0.3s;
+
+}
+
+.nav-link:hover {
+	color: var(--rust)!important;
+}
+
+.nav-highlight {
+	color: var(--rust)!important;
+	font-weight: bold;
+}
+
+.nav-bold {
+	color: var(--black)!important;
+	font-weight: bold;
+}
+
+.dropdown-menu {
+	border: none!important;
+	border-radius: 0!important;
+}
+
+.dropdown-item {
+	color: var(--grey)!important;
+	transition: 0.3s!important;
+}
+
+.dropdown-item:hover {
+	color: var(--rust)!important;
+	background-color: var(--white)!important;
 }
 
 footer {
@@ -40,19 +98,30 @@ footer {
 	/* Set the fixed height of the footer here */
 	background-color: #FECB33;
 	color: #13191E;
-	height: 65px;
 
 }
 
 footer p {
-	color: #13191E;
+	color: var(--black);
 }
 
 footer a {
 	text-decoration: none;
-	color: #13191E;
+	color: var(--black);
 }
 
+.bg-rust {
+	background-color: var(--rust);
+	vertical-align: center;
+}
+
+@media only screen and (max-width: 960px) {
+	/* For tablets: */
+	.float-center {
+		float: none!important;
+		text-align: center;
+	}
+  }
 
 /*Body Content */
 
@@ -64,12 +133,12 @@ footer a {
 	position: relative;
 	left: -75px;
 	font-size: 100px;
-	color: #BE3019;
+	color: var(--rust);
 	font-weight: bold;
 }
 
 .content {
-	background: #FAFAFA;
+	background: var(--white);
 	margin: 15px 0px;
 }
 
