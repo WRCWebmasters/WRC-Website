@@ -27,11 +27,12 @@ let categories = {
 
 var navbarContent = `
     
-<nav class="navbar navbar-light fixed-top navbar-expand-lg">
+<nav class="navbar navbar-light fixed-top navbar-expand-xl">
     <a class="navbar-brand" href="home.html">
         <img src="../resources/wrc-logos/classic-crest-transparent [png].png" width="50" height="50" alt="">
     </a>
-    <a class="navbar-brand" href="home.html"><h1 class = "navbar-title">WILL RICE COLLEGE</h1></a>
+    <a class="navbar-brand" id = "nav-title" href="home.html"><h1 class = "navbar-title">WILL RICE COLLEGE</h1></a>
+    <a class="navbar-brand" id="nav-title-short" href="home.html"><h1 class = "navbar-title">WRC</h1></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -40,6 +41,7 @@ var navbarContent = `
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ml-auto">
             <li class="nav-item dropdown">
+            
                 <a class="nav-link dropdown-toggle" href="http://example.com" data-toggle="dropdown"
                     aria-expanded="false">
                     ABOUT

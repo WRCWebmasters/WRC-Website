@@ -59,7 +59,7 @@ html h4 {
 .nav-link {
 	color: var(--grey);
 	transition: 0.3s;
-
+	margin-left: 0.5rem; 
 }
 
 .nav-link:hover {
@@ -122,6 +122,22 @@ footer a {
 		text-align: center;
 	}
   }
+
+  @media only screen and (min-width: 429px) {
+	#nav-title-short {
+		display: none!important;
+	}
+  }
+
+  @media only screen and (max-width: 428px) {
+	#nav-title {
+		display: none!important;
+	}
+	#nav-title-short {
+		display: block!important;
+	}
+  }
+
 
 /*Body Content */
 
