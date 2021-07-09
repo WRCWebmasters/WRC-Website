@@ -12,10 +12,10 @@
         dataLayer.push(arguments);
       }
       gtag("js", new Date());
-
       gtag("config", "UA-120376955-1");
     </script>
-
+    <!-- remove when not in development!!! -->
+    <!-- <meta http-equiv="refresh" content="3" >  -->
     <meta charset="utf-8" />
     <meta
       name="viewport"
@@ -23,7 +23,7 @@
     />
     <title>Will Rice College</title>
     <link rel="shortcut icon" href="../resources/icons/favicon.ico" />
-    <link rel="stylesheet" href="../css/home.css" />
+    <link rel="stylesheet" href="../css/content-page.css" />
     <link
       rel="stylesheet"
       href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css"
@@ -46,92 +46,52 @@
       integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1"
       crossorigin="anonymous"
     ></script>
-    <script>
-      $(document).ready(function () {
-        $("#navigation").load("./components/navigation.html");
-      });
-    </script>
   </head>
 
   <body>
     <div id="navbar-placeholder"></div>
+    <div id="banner-placeholder" data-replacewith = "Click <button class = 'modal-toggle' data-toggle='modal' data-target='#exampleModal'>here</button> to read our statement on the Black Lives Matter movement."></div>
+    <div id="BLM"></div>
 
-    <div class="container">
-      <div class="content">
-        <br />
-        <div>
-          <img
-            src="../resources/images/blm.jpeg"
-            width="50%"
-            align="left"
-            style="margin-right: 3%"
-            alt="BLM pic"
-          />
-          <p>
-            In light of the recent violence against the Black community—the
-            senseless killings of George Floyd, Ahmaud Arbery, Breonna Taylor,
-            and John Neville—Will Rice would like to unequivocally express our
-            support for the Black Lives Matter movement and denounce any form of
-            racism. While these murders have occurred in other places, we
-            acknowledge that the Rice community is certainly not immune to both
-            microaggressions and overt acts of racism. <br /><br />
-            We are committed to promoting and engaging anti-racism at Will Rice.
-            We hope to take action and create new initiatives that encourage
-            non-Black Will Ricers to actively engage in dialogue and foster an
-            environment that constantly supports our Black Will Ricers. We
-            condemn any racist behavior that does not align with Will Rice
-            values of equality and inclusivity. We strive to keep our Black Will
-            Ricers safe and comfortable, a right that all students deserve to
-            have.
-            <br /><br />
-            We must hear the voices of our Black students, practice empathy, and
-            do anything in our power to support them. We must not speak over
-            them but should elevate their voices, their stories, and their
-            priorities. In doing so, we aim to be advocates and allies for the
-            Black community at Will Rice, Rice University, and this country. We
-            can no longer remain silent and complicit. Like the Phoenix, we must
-            rise up and evolve to be a more anti-racist and inclusive Will Rice.
-            We stand with BLM, and we stand with our Black students.
-          </p>
-        </div>
-      </div>
-
+      <div>
       <div
-        id="carouselExampleSlidesOnly"
         class="carousel slide"
         data-ride="carousel"
       >
         <div class="carousel-inner">
           <div class="carousel-item active">
             <img
-              class="d-block w-100"
+            id="home-carousel"
+              class="d-block w-100 img-center"
               src="../resources/images/carousel/carousel0.jpeg"
               alt="First slide"
             />
           </div>
-          <div class="carousel-item">
+          <div class="carousel-item img-center">
             <img
+            id="home-carousel"
               class="d-block w-100"
               src="../resources/images/carousel/carousel1.jpg"
               alt="Second slide"
             />
           </div>
-          <div class="carousel-item">
+          <div class="carousel-item img-center">
             <img
+            id="home-carousel"
               class="d-block w-100"
               src="../resources/images/carousel/carousel2.jpg"
               alt="Third slide"
             />
           </div>
-          <div class="carousel-item">
+          <div class="carousel-item img-center">
             <img
+            id="home-carousel"
               class="d-block w-100"
               src="../resources/images/carousel/carousel3.jpg"
               alt="Fourth slide"
             />
           </div>
         </div>
-      </div>
 
       <br />
       <h1>Quick Links</h1>
@@ -325,10 +285,13 @@
         </div>
       </div>
     </div>
+    </div>
 
-    <div id = "footer-placeholder"></div>
-    
-    <script src = "../scripts/footer.js"></script>
+    <div id="footer-placeholder"></div>
+
+    <script src="../scripts/banner.js"></script>
+    <script src="../scripts/BLMmodal.js"></script>
+    <script src="../scripts/footer.js"></script>
     <script src="../scripts/navbar.js"></script>
     <script src="../scripts/populate-general.js"></script>
   </body>

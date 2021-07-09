@@ -11,21 +11,15 @@
 }
 
 html body {
-	background-color: white;
-	color: #13191E;
-	/*To clear the header*/
-	/*margin-top: 65px; */
-	margin: 75px 0 100px 0;
+	background-color: var(--white);
+	color: var(--black);
+	font-family: 'Poppins', sans-serif;
+
 }
 
 html {
 	position: relative;
 	min-height: 100%;
-}
-
-body {
-	/* Margin bottom by footer height */
-	margin-bottom: 60px;
 }
 
 html h1 {
@@ -42,26 +36,16 @@ html h4 {
 
 /* Convenience */
 
-.text-red {
-	color: var(--rust);
-}
+.text-red {color: var(--rust);}
+.text-yellow {color: var(--gold);}
+.text-white {color: var(--white);}
+.text-underlined {text-decoration: underline;}
 
-.text-yellow {
-	color: var(--gold);
-}
-
-.text-white {
-	color: var(--white);
-}
-
-.text-underlined {
-	text-decoration: underline;
-}
 /*Navbar + Footer*/
 
 .navbar {
 	background-color: var(--muted-gold);
-	font-family: 'Poppins', sans-serif;
+	opacity: 80%;
 	vertical-align: middle;
 	padding: 0.3rem!important;
 }
@@ -114,8 +98,8 @@ footer {
 	bottom: 0;
 	width: 100%;
 	/* Set the fixed height of the footer here */
-	background-color: #FECB33;
-	color: #13191E;
+	background-color: var(--gold);
+	color: var(--black);
 
 }
 
@@ -141,7 +125,6 @@ footer a {
 	}
   }
 
-
   @media only screen and (min-width: 429px) {
 	#nav-title-short {
 		display: none!important;
@@ -157,11 +140,38 @@ footer a {
 	}
   }
 
+/*Banner*/
 
+.banner {
+	position: fixed;
+	z-index: 100;
+	background-color: var(--gold);
+	width: 100%;
+	padding: 0 10px;
+	top: 70px;
+  }
+  
+.banner button {
+	text-decoration: none;
+	font-weight: bold;
+	color: var(--rust) !important;
+	background: none;
+	border: none;
+	padding: 0;
+	cursor: pointer;
+	outline: none!important;
+}
+  
+.banner button:hover {
+	text-decoration: underline;
+}
+
+	
 /*Body Content */
 
 .container {
-	margin-top: 20px;
+	margin: 70px 0 100px 0;
+	padding-top: 20px;
 }
 
 .page-title {
@@ -176,11 +186,6 @@ footer a {
 	flex-direction: row;
 }
 
-.content {
-	background: var(--white);
-	margin: 15px 0px;
-	padding: 10px;
-}
 
 .description-image {
 	width: 100%;
@@ -210,6 +215,23 @@ html .card {
 html .card-header {
 	background-color: var(--rust);
 }
+
+.card-group-flex {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+  }
+
+  @media screen and (max-width: 768px) {
+	.card-group-flex {
+	  flex-direction: column;
+	}
+  
+	.footer p {
+	  line-height: 30px;
+	}
+  }
+  
 
 /*To make anchor links account for the fixed header*/
 a.anchor {
@@ -276,4 +298,11 @@ button a:hover {
 	.btn-group.btn-group-flex .btn + .btn {
 	    margin-left: 0;
 	}
+}
+
+/* Home */
+
+#home-carousel {
+	height: 100vh;
+	object-fit: cover;
 }
