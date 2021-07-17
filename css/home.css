@@ -138,6 +138,32 @@ footer a {
 	}
   }
 
+/*Banner*/
+
+.banner {
+	position: fixed;
+	z-index: 100;
+	background-color: var(--gold);
+	width: 100%;
+	padding: 0 10px;
+	top: 70px;
+  }
+  
+.banner button {
+	text-decoration: none;
+	font-weight: bold;
+	color: var(--rust) !important;
+	background: none;
+	border: none;
+	padding: 0;
+	cursor: pointer;
+	outline: none!important;
+}
+  
+.banner button:hover {
+	text-decoration: underline;
+}
+
 
 /*Body Content */
 
