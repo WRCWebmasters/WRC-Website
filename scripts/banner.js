@@ -49,8 +49,10 @@ var BLMcontent = `<div class="modal fade" id="exampleModal" tabindex="-1" role="
             can no longer remain silent and complicit. Like the Phoenix, we must
             rise up and evolve to be a more anti-racist and inclusive Will Rice.
             We stand with BLM, and we stand with our Black students.
+            
       </div>
       <div class="modal-footer">
+      Last updated 07/10/21
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
       </div>
     </div>
