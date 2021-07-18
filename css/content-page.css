@@ -14,7 +14,6 @@ html body {
 	background-color: var(--white);
 	color: var(--black);
 	font-family: 'Poppins', sans-serif;
-
 }
 
 html {
@@ -43,11 +42,21 @@ html h4 {
 
 /*Navbar + Footer*/
 
+/* this is the actual navbar container including the navbar + banner on top*/
+/*the reason it's called "banner" is because there are additional bootstrap
+propertioes to it*/
+.banner {
+	position: fixed;
+	top: 0!important;
+	z-index: 100;
+	width: 100%;
+  }
+
 .navbar {
 	background-color: var(--muted-gold);
-	opacity: 80%;
 	vertical-align: middle;
 	padding: 0.3rem!important;
+	
 }
 
 .navbar-title {
@@ -142,15 +151,11 @@ footer a {
 
 /*Banner*/
 
-.banner {
-	position: fixed;
-	z-index: 100;
+.banner-line {
 	background-color: var(--gold);
-	width: 100%;
-	padding: 0 10px;
-	top: 70px;
-  }
-  
+	padding: 2px 10px;
+}
+
 .banner button {
 	text-decoration: none;
 	font-weight: bold;
@@ -166,6 +171,13 @@ footer a {
 	text-decoration: underline;
 }
 
+span.anchor {
+    margin-top: -54px!important; /* height of nav, in this case 54px */
+    display: block!important;
+    height: 54px!important; /* height of nav, in this case 54px */
+    visibility: hidden!important;
+    position: relative!important;
+}
 	
 /*Body Content */
 
@@ -186,6 +198,11 @@ footer a {
 	flex-direction: row;
 }
 
+/* home */
+.content {
+	background: var(--white);
+	margin: 15px 0px;
+  }
 
 .description-image {
 	width: 100%;

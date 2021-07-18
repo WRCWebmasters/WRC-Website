@@ -1,33 +1,53 @@
 let categories = {
-    "a-team": "@people",
-    "alumni-and-associates": "@people",
-    "beer-bike": "@about",
-    "brand-resources": "@resources",
-    "calendar": "@resources",
-    "caregivers": "@people",
-    "constitution-bylaws": "@operating",
-    "contact": "@operating",
-    "diet": "@operating",
-    "donate": "@operating",
-    "fellows": "@people",
-    "forms": "@resources",
-    "history": "@about",
-    "historytimeline": "@about",
-    "housing-and-parking": "@operating",
-    "new-students": "@people",
-    "paa": "@people",
-    "resources": "@resources",
-    "rha": "@people",
-    "strive": "@people",
-    "student-leadership": "@people",
-    "today": "@about",
-    "traditions": "@about",
-    "williammarsh": "@about"
+  "a-team": "@people",
+  "alumni-and-associates": "@people",
+  "beer-bike": "@about",
+  "brand-resources": "@resources",
+  calendar: "@resources",
+  caregivers: "@people",
+  "constitution-bylaws": "@operating",
+  contact: "@operating",
+  diet: "@operating",
+  donate: "@operating",
+  fellows: "@people",
+  forms: "@resources",
+  history: "@about",
+  historytimeline: "@about",
+  "housing-and-parking": "@operating",
+  "new-students": "@people",
+  paa: "@people",
+  resources: "@resources",
+  rha: "@people",
+  strive: "@people",
+  "student-leadership": "@people",
+  today: "@about",
+  traditions: "@about",
+  williammarsh: "@about",
+};
+
+//Define navbarContent here
+var navbarContent = ``;
+
+//If the dataset attribute "banner" is true, JavaScript will 
+//include a banner ABOVE the navigation bar, to be defined by 
+//the webmaster
+if (
+  document.getElementById("navbar-placeholder").dataset.banner &&
+  document.getElementById("navbar-placeholder").dataset.banner == "true"
+) {
+  var placeholder = document.querySelector("#navbar-placeholder").dataset
+    .replacewith;
+  navbarContent += `
+    <div class = "banner">
+    <div class = "banner-line">${placeholder}</div>
+    <nav class="navbar navbar-light navbar-expand-xl">
+    `;
+} else {
+  navbarContent += `<nav class="navbar navbar-light fixed-top navbar-expand-xl">`;
 }
 
-var navbarContent = `
-    
-<nav class="navbar navbar-light fixed-top navbar-expand-xl">
+//Default navigation bar content
+navbarContent += ` 
     <a class="navbar-brand" href="home.html">
         <img src="../resources/wrc-logos/classic-crest-transparent [png].png" width="50" height="50" alt="">
     </a>
@@ -113,9 +133,19 @@ var navbarContent = `
 </nav>
 `;
 
+//Don't forget to add the closing </div> for the banner div
+if (
+  document.getElementById("navbar-placeholder").dataset.banner &&
+  document.getElementById("navbar-placeholder").dataset.banner == "true"
+) {
+  navbarContent += `</div>`;
+}
+
 let pagename = location.pathname.split("/").slice(-1)[0].replace(".html", "");
 navbarContent = navbarContent.replace(categories[pagename], "active");
 
+//Replace the div in html with navbarContent
 let navbarElement = document.createElement("div");
 navbarElement.innerHTML = navbarContent;
 document.getElementById("navbar-placeholder").appendChild(navbarElement);
+

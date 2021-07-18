@@ -24,6 +24,8 @@
     <title>Will Rice College</title>
     <link rel="shortcut icon" href="../resources/icons/favicon.ico" />
     <link rel="stylesheet" href="../css/content-page.css" />
+    <link rel="stylesheet" href="../css/home.css" />
+
     <link
       rel="stylesheet"
       href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css"
@@ -49,17 +51,18 @@
   </head>
 
   <body onload="document.body.style.opacity='1'">
-    <div id="navbar-placeholder"></div>
+    <!-- load the modal -->
+    <div id="BLM"></div>
     <div
-      id="banner-placeholder"
+      data-banner="true"
+      id="navbar-placeholder"
       data-replacewith="Click <button class = 'modal-toggle' data-toggle='modal' data-target='#exampleModal'>here</button> to read our statement on the Black Lives Matter movement."
     ></div>
-    <div id="BLM"></div>
 
     <div>
-      <div class = "carousel-overlay"></div>
+      <div class="carousel-overlay"></div>
       <div class="carousel slide" data-ride="carousel">
-        <ol style = "top: 95vh!important;" class="carousel-indicators">
+        <ol style="top: 95vh !important" class="carousel-indicators">
           <li data-target=".carousel" data-slide-to="0" class="active"></li>
           <li data-target=".carousel" data-slide-to="1"></li>
           <li data-target=".carousel" data-slide-to="2"></li>
@@ -119,12 +122,13 @@
         </div>
 
         <br />
-        <h1>Quick Links</h1>
+        <h1 class="rellax" data-rellax-speed="2">Quick Links</h1>
+
         <br />
 
         <!-- Icons come from here: https://www.flaticon.com -->
         <!-- Use your judgement to match the style.  -->
-        <div class="card-group card-group-flex">
+        <div class="card-group card-group-flex rellax" data-rellax-speed="2">
           <div class="card">
             <div class="card-body">
               <div class="row">
@@ -314,9 +318,16 @@
 
     <div id="footer-placeholder"></div>
 
-    <script src="../scripts/banner.js"></script>
+    <script src="../scripts/modals.js"></script>
     <script src="../scripts/footer.js"></script>
     <script src="../scripts/navbar.js"></script>
     <script src="../scripts/populate-general.js"></script>
+
+    <!-- parallax -->
+    <script src="https://cdn.jsdelivr.net/gh/dixonandmoe/rellax@master/rellax.min.js"></script>
+    <script>
+      // Accepts any class name
+      var rellax = new Rellax(".rellax");
+    </script>
   </body>
 </html>

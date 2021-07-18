@@ -1,15 +1,4 @@
-var placeholder = document.querySelector("#banner-placeholder").dataset.replacewith;
-
-var bannerContent = `
-<div class = "banner">${placeholder}</div>
-`;
-
-let bannerElement = document.createElement("div");
-bannerElement.innerHTML = bannerContent;
-document.getElementById("banner-placeholder").appendChild(bannerElement);
-
-// Define modals here
-
+//Displayed in home page
 var BLMcontent = `<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
