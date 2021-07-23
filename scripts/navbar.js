@@ -80,7 +80,7 @@ var navbarContent = `
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                     <a class="dropdown-item" href="./diet.html">Diet</a>
-                    <a class="dropdown-item" href="./constitution-bylaws.html">Constitution/Bylaws</a>
+                    <a class="dropdown-item" href="./constitution-bylaws.html">Constitution/By-Laws</a>
                     <a class="dropdown-item" href="./housing-and-parking.html">Housing and Parking</a>
                     <a class="dropdown-item" href="./contact.html">Contact</a>
                     <a class="dropdown-item" href="./donate.html">Donate</a>
