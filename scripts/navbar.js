@@ -26,7 +26,7 @@ let categories = {
 }
 
 var navbarContent = `
-    
+
 <nav class="navbar navbar-light fixed-top navbar-expand-xl">
     <a class="navbar-brand" href="home.html">
         <img src="../resources/wrc-logos/classic-crest-transparent [png].png" width="50" height="50" alt="">
@@ -41,7 +41,7 @@ var navbarContent = `
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ml-auto">
             <li class="nav-item dropdown">
-            
+
                 <a class="nav-link dropdown-toggle" href="http://example.com" data-toggle="dropdown"
                     aria-expanded="false">
                     ABOUT
@@ -83,7 +83,7 @@ var navbarContent = `
                     <a class="dropdown-item" href="./constitution-bylaws.html">Constitution/By-Laws</a>
                     <a class="dropdown-item" href="./housing-and-parking.html">Housing and Parking</a>
                     <a class="dropdown-item" href="./contact.html">Contact</a>
-                    <a class="dropdown-item" href="./donate.html">Donate</a>
+
                 </div>
             </li>
             <li class="nav-item dropdown">
