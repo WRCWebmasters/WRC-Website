@@ -8,7 +8,6 @@ let categories = {
     "constitution-bylaws": "@operating",
     "contact": "@operating",
     "diet": "@operating",
-    "donate": "@operating",
     "fellows": "@people",
     "forms": "@resources",
     "history": "@about",
