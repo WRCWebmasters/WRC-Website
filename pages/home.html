@@ -15,6 +15,7 @@
 
       gtag("config", "UA-120376955-1");
     </script>
+    <!-- <meta http-equiv="refresh" content="3" /> -->
 
     <meta charset="utf-8" />
     <meta
@@ -23,7 +24,9 @@
     />
     <title>Will Rice College</title>
     <link rel="shortcut icon" href="../resources/icons/favicon.ico" />
+    <link rel="stylesheet" href="../css/content-page.css" />
     <link rel="stylesheet" href="../css/home.css" />
+
     <link
       rel="stylesheet"
       href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css"
@@ -54,22 +57,56 @@
   </head>
 
   <body>
+    <div id="home-nav-wrapper">
+      <div id="home-navigator">
+        <a href="#1"><p>BLM</p></a>
+        <a href="#2"><p>home</p></a>
+        <a href="#3"><p>quick links</p></a>
+      </div>
+    </div>
+
     <div id="navbar-placeholder"></div>
-    <div
-    id="banner-placeholder"
-    data-replacewith="Click <button class = 'modal-toggle' data-toggle='modal' data-target='#exampleModal'>here</button> to read our statement on the Black Lives Matter movement."
-  ></div>
-  <div id="BLM"></div>
+    <div class="container-fluid">
+      <div id="1" class="BLM content">
+        <div id="blm-img">
+          <img
+            alt="Black Lives Matter"
+            src="../resources/images/BLM Image.png"
+            width="100%"
+          />
+        </div>
+        <div id="blm-text">
+          In light of the recent violence against the Black community—the
+          senseless killings of George Floyd, Ahmaud Arbery, Breonna Taylor, and
+          John Neville—Will Rice would like to unequivocally express our support
+          for the Black Lives Matter movement and denounce any form of racism.
+          While these murders have occurred in other places, we acknowledge that
+          the Rice community is certainly not immune to both microaggressions
+          and overt acts of racism. <br /><br />We are committed to promoting
+          and engaging anti-racism at Will Rice. We hope to take action and
+          create new initiatives that encourage non-Black Will Ricers to
+          actively engage in dialogue and foster an environment that constantly
+          supports our Black Will Ricers. We condemn any racist behavior that
+          does not align with Will Rice values of equality and inclusivity. We
+          strive to keep our Black Will Ricers safe and comfortable, a right
+          that all students deserve to have. <br /><br />We must hear the voices
+          of our Black students, practice empathy, and do anything in our power
+          to support them. We must not speak over them but should elevate their
+          voices, their stories, and their priorities. In doing so, we aim to be
+          advocates and allies for the Black community at Will Rice, Rice
+          University, and this country. We can no longer remain silent and
+          complicit. Like the Phoenix, we must rise up and evolve to be a more
+          anti-racist and inclusive Will Rice. We stand with BLM, and we stand
+          with our Black students.
+        </div>
+      </div>
 
-    <div class="container">
-        <br />
-
-
-      <div
-        id="carouselExampleSlidesOnly"
-        class="carousel slide"
-        data-ride="carousel"
-      >
+      <div id="2" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#2" data-slide-to="0" class="active"></li>
+          <li data-target="#2" data-slide-to="1"></li>
+          <li data-target="#2" data-slide-to="2"></li>
+        </ol>
         <div class="carousel-inner">
           <div class="carousel-item active">
             <img
@@ -100,208 +137,90 @@
             />
           </div>
         </div>
+        <a
+          class="carousel-control-prev"
+          href="#2"
+          role="button"
+          data-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a
+          class="carousel-control-next"
+          href="#2"
+          role="button"
+          data-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
       </div>
+      <div class="cards" id="3">
+        <!-- Icons come from here: https://www.flaticon.com -->
+        <!-- Use your judgement to match the style.  -->
+        <div class="card-group card-group-flex">
+          <div
+            data-href="@link-financial-assistance"
+            data-src="../resources/icons/financial-assistance.svg"
+            data-title="Financial Assistance Form"
+            class="quick-link col-lg-2 col-xl-1"
+          ></div>
 
-      <br />
-      <h1>Quick Links</h1>
-      <br />
+          <div
+            data-href="./calendar.html"
+            data-src="../resources/icons/calendar.svg"
+            data-title="Calendar"
+            class="col-lg-2 col-xl-1 quick-link"
+          ></div>
 
-      <!-- Icons come from here: https://www.flaticon.com -->
-      <!-- Use your judgement to match the style.  -->
-      <div class="card-group card-group-flex">
+          <div
+            data-href="./diet.html"
+            data-src="../resources/icons/diet.svg"
+            data-title="Diet"
+            class="quick-link col-lg-2 col-xl-1"
+          ></div>
 
-        <div class="card">
-          <div class="card-body">
-            <div class="row">
-              <div class="col-3 col-sm-12">
-                <a target="_blank" href="@link-financial-assistance">
-                  <img
-                    class="card-img-top"
-                    src="../resources/icons/financial-assistance.svg"
-                    alt="Financial Assistance From"
-                  />
-                </a>
-              </div>
-              <div class="col-9 col-sm-12">
-                <a target="_blank" href="@link-financial-assistance">
-                  <div class="card-body">
-                    <h4 class="card-title">Financial Assistance Form</h4>
-                  </div>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
+          <div
+            data-href="./forms.html#space"
+            data-src="../resources/icons/space-reservation.svg"
+            data-title="Space Reservation"
+            class="quick-link col-lg-2 col-xl-1"
+          ></div>
 
-        <div class="card">
-          <div class="card-body">
-            <div class="row">
-              <div class="col-3 col-sm-12">
-                <a href="./calendar.html">
-                  <img
-                    class="card-img-top"
-                    src="../resources/icons/calendar.svg"
-                    alt="Calendar"
-                  />
-                </a>
-              </div>
-              <div class="col-9 col-sm-12">
-                <a href="./calendar.html">
-                  <div class="card-body">
-                    <h4 class="card-title">Calendar</h4>
-                  </div>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
+          <div
+            data-href="@link-party-registration"
+            data-src="../resources/icons/party-registration.svg"
+            data-title="Party Registration"
+            class="quick-link col-lg-2 col-xl-1"
+          ></div>
 
-        <div class="card">
-          <div class="card-body">
-            <div class="row">
-              <div class="col-3 col-sm-12">
-                <a href="./diet.html">
-                  <img
-                    class="card-img-top"
-                    src="../resources/icons/diet.svg"
-                    alt="Diet"
-                  />
-                </a>
-              </div>
-              <div class="col-9 col-sm-12">
-                <a href="./diet.html">
-                  <div class="card-body">
-                    <h4 class="card-title">Diet</h4>
-                  </div>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
+          <div
+            data-href="./housing-and-parking.html"
+            data-src="../resources/icons/housing.svg"
+            data-title="Housing and Parking"
+            class="quick-link col-lg-2 col-xl-1"
+          ></div>
 
-        <div class="card">
-          <div class="card-body">
-            <div class="row">
-              <div class="col-3 col-sm-12">
-                <a href="./forms.html#space">
-                  <img
-                    class="card-img-top"
-                    src="../resources/icons/space-reservation.svg"
-                    alt="Space Reservation"
-                  />
-                </a>
-              </div>
-              <div class="col-9 col-sm-12">
-                <a href="./forms.html#space">
-                  <div class="card-body">
-                    <h4 class="card-title">Space Reservation</h4>
-                  </div>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
+          <div
+            data-href="./requesting-money.html"
+            data-src="../resources/icons/requesting-money.svg"
+            data-title="Budget Spending Requests"
+            class="quick-link col-lg-2 col-xl-1"
+          ></div>
 
-        <div class="card">
-          <div class="card-body">
-            <div class="row">
-              <div class="col-3 col-sm-12">
-                <a href="@link-party-registration">
-                  <img
-                    class="card-img-top"
-                    src="../resources/icons/party-registration.svg"
-                    alt="Party Registration"
-                  />
-                </a>
-              </div>
-              <div class="col-9 col-sm-12">
-                <a href="@link-party-registration">
-                  <div class="card-body">
-                    <h4 class="card-title">Party Registration</h4>
-                  </div>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="card">
-          <div class="card-body">
-            <div class="row">
-              <div class="col-3 col-sm-12">
-                <a href="./housing-and-parking.html">
-                  <img
-                    class="card-img-top"
-                    src="../resources/icons/housing.svg"
-                    alt="Housing and Parking"
-                  />
-                </a>
-              </div>
-              <div class="col-9 col-sm-12">
-                <a href="./housing-and-parking.html">
-                  <div class="card-body">
-                    <h4 class="card-title">Housing and Parking</h4>
-                  </div>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="card">
-          <div class="card-body">
-            <div class="row">
-              <div class="col-3 col-sm-12">
-                <a href="./requesting-money.html">
-                  <img
-                    class="card-img-top"
-                    src="../resources/icons/requesting-money.svg"
-                    alt="Requesting Money Page"
-                  />
-                </a>
-              </div>
-              <div class="col-9 col-sm-12">
-                <a href="./requesting-money.html">
-                  <div class="card-body">
-                    <h4 class="card-title">Budget Spending Requests</h4>
-                  </div>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-
-
-        <div class="card">
-          <div class="card-body">
-            <div class="row">
-              <div class="col-3 col-sm-12">
-                <a href="./contact.html">
-                  <img
-                    class="card-img-top"
-                    src="../resources/icons/contact.svg"
-                    alt="Contact"
-                  />
-                </a>
-              </div>
-              <div class="col-9 col-sm-12">
-                <a href="./contact.html">
-                  <div class="card-body">
-                    <h4 class="card-title">Contact</h4>
-                  </div>
-                </a>
-              </div>
-            </div>
-          </div>
+          <div
+            data-href="./contact.html"
+            data-src="../resources/icons/contact.svg"
+            data-title="Contact"
+            class="quick-link col-lg-2 col-xl-1"
+          ></div>
         </div>
       </div>
     </div>
-
-    <div id = "footer-placeholder"></div>
-
-    <script src = "../scripts/banner.js"></script>
-    <script src = "../scripts/footer.js"></script>
+    <div id="footer-placeholder"></div>
+    <script src="../scripts/card.js"></script>
+    <script src="../scripts/footer.js"></script>
     <script src="../scripts/navbar.js"></script>
     <script src="../scripts/populate-general.js"></script>
   </body>

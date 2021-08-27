@@ -25,12 +25,11 @@ let categories = {
 }
 
 var navbarContent = `
-
 <nav class="navbar navbar-light fixed-top navbar-expand-xl">
     <a class="navbar-brand" href="home.html">
         <img src="../resources/wrc-logos/classic-crest-transparent [png].png" width="50" height="50" alt="">
     </a>
-    <a class="navbar-brand" id = "nav-title" href="home.html"><h1 class = "navbar-title">WILL RICE COLLEGE</h1></a>
+    <a class="navbar-brand" id = "nav-title" href="home.html"><h1 class = "navbar-title">Will Rice College</h1></a>
     <a class="navbar-brand" id="nav-title-short" href="home.html"><h1 class = "navbar-title">WRC</h1></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -43,7 +42,7 @@ var navbarContent = `
 
                 <a class="nav-link dropdown-toggle" href="http://example.com" data-toggle="dropdown"
                     aria-expanded="false">
-                    ABOUT
+                    About
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                     <a class="dropdown-item" href="./history.html">History</a>
@@ -56,7 +55,7 @@ var navbarContent = `
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink"
                     data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    PEOPLE
+                    People
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                     <a class="dropdown-item" href="./a-team.html">A-Team</a>
@@ -75,7 +74,7 @@ var navbarContent = `
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="http://example.com" data-toggle="dropdown"
                     aria-haspopup="true" aria-expanded="false">
-                    OPERATING
+                    Operating
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                     <a class="dropdown-item" href="./diet.html">Diet</a>
@@ -88,7 +87,7 @@ var navbarContent = `
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="http://example.com" data-toggle="dropdown"
                     aria-haspopup="true" aria-expanded="false">
-                    RESOURCES
+                    Resources
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                     <a class="dropdown-item" href="./forms.html">Forms</a>
@@ -99,18 +98,25 @@ var navbarContent = `
             </li>
             <li class="nav-item">
                 <a class="nav-link nav-highlight" href="./new-students.html">
-                    NEW STUDENTS
+                    New Students
                 </a>
             </li>
             <li class="nav-item">
                 <a class="nav-link nav-bold" target = "_blank" href="https://riceconnect.rice.edu/donation/support-will-rice">
-                    DONATE
+                    Donate
                 </a>
             </li>
         </ul>
     </div>
 </nav>
 `;
+
+$(function () {
+  $(document).scroll(function () {
+	  var $nav = $(".navbar");
+	  $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+	});
+});
 
 let pagename = location.pathname.split("/").slice(-1)[0].replace(".html", "");
 navbarContent = navbarContent.replace(categories[pagename], "active");
