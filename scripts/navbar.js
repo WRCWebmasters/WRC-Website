@@ -91,6 +91,7 @@ var navbarContent = `
                     RESOURCES
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="./communications.html">Communications</a>
                     <a class="dropdown-item" href="./forms.html">Forms</a>
                     <a class="dropdown-item" href="./finances.html">Finances</a>
                     <a class="dropdown-item" href="./calendar.html">Calendar</a>
