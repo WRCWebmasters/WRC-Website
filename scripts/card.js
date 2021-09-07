@@ -11,9 +11,8 @@ for (var i = 0; i < cards.length; i++) {
           alt="${cards[i].dataset.title}"
         />
       </div>
-      <div class="col-9 col-sm-12">
-        <div class = "card-text">${cards[i].dataset.title}</div>
-      </div>
+      <div class = "card-text">${cards[i].dataset.title}</div>
+      
     </a>`
   );
 }

@@ -58,7 +58,7 @@ body::-webkit-scrollbar {
 #home-navigator {
   position: fixed;
   z-index: 20;
-  bottom: 20px;
+  bottom: 40px;
   display: flex;
   left: 50%;
   transform: translateX(-50%);
@@ -136,6 +136,10 @@ body::-webkit-scrollbar {
   padding: 10px 0 100px 0;
 }
 
+.no-margin {
+  margin-right: 0!important;
+}
+
 .quick-link {
   padding: 15px;
   border-color: var(--muted-gold);
@@ -154,6 +158,10 @@ body::-webkit-scrollbar {
     max-width: 100%!important;
     width: 25%!important;
     flex: 0 25%!important;
+  }
+
+  #home-nav-wrapper {
+    visibility: hidden;
   }
 }
 
