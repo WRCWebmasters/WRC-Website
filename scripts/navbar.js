@@ -1,28 +1,28 @@
 let categories = {
-    "a-team": "@people",
-    "alumni-and-associates": "@people",
-    "beer-bike": "@about",
-    "brand-resources": "@resources",
-    "calendar": "@resources",
-    "caregivers": "@people",
-    "constitution-bylaws": "@operating",
-    "contact": "@operating",
-    "diet": "@operating",
-    "fellows": "@people",
-    "forms": "@resources",
-    "history": "@about",
-    "historytimeline": "@about",
-    "housing-and-parking": "@operating",
-    "new-students": "@people",
-    "paa": "@people",
-    "resources": "@resources",
-    "rha": "@people",
-    "strive": "@people",
-    "student-leadership": "@people",
-    "today": "@about",
-    "traditions": "@about",
-    "williammarsh": "@about"
-}
+  "a-team": "@people",
+  "alumni-and-associates": "@people",
+  "beer-bike": "@about",
+  "brand-resources": "@resources",
+  calendar: "@resources",
+  caregivers: "@people",
+  "constitution-bylaws": "@operating",
+  contact: "@operating",
+  diet: "@operating",
+  fellows: "@people",
+  forms: "@resources",
+  history: "@about",
+  historytimeline: "@about",
+  "housing-and-parking": "@operating",
+  "new-students": "@people",
+  paa: "@people",
+  resources: "@resources",
+  rha: "@people",
+  strive: "@people",
+  "student-leadership": "@people",
+  today: "@about",
+  traditions: "@about",
+  williammarsh: "@about",
+};
 
 var navbarContent = `
 <nav class="navbar navbar-light fixed-top navbar-expand-xl">
@@ -78,6 +78,7 @@ var navbarContent = `
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                     <a class="dropdown-item" href="./diet.html">Diet</a>
+                    <a class="dropdown-item" href="./budget.html">Budget and Spending</a>
                     <a class="dropdown-item" href="./constitution-bylaws.html">Constitution/By-Laws</a>
                     <a class="dropdown-item" href="./housing-and-parking.html">Housing and Parking</a>
                     <a class="dropdown-item" href="./contact.html">Contact</a>
@@ -114,9 +115,9 @@ var navbarContent = `
 
 $(function () {
   $(document).scroll(function () {
-	  var $nav = $(".navbar");
-	  $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
-	});
+    var $nav = $(".navbar");
+    $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
+  });
 });
 
 let pagename = location.pathname.split("/").slice(-1)[0].replace(".html", "");
