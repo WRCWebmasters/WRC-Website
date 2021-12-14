@@ -96,6 +96,7 @@ var navbarContent = `
                     <a class="dropdown-item" href="./finances.html">Finances</a>
                     <a class="dropdown-item" href="./calendar.html">Calendar</a>
                     <a class="dropdown-item" href="./brand-resources.html">Brand Resources</a>
+                    <a class="dropdown-item" target = "_blank" href="https://linktr.ee/ricemutualaid">Rice Mutual Aid</a>
                 </div>
             </li>
             <li class="nav-item">
