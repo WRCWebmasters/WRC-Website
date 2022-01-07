@@ -1,0 +1,18 @@
+hello~ this is jing
+
+*** To set up the app (first time installation)
+1. run "npm i --save" in terminal
+this just installs all the packages that this React app uses, you can view which ones there are in package.json
+
+*** To run the app 
+1. run "npm start"
+2. view in browser using the local address given in the terminal. the browser automatically refreshes when changes are saved.
+(you may have to refresh it manually to click on things tho... idk why that happens)
+
+I left all the existing html/css in this branch (just in case you need images or something that's not in the React site), labeled
+with a "_old" at the end of the folder name.
+
+You can find the root of the project at "/src/App.js" which connects the pages together using react-router-dom. To access actual 
+pages, those are found in /src/pages. The /src/components folder contains self-made components that can be re-used throughout the
+site (ex. the navigation bar/header). I basically threw all of the other things that are used in /src/resources so sorry if it's kind
+of hard to find things lol.
