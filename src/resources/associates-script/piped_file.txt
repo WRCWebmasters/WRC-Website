@@ -1,0 +1,512 @@
+<div class="row">
+		<h2>Faculty Associates</h2>
+	</div><div class="row content" style="padding: 10px">
+			<div class="col-4">
+				<img src="../resources/images/associates/E. Neely Atkinson.jpg" style="width:100%" alt="Picture of E. Neely Atkinson">
+			</div>
+			<div class="col-3">
+				<h1>E. Neely Atkinson</h1>
+				<p>Senior Lecturer, Statistics<br><a href="mailto:enatk@rice.edu">enatk@rice.edu</a></p>
+			</div>
+			<div class="col-5">
+				<p>Neely Atkinson worked for M.D. Anderson Cancer Center for 35 years, focusing primarily on statistical algorithms and early detection of cervical and ovarian cancer.  Since retiring in 2010, he joined the Rice faculty and is now a Senior Lecturer in Statistics.  He has a B.A. in English (WRC ’75) and a Ph.D. in Mathematical Sciences from Rice, and he ran the Rice aikido club while in graduate school.  Neely is active in the Houston Folk Music Society, the Houston Zen Center, and the Houston Bicycle Club, and he has toured several countries and states on bicycle. </p>
+			</div>
+		</div>
+<div class="row content" style="padding: 10px">
+		<div class="col-4">
+			<img src="../resources/images/associates/Michele Biavati & Maria Bejan.jpg" style="width:100%" alt="Picture of Michele Biavati & Maria Bejan">
+		</div>
+		<div class="col-3">
+			<h1>Michele Biavati & Maria Bejan</h1>
+			<p>Senior Lecturer, Economics (Michele)<br><a href="mailto:michele.biavati@rice.edu">michele.biavati@rice.edu</a></p>
+			<p>Senior Lecturer, Economics (Maria)<br><a href="mailto:maria.bejan@rice.edu">maria.bejan@rice.edu</a></p>
+		</div>
+		<div class="col-5">
+			<p>Michele Biavati and Maria Bejan are both Senior Lecturers in the Economics Department.  Michele is originally from Italy and Maria from Romania, and they met while working on their PhDs in Madrid, Spain.  Maria also studied in Milan and Florence, Italy, and Michele in London, UK, and they both spent several years in Mexico City—so it’s no surprise that these two continue to enjoy traveling and exploring different cultures together!  Besides travel, Michele enjoys biking, reading, and cooking.  Maria likes photography, dancing, and eating the food cooked by Michele.</p>
+		</div>
+	</div>
+<div class="row content" style="padding: 10px">
+			<div class="col-4">
+				<img src="../resources/images/associates/Gwen Bradford.jpg" style="width:100%" alt="Picture of Gwen Bradford">
+			</div>
+			<div class="col-3">
+				<h1>Gwen Bradford</h1>
+				<p>Associate Professor, Philosophy<br><a href="mailto:gwen.bradford@rice.edu">gwen.bradford@rice.edu</a></p>
+			</div>
+			<div class="col-5">
+				<p>Gwen Bradford is a professor of Philosophy whose research interests include value theory, achievement, and perfectionism.  Gwen served as a Will Rice Resident Associate from 2015 to 2018, so she feels closely tied to the college and its students.  In her spare time, Gwen enjoys jogging, coffee-shop hopping, and exploring Houston’s arts opportunities, as well as walking her perfect bulldog, Dozer. </p>
+			</div>
+		</div>
+<div class="row content" style="padding: 10px">
+			<div class="col-4">
+				<img src="../resources/images/associates/Dan Cohan.jpg" style="width:100%" alt="Picture of Dan Cohan">
+			</div>
+			<div class="col-3">
+				<h1>Dan Cohan</h1>
+				<p>Associate Professor, Civil & Environmental Engineering<br><a href="mailto:cohan@rice.edu">cohan@rice.edu</a></p>
+			</div>
+			<div class="col-5">
+				<p>Dan Cohan is an Associate Professor of Civil and Environmental Engineering focusing on air pollution, climate change, and energy.  Beyond the typical teaching and research, you may occasionally spot his op-eds in the Houston Chronicle or The Hill, or hear him weigh in on environmental issues on NPR.  He is also working on his first book, on efforts to address climate change.   </p>
+			</div>
+		</div>
+<div class="row content" style="padding: 10px">
+			<div class="col-4">
+				<img src="../resources/images/associates/Marya Cokar.jpg" style="width:100%" alt="Picture of Marya Cokar">
+			</div>
+			<div class="col-3">
+				<h1>Marya Cokar</h1>
+				<p>Lecturer, Chemical & Biomolecular Engineering<br><a href="mailto:marya.cokar@rice.edu">marya.cokar@rice.edu</a></p>
+			</div>
+			<div class="col-5">
+				<p>Marya Cokar is a lecturer in the CHBE department at Rice University and she has been working here for over 4 years.  She has a PhD in Chemical Engineering from the University of Calgary.  Her main interests are biogenic methane generation and water purification.  She is also an academic advisor in the CHBE department and loves working with the students to help them with academic and career advising.  She is currently teaching several courses in the department and is responsible for the department’s accreditation needs as well.  She enjoys the outdoors, especially gardening, hiking, and biking.  If you want to meet Marya, just join her at the lunch table at Will Rice or send her an email!</p>
+			</div>
+		</div>
+<div class="row content" style="padding: 10px">
+			<div class="col-4">
+				<img src="../resources/images/associates/Helge Gonnermann.jpg" style="width:100%" alt="Picture of Helge Gonnermann">
+			</div>
+			<div class="col-3">
+				<h1>Helge Gonnermann</h1>
+				<p>Associate Professor, Earth Science<br><a href="mailto:helge@rice.edu">helge@rice.edu</a></p>
+			</div>
+			<div class="col-5">
+				<p>Helge Gonnermann is a professor of Earth Science who specializes in volcanic and magmatic processes. </p>
+			</div>
+		</div>
+<div class="row content" style="padding: 10px">
+		<div class="col-4">
+			<img src="../resources/images/associates/Bridget Gorman & Mike Reed.jpg" style="width:100%" alt="Picture of Bridget Gorman & Mike Reed">
+		</div>
+		<div class="col-3">
+			<h1>Bridget Gorman & Mike Reed</h1>
+			<p>Dean of Undergraduates, Professor of Sociology (Bridget)<br><a href="mailto:bkgorman@rice.edu">bkgorman@rice.edu</a></p>
+			<p>Owner, Party dance floor rental company (Mike)<br><a href="mailto:mreedwrc@gmail.com">mreedwrc@gmail.com</a></p>
+		</div>
+		<div class="col-5">
+			<p>Bridget Gorman and Mike Reed were the Magisters of Will Rice College for seven years, from 2011-2018.  Their daughter, Frances (“Frankie”), was born while they were living at Will Rice, in 2014.  They love music, tennis, cheering on the Astros, and exploring restaurants in Houston.  </p>
+		</div>
+	</div>
+<div class="row content" style="padding: 10px">
+			<div class="col-4">
+				<img src="../resources/images/associates/Jonathan Miles.jpg" style="width:100%" alt="Picture of Jonathan Miles">
+			</div>
+			<div class="col-3">
+				<h1>Jonathan Miles</h1>
+				<p>Lecturer, Jones Graduate School of Business<br><a href="mailto: jem10@rice.edu"> jem10@rice.edu</a></p>
+			</div>
+			<div class="col-5">
+				<p>While growing up in Kansas, Jon thought that he would get a job working in information technology and spend the rest of his life happily sitting alone at a computer. Once he had completed a Computer Science degree from Kansas State University and several years in the IT industry, Jon realized that a future in technology without significant interaction with other people was quickly becoming his own private hell. After a short dalliance with managerial roles (and an MBA from KSU), Jon found the love of his life: teaching. He began a PhD in Organizational Behavior from Michigan State University. During his pre-PhD life, Jon held such varied roles as Comic Book Store Owner, UNIX Systems Administrator, Project Manager, and Statistics Instructor. Despite top-notch training in OB research (and much to the chagrin of his professors), Jon chose to turn away from a research-based life and pursue a career as a teaching-focused professor. He spent three years at the University of Cincinnati, creating, teaching, and managing an undergraduate course on professionalism and ethics before moving on to Rice Business in the summer of 2018. He loves creating interactive classrooms, where students work together with the instructor to teach each other and experience the material directly through personal stories and classroom exercises. </p>
+			</div>
+		</div>
+<div class="row content" style="padding: 10px">
+			<div class="col-4">
+				<img src="../resources/images/associates/Alma Novotny.jpg" style="width:100%" alt="Picture of Alma Novotny">
+			</div>
+			<div class="col-3">
+				<h1>Alma Novotny</h1>
+				<p>Lecturer, BioSciences (Alma)<br><a href="mailto:novotnya@rice.edu">novotnya@rice.edu</a></p>
+			</div>
+			<div class="col-5">
+				<p>Alma Novotny joined Will Rice as a Faculty Associate in 2006 after Mike Gustin and Mike Wolf worked a trade to get more science faculty.  She teaches Immunology in BioSciences and writes many letters of recommendation. Her first visit to Will Rice resulted in her getting hit in the forehead with a paper airplane, and she knew she had come to the right place. Settling in, she became a Divisional Advisor and dragged her husband, Edward, into the fray as well.  He’s a retired engineer from Exxon Mobil and has volunteered at the Houston Zoo for over 20 years, where he announces sea lion shows and is certified to present the porcupine.  Together they are avid supporters of Will Rice’s artistic and community projects.  They also supply a seven-layer dip for every semester’s Associate Study Break. </p>
+			</div>
+		</div>
+<div class="row content" style="padding: 10px">
+			<div class="col-4">
+				<img src="../resources/images/associates/Hesam Panahi.jpg" style="width:100%" alt="Picture of Hesam Panahi">
+			</div>
+			<div class="col-3">
+				<h1>Hesam Panahi</h1>
+				<p>Lecturer, Jones Graduate School of Business<br><a href="mailto:"></a></p>
+			</div>
+			<div class="col-5">
+				<p>Hesam Panahi is a Lecturer in Entrepreneurship at Rice’s Jones Business School and the Liu Idea Lab for Innovation and Entrepreneurship, where he teaches undergraduate and graduate courses in entrepreneurship and design thinking.  He was born and raised in Houston, TX.  When he’s not at Rice, Hesam enjoys spending time with his family. </p>
+			</div>
+		</div>
+<div class="row content" style="padding: 10px">
+			<div class="col-4">
+				<img src="../resources/images/associates/Dale & Elise Sawyer.jpg" style="width:100%" alt="Picture of Dale & Elise Sawyer">
+			</div>
+			<div class="col-3">
+				<h1>Dale & Elise Sawyer</h1>
+				<p>Retired Professor, Earth Science (Dale)<br><a href="mailto:elisesawyer77@gmail.com">elisesawyer77@gmail.com</a></p>
+			</div>
+			<div class="col-5">
+				<p>Dale and Elise arrived at Rice in 1988, and became associates soon afterward. Dale is a (retired) professor of geophysics, studying plate tectonics and earthquakes. His last project was 3D seismic imaging off the coast of Vigo, Spain. Elise is a retired kindergarten teacher and (dabbling on the dark side - administration) an International Baccalaureate/STEM magnet coordinator in HISD. They served as Magisters of WRC, 1997-2002 and SRC, 2009-2014. </p>
+			</div>
+		</div>
+<div class="row content" style="padding: 10px">
+			<div class="col-4">
+				<img src="../resources/images/associates/Doug Schuler.jpg" style="width:100%" alt="Picture of Doug Schuler">
+			</div>
+			<div class="col-3">
+				<h1>Doug Schuler</h1>
+				<p>Associate Professor, Business & Public Policy<br><a href="mailto:schuler@rice.edu">schuler@rice.edu</a></p>
+			</div>
+			<div class="col-5">
+				<p>Doug Schuler, Ph.D., is Associate Professor of Business and Public Policy at Rice University’s Jones School of Business. His main research interests are corporate political activity, public policies and business, corporate social responsibility, and social entrepreneurship. Doug’s most recent study is about collaborative arrangements towards solving social problems, specifically examining organizations in the food insecurity space in Houston. You can access that study on Rice’s Kinder Institute’s webpage: https://kinder.rice.edu/research/challenges-social-sector-systemic-collaborations-whats-cookin-houstons-food-insecurity. Besides school stuff, Doug likes to cycle and play soccer, tennis, and other sports. Oh, and walk the dogs!</p>
+			</div>
+		</div>
+<div class="row">
+		<h2>University Associates</h2>
+	</div><div class="row content" style="padding: 10px">
+			<div class="col-4">
+				<img src="../resources/images/associates/Aliya Bhimani.jpg" style="width:100%" alt="Picture of Aliya Bhimani">
+			</div>
+			<div class="col-3">
+				<h1>Aliya Bhimani</h1>
+				<p>Director, Academic Advising<br><a href="mailto:aliyab@rice.edu">aliyab@rice.edu</a></p>
+			</div>
+			<div class="col-5">
+				<p>Aliya Bhimani is the Director of Academic Advising in the Office of Academic Advising (OAA). In the OAA she leads a team of academic and athletic advisors that help students navigate their academic college experience. The OAA does everything from educating the community about academic rules and regulations, training and managing programs like the Peer Academic Advisors, and meeting one-on-one with students that are considering their academic goals, whether it be course selection, resources, applying to medical school, or beyond. Aliya was born and raised in College Station, Texas, but her family is originally from Nairobi, Kenya. She joined Rice in 2013, after spending almost a decade in Washington DC. Aliya has a BS in Communication Studies from The University of Texas at Austin, as well as a MA in Education and Human Development from The George Washington University. Aliya loves to travel, read, and watch and play tennis.</p>
+			</div>
+		</div>
+<div class="row content" style="padding: 10px">
+			<div class="col-4">
+				<img src="../resources/images/associates/Kevin Kirby.jpg" style="width:100%" alt="Picture of Kevin Kirby">
+			</div>
+			<div class="col-3">
+				<h1>Kevin Kirby</h1>
+				<p>Vice President for Administration<br><a href="mailto:Kevin.Kirby@rice.edu">Kevin.Kirby@rice.edu</a></p>
+			</div>
+			<div class="col-5">
+				<p>Kevin Kirby is the Vice President for Administration at Rice University.  Prior to joining Rice, Dr. Kirby was the Chief Operating Officer for the Columbia University Medical Center; served as Executive Officer for the National Institute of Neurological Disorders and Stroke at the National Institutes of Health; held several management positions with the Army Research Laboratory; served on the staff of the White House Office of Science and Technology Policy; served as science adviser for the Commanding General, Army Forces Command; and started his career conducting research on the low temperature behavior of materials at the Army Materials Technology Lab.  In addition to his administrative responsibilities, he teaches two undergraduate classes – Leadership in Higher Education and Crisis Leadership.  Kevin holds a B.S. in chemical engineering from Syracuse University, an M.S. in management from MIT, another master’s degree in social and organizational learning from George Mason University, and a doctorate in higher education from the University of Pennsylvania.  He is married to Caroline Levander who is the Carlson Professor of Humanities and English at Rice. </p>
+			</div>
+		</div>
+<div class="row content" style="padding: 10px">
+		<div class="col-4">
+			<img src="../resources/images/associates/Jessica & Cameron McKelvey.jpg" style="width:100%" alt="Picture of Jessica & Cameron McKelvey">
+		</div>
+		<div class="col-3">
+			<h1>Jessica & Cameron McKelvey</h1>
+			<p>Director, Rice University Student Health (Jessica)<br><a href="mailto:jm8rice.edu">jm8rice.edu</a></p>
+			<p>Engagement Partner, TCS (Cameron)<br><a href="mailto:jcmckelvey@att.net">jcmckelvey@att.net</a></p>
+		</div>
+		<div class="col-5">
+			<p>Jessica and Cameron McKelvey met at WRC and graduated in 1993. Their first date was dinner on the sundeck at WRC.  Jessica attended McGovern Medical School and is now the Director of Student Health at Rice. Cameron has worked in IT consulting for many years and is an engagement partner with Tata Consultancy Services.  They have two children and two cocker spaniels.</p>
+		</div>
+	</div>
+<div class="row content" style="padding: 10px">
+			<div class="col-4">
+				<img src="../resources/images/associates/Ivette Mekdessi.jpg" style="width:100%" alt="Picture of Ivette Mekdessi">
+			</div>
+			<div class="col-3">
+				<h1>Ivette Mekdessi</h1>
+				<p>Assistant Director, Center for Career Development<br><a href="mailto:ifm2@rice.edu">ifm2@rice.edu</a></p>
+			</div>
+			<div class="col-5">
+				<p>Ivette Mekdessi has been a career counselor at the Center for Career Development (CCD) for 3+ years, where she collaborates with students in exploring their interests, abilities, values, and goals as they relate to the world of work and career development through 1-on-1 appointments, workshops, and events. She looks forward to empowering YOU to make optimal career, educational, and life decisions.  Having conducted research in varying fields of psychology, including job satisfaction, employee well-being, and stress overflow, she wants to help you make the most of your time at WRC. Ivette also looks forward to sharing her international perspective and her passion for travel and exploring new cultures, having attended and worked in international schools her entire life, speaking 4 languages (English, Spanish, French, and Arabic), and having visited 43 countries. A native Houstonian and avid foodie, she also looks forward to exchanging restaurant recommendations and staycation ideas with you.</p>
+			</div>
+		</div>
+<div class="row content" style="padding: 10px">
+			<div class="col-4">
+				<img src="../resources/images/associates/Ken Nipe.jpg" style="width:100%" alt="Picture of Ken Nipe">
+			</div>
+			<div class="col-3">
+				<h1>Ken Nipe</h1>
+				<p>Police Lieutenant, RUPD<br><a href="mailto:nipe@rice.edu">nipe@rice.edu</a></p>
+			</div>
+			<div class="col-5">
+				<p>Officer Nipe has worked at Rice for nearly 40 years and has many tales to tell of student escapades that tested (or overtly crossed) the legal line!  One of his specialties has been student self-defense, and he has worked particularly hard on implementing programs to empower women and give them skills to protect themselves.  In addition to serving on security detail for some high-profile visitors here on campus, Nipe also worked as a security volunteer at multiple Olympics.  Officer Nipe eats lunch in the college several days a week, so pull up a chair and ask him about some of his interesting experiences. </p>
+			</div>
+		</div>
+<div class="row content" style="padding: 10px">
+			<div class="col-4">
+				<img src="../resources/images/associates/Christoph Wagner.jpg" style="width:100%" alt="Picture of Christoph Wagner">
+			</div>
+			<div class="col-3">
+				<h1>Christoph Wagner</h1>
+				<p>Graduate Student, Shepherd School of Music; Personal Trainer, Rice Recreation Center<br><a href="mailto:cw68@rice.edu">cw68@rice.edu</a></p>
+			</div>
+			<div class="col-5">
+				<p>Christoph Wagner, a native of Germany, is a prize-winning cellist and has concertized on four continents. In 2018, he received the Sviatoslav Richter Grant from Rice University, followed by the Amici di Via Gabina Fellowship in 2019. He participated in a summer residency with Street Symphony in Los Angeles in 2018, before joining the DA CAMERA Young Artist Program. He received his Bachelor’s degree in Germany and a Master of Music degree from Indiana University. He is currently pursuing a Doctor of Musical Arts at Rice University and teaches at Lone Star College University Park. Besides music, Christoph is a passionate fitness instructor and personal trainer at the Rice Recreation Center and loves vegan cooking. For his versatile engagement for the Rice community - as club president, on numerous university committees and in the GSA cabinet - he received the Robert Lowry Patten Award in 2018 and 2019, as well as a Leadership Award from the DOERR Institute. Christoph is a consultant for the Houston Methodist Center for Performing Arts Medicine, is co-organizer of the Performing Arts Conference at Lonestar College, and is currently completing the CoachRICE Certification. If you have any fitness, performance, or coaching related questions, Christoph is the right contact and would love to get together with you.</p>
+			</div>
+		</div>
+<div class="row content" style="padding: 10px">
+		<div class="col-4">
+			<img src="../resources/images/associates/Anne & Gregg Walker.jpg" style="width:100%" alt="Picture of Anne & Gregg Walker">
+		</div>
+		<div class="col-3">
+			<h1>Anne & Gregg Walker</h1>
+			<p>Executive Director, University Financial Aid Services (Anne)<br><a href="mailto:anne.walker@rice.edu">anne.walker@rice.edu</a></p>
+			<p>Account Executive, Nalco Champion (Gregg)<br><a href="mailto:gregglwalker@yahoo.com">gregglwalker@yahoo.com</a></p>
+		</div>
+		<div class="col-5">
+			<p>Anne Walker works in the Office of Enrollment at Rice where she is the Executive Director of Financial Aid Services.  Her husband Gregg has worked at Nalco Water for over thirty years and is currently a Senior Account Manger there.  Anne and Gregg are devoted outdoor enthusiasts, spending their recreational time fishing on their boat, hunting, and playing or watching sports.</p>
+		</div>
+	</div>
+<div class="row content" style="padding: 10px">
+			<div class="col-4">
+				<img src="../resources/images/associates/Michael Whitehead.jpg" style="width:100%" alt="Picture of Michael Whitehead">
+			</div>
+			<div class="col-3">
+				<h1>Michael Whitehead</h1>
+				<p>Assistant Coach, Men's Golf<br><a href="mailto:mdw1@rice.edu">mdw1@rice.edu</a></p>
+			</div>
+			<div class="col-5">
+				<p>I graduated from Rice in 2011, a member of Will Rice college and a member of the University's golf team. I then played professionally until just recently when the current head coach asked if I would return and help coach the golf team.  I love fitness, golf, outdoors (hiking particularly!), people and Rice kids. What a truly great privilege to work for the university you attended.</p>
+			</div>
+		</div>
+<div class="row">
+		<h2>Community Associates</h2>
+	</div><div class="row content" style="padding: 10px">
+			<div class="col-4">
+				<img src="../resources/images/associates/Susan Backes.jpg" style="width:100%" alt="Picture of Susan Backes">
+			</div>
+			<div class="col-3">
+				<h1>Susan Backes</h1>
+				<p>Psychiatrist<br><a href="mailto:susan@susanbackes.com">susan@susanbackes.com</a></p>
+			</div>
+			<div class="col-5">
+				<p>I’m Susan Backes, a longtime Rice University neighbor.  Since the 1980’s I have had a private practice of psychiatry and an avocation of photography.  My study with Rice’s Peter Brown has fueled that passion, especially portrait and street photography.  My other free time is spent with my dock-diving/frisbee-playing golden doodle puppy.  I look forward to being a community associate at Will Rice College and cheering on the winningest team! </p>
+			</div>
+		</div>
+<div class="row content" style="padding: 10px">
+			<div class="col-4">
+				<img src="../resources/images/associates/Gisela & Igor Cherches.jpg" style="width:100%" alt="Picture of Gisela & Igor Cherches">
+			</div>
+			<div class="col-3">
+				<h1>Gisela & Igor Cherches</h1>
+				<p>Community Relations Manager, St. John's School (Gisela)<br><a href="mailto:gisela_cherches@hotmail.com">gisela_cherches@hotmail.com</a></p>
+			</div>
+			<div class="col-5">
+				<p>Gisela Cherches works on the Advancement Team at St. John’s School, a prominent Houston preparatory school.  She is a Will Rice (’85) alum who enjoys art galleries and travel in her spare time.  Igor (SRC ’86), is a neurologist who emigrated from Belarus as a teenager and whose hobbies include biking and martial arts.  Igor received his medical degree from the Baylor College of Medicine and is now affiliated with both Baylor St. Luke’s Medical Center and Houston Methodist Hospital.  </p>
+			</div>
+		</div>
+<div class="row content" style="padding: 10px">
+		<div class="col-4">
+			<img src="../resources/images/associates/Clint Corcoran & Rachel Mis.jpg" style="width:100%" alt="Picture of Clint Corcoran & Rachel Mis">
+		</div>
+		<div class="col-3">
+			<h1>Clint Corcoran & Rachel Mis</h1>
+			<p>Director, RBC Capital Markets (Clint)<br><a href="mailto:clintc@alumni.rice.edu">clintc@alumni.rice.edu</a></p>
+			<p>PhD Student in Clinical Psychology, Temple University (Rachel)<br><a href="mailto:rachel.mis87@gmail.com">rachel.mis87@gmail.com</a></p>
+		</div>
+		<div class="col-5">
+			<p>Clint Corcoran (WRC ‘07) works as a Director in investment banking at RBC Capital Markets, with a focus on energy finance. He loves his wife Rachel, sports, traveling, math, ancient civilizations, grammar, cheese, and all things Will Rice. Rachel Mis (WRC ‘10) is a doctoral student in Clinical Psychology at Temple University in Philadelphia, PA, specializing in the neuropsychology of aging and dementia. Between classes, research, and working in a hospital, she finds time to play with her cat (Minnie), travel, sample chocolates, and go to barre classes. Oh, and spend time with Clint in Philadelphia, Houston, and other places around the world! She is always happy to speak with any Will Ricers interested in graduate school in psychology or related fields. </p>
+		</div>
+	</div>
+<div class="row content" style="padding: 10px">
+		<div class="col-4">
+			<img src="../resources/images/associates/Andrea & Chris Ehlers.jpg" style="width:100%" alt="Picture of Andrea & Chris Ehlers">
+		</div>
+		<div class="col-3">
+			<h1>Andrea & Chris Ehlers</h1>
+			<p>SAP support, Houston ISD (Andrea)<br><a href="mailto:mom77401@gmail.com">mom77401@gmail.com</a></p>
+			<p>Principal Design Engineer, Fluor Daniel (Chris)<br><a href="mailto:mechdude77401@yahoo.com">mechdude77401@yahoo.com</a></p>
+		</div>
+		<div class="col-5">
+			<p>Andrea and Chis Ehlers are both proud Will Rice alums who were very involved in the college when they were students and who have now been active Associates for over two decades.  Andrea, a former O-Week Coordinator, has worked for PeopleSoft and WorkDay, and now does software support for HISD.  She reads 2-4 books per week, so she’ll always have something to talk with you about!  Chris, a former Rice swimmer and MechE, uses his spare time to attend Deutsche Samstagsschule (German Saturday School) and mentor the robotics team at Carnegie Vanguard High School.</p>
+		</div>
+	</div>
+<div class="row content" style="padding: 10px">
+		<div class="col-4">
+			<img src="../resources/images/associates/Kraig & Maryann Grahmann.jpg" style="width:100%" alt="Picture of Kraig & Maryann Grahmann">
+		</div>
+		<div class="col-3">
+			<h1>Kraig & Maryann Grahmann</h1>
+			<p>Attorney, Hayes and Boone, LLP (Kraig)<br><a href="mailto:kraig.grahmann@gmail.com">kraig.grahmann@gmail.com</a></p>
+			<p>Attorney, formerly at Sidley Austin LLP (Maryann)<br><a href="mailto:mlgrahmann@gmail.com">mlgrahmann@gmail.com</a></p>
+		</div>
+		<div class="col-5">
+			<p>Kraig and Maryann Grahmann met at Rice in 2003, when Kraig was a sophomore at Martel and Maryann was a freshman at Will Rice.  Kraig graduated from Rice in 2005 and went to the University of Houston Law Center.  Maryann graduated from Rice in 2006 and went to Yale Law School.  They got married in 2009.  After law school, Kraig started working at Haynes and Boone, LLP.  Kraig now is a partner in the Energy Practice Group, and is the head of the firm's Energy Finance Practice Group.  After law school, Maryann worked at Mayer Brown LLP and then Sidley Austin LLP, practicing complex commercial litigation and representing Latin American companies doing business in the U.S.  The Grahmanns have 3 awesome little kids.  </p>
+		</div>
+	</div>
+<div class="row content" style="padding: 10px">
+			<div class="col-4">
+				<img src="../resources/images/associates/Betty Gosse.jpg" style="width:100%" alt="Picture of Betty Gosse">
+			</div>
+			<div class="col-3">
+				<h1>Betty Gosse</h1>
+				<p>Real Estate Broker (retired)<br><a href="mailto:betty.gosse@gmail.com">betty.gosse@gmail.com</a></p>
+			</div>
+			<div class="col-5">
+				<p>Betty Ridley Gosse (Jones ’65) and her late husband Clinton Gessner Gosse (Will Rice ’63) became Community Associates in 1996. Betty has continued as an Associate since Clint died in 2007. Betty is a 2nd generation native Houstonian and attended Lamar High School. Her parents (Rice ’28 and ‘30) and her daughter (Elizabeth (Lisa) Gosse Widup, Will Rice ’98) also graduated from Rice. She was a computer programmer/analyst for 10 years and then became a Real Estate Broker and continues to invest in residential rental properties. Her hobbies are traveling, dancing, playing bridge and Mah Jong. She is a member of Houston Junior Forum, Knife and Fork Club, Society of Rice University Women, several dinner clubs and book clubs, Space City Ski Club, Speakers Committee of Houston Livestock Show and Rodeo and volunteers as an Usher at the Alley Theater and Hobby Center.</p>
+			</div>
+		</div>
+<div class="row content" style="padding: 10px">
+			<div class="col-4">
+				<img src="../resources/images/associates/Manu Gupta.jpg" style="width:100%" alt="Picture of Manu Gupta">
+			</div>
+			<div class="col-3">
+				<h1>Manu Gupta</h1>
+				<p>Managing Director, Indus Management Group<br><a href="mailto:manukgupta@gmail.com">manukgupta@gmail.com</a></p>
+			</div>
+			<div class="col-5">
+				<p>I am the Managing Director of Indus Management Group.  We are a property and asset management company that specializes in the multifamily housing market. IMG has a portfolio of 21 apartment complexes consisting of approximately 6000 apartment units in the Houston market, specifically specializing in the Southwest Houston sub-market.  I graduated from Rice in 2005 with a BA in History, and got an MD in 2011.  I opted out of going to residency and made a career switch, taking me to where I am now.  My favorite thing to do on a Saturday morning is to play video games.  I build my own gaming computers and I might have a slight obsession with board games as well.  Some of my favorite are Pandemic, Clank!, and Machi Koro. </p>
+			</div>
+		</div>
+<div class="row content" style="padding: 10px">
+		<div class="col-4">
+			<img src="../resources/images/associates/Bill & Lucila Haase.jpg" style="width:100%" alt="Picture of Bill & Lucila Haase">
+		</div>
+		<div class="col-3">
+			<h1>Bill & Lucila Haase</h1>
+			<p><br><a href="mailto:whaase@mac.com">whaase@mac.com</a></p>
+			<p><br><a href="mailto:haaseluc@mac.com">haaseluc@mac.com</a></p>
+		</div>
+		<div class="col-5">
+			<p>Bill Haase is a young-at-heart, opera-loving bicyclist.  A WRC ’63 alum, he studied Chemical Engineering at Rice, then went on to receive an M.S. in Mathematics from U of H.  He worked for Mars, Inc., in a range of positions, including logistics, finance, personnel, Cocoa futures trading, and Cocoa crop research.  Now retired, he is an enthusiastic foodie, Houston tour guide, and trivia competitor.  Lucila Haase enjoys any and all performing arts.  She loves anything to do with medicine and enjoys mentoring and interacting with high school and college students.  Lucila is a retired college instructor/counselor and American Cancer Society volunteer trainer, and she is currently a liaison volunteer at M. D. Anderson.  Lucila is originally from Buenos Aires, Argentina.</p>
+		</div>
+	</div>
+<div class="row content" style="padding: 10px">
+			<div class="col-4">
+				<img src="../resources/images/associates/Michelle Hicks.jpg" style="width:100%" alt="Picture of Michelle Hicks">
+			</div>
+			<div class="col-3">
+				<h1>Michelle Hicks</h1>
+				<p>Assistant General Counsel, Exelon/Constellation<br><a href="mailto:Michelle.Hicks@constellation.com">Michelle.Hicks@constellation.com</a></p>
+			</div>
+			<div class="col-5">
+				<p>Michelle Hicks graduated from Rice in 1987 (B.A., English and History) and went to law school in Austin (The University of Texas School of Law, J.D. 1990).  She has worked primarily in the energy industry in Houston, including with Vinson & Elkins and Enron, and she has been with Exelon/Constellation for 15 years.  Michelle's interests include cheering for Rice student-athletes, traveling (including Cuba with the Rice baseball team in 2016) and attending Broadway musicals.   </p>
+			</div>
+		</div>
+<div class="row content" style="padding: 10px">
+		<div class="col-4">
+			<img src="../resources/images/associates/Isabelle & Jeff Jeffress.jpg" style="width:100%" alt="Picture of Isabelle & Jeff Jeffress">
+		</div>
+		<div class="col-3">
+			<h1>Isabelle & Jeff Jeffress</h1>
+			<p>Pediatrician & Internist (Isabelle)<br><a href="mailto:ijeffress@yahoo.com">ijeffress@yahoo.com</a></p>
+			<p>Director of Enablement, BMC Software (Jeff)<br><a href="mailto:jeff.jeffress@gmail.com">jeff.jeffress@gmail.com</a></p>
+		</div>
+		<div class="col-5">
+			<p>Isabelle (Hubert) Jeffress (WRC ’91) and Jeff Jeffress (WRC ’91) met on their first day at WRC in the (now replaced) new dorm.  Isabelle went on to graduate from the UTHSC – Houston and is a dual boarded physician in internal medicine and pediatrics.  She owns and runs her own practice, Pear Tree Medical Associates in Pearland. Jeff works for BMC Software, where he trains sales people and engineers in technology and sales techniques. The Jeffresses eat, sleep, and breathe Beer Bike!</p>
+		</div>
+	</div>
+<div class="row content" style="padding: 10px">
+		<div class="col-4">
+			<img src="../resources/images/associates/Dave & Sonia Katz.jpg" style="width:100%" alt="Picture of Dave & Sonia Katz">
+		</div>
+		<div class="col-3">
+			<h1>Dave & Sonia Katz</h1>
+			<p>Managing Director, JP Morgan<br><a href="mailto:davekatzesq@yahoo.com">davekatzesq@yahoo.com</a></p>
+			<p>Substitute Teacher, Conroe ISD<br><a href="mailto:sonia@dreadnought.net">sonia@dreadnought.net</a></p>
+		</div>
+		<div class="col-5">
+			<p>Dave graduated Will Rice in 1999. After college, he lived in Houston and then moved to London. When there, he met his wife, Sonia, who is from Spain. The two then moved to Chicago, where Dave got his MBA from Kellogg. Dave has worked at JP Morgan since 2006, living first in New York and now in Houston (in The Woodlands). He heads up a team which approves large corporate loans, and, no, it is even more exciting than you are imagining. Sonia is a substitute teacher, a job which has taught her the patience necessary to live with Dave. They have two middle-school aged daughters and two dogs (the dogs are school aged, but refuse to go).</p>
+		</div>
+	</div>
+<div class="row content" style="padding: 10px">
+			<div class="col-4">
+				<img src="../resources/images/associates/Christopher Kilgore.jpg" style="width:100%" alt="Picture of Christopher Kilgore">
+			</div>
+			<div class="col-3">
+				<h1>Christopher Kilgore</h1>
+				<p>Art Historian and Cognitive Archeologist<br><a href="mailto:captainclarkwood@yahoo.com">captainclarkwood@yahoo.com</a></p>
+			</div>
+			<div class="col-5">
+				<p>Christopher Kilgore specializes in art-historical analysis, but he has also had a fascinating range of other jobs, including owning his own film production company and being an instructor of Chinese martial arts.  A Will Rice (’80) alum and former WRC president, he earned two Bachelor’s Degrees at Rice and recently went back to school to earn an M.A. in Art History from the University of Houston.  Chris was chosen to be "Mr. Mensa" in 2018!</p>
+			</div>
+		</div>
+<div class="row content" style="padding: 10px">
+		<div class="col-4">
+			<img src="../resources/images/associates/David & Mary Klein.jpg" style="width:100%" alt="Picture of David & Mary Klein">
+		</div>
+		<div class="col-3">
+			<h1>David & Mary Klein</h1>
+			<p>Owner, Klein Equities (David)<br><a href="mailto:dklein@klein-equities.com">dklein@klein-equities.com</a></p>
+			<p>Contract Quality Review Nurse, UT Austin School of Nursing (Mary)<br><a href="mailto:m.n.klein1492@gmail.com">m.n.klein1492@gmail.com</a></p>
+		</div>
+		<div class="col-5">
+			<p>David Klein is a native Houstonian and proud Will Rice (’72) alum.  He has had a long and successful career in real estate and venture capital, and currently works as Owner and CEO of Klein Equities.  David also serves on the Board of Directors for the Boy Scouts of America, numerous boards supporting education and literacy, and the Jones Business School’s Council of Advisors.  His hobbies include racquetball, mountain hiking, and botany.  Mary Klein received her Master’s degree as a Registered Nurse from UT-Houston School of Nursing.  She specializes in geriatric nursing and participates in the UT Health Consortium on Aging, as well as the Foundation Board for the Society of Otorhinolaryngology and Head/Neck Nurses.  In her spare time, Mary enjoys reading, adventure hiking, playing the dulcimer, and spending time with family.  David and Mary are the parents of Shannon Klein (WRC ’19). </p>
+		</div>
+	</div>
+<div class="row content" style="padding: 10px">
+		<div class="col-4">
+			<img src="../resources/images/associates/Eastman & Alyson Landry.jpg" style="width:100%" alt="Picture of Eastman & Alyson Landry">
+		</div>
+		<div class="col-3">
+			<h1>Eastman & Alyson Landry</h1>
+			<p>Physics & Mathematics Teachers, HISD (Eastman)<br><a href="mailto:ELandry@HoustonISD.org">ELandry@HoustonISD.org</a></p>
+			<p>Senior Capstone Teacher, HISD (Alyson)<br><a href="mailto:ALandry4@HoustonISD.org">ALandry4@HoustonISD.org</a></p>
+		</div>
+		<div class="col-5">
+			<p>Eastman Landry (WRC '09) earned a B.S. in Mechanical Engineering at Rice and a M.Ed. in Curriculum and Instruction at the University of Houston. He is currently a physics and mathematics teacher at the Kinder High School for the Performing and Visual Arts (HSPVA) and can be seen on the Rice campus over the summer as the Physics Instructor for RESP. He is married to Alyson Landry, who attended Florida State University and has her Masters in Arts Leadership from the University of Houston. She also works at HSPVA as the Senior Capstone teacher. The Landrys enjoy cooking, traveling, playing with their dog Myles, and as of 2018 exploring parenting with their baby daughter Evelyn. If you have any teaching/education related questions, please do not hesitate to contact them!</p>
+		</div>
+	</div>
+<div class="row content" style="padding: 10px">
+			<div class="col-4">
+				<img src="../resources/images/associates/Aniruddha & Ritu Patel.jpg" style="width:100%" alt="Picture of Aniruddha & Ritu Patel">
+			</div>
+			<div class="col-3">
+				<h1>Aniruddha & Ritu Patel</h1>
+				<p>Anesthesiologist (Aniruddha)<br><a href="mailto:"></a></p>
+			</div>
+			<div class="col-5">
+				<p>Aniruddha Patel (WRC ’03) is a Cardiothoracic Anesthesiologist.  Ritu Patel is an Assistant Director at Baylor College of Medicine.  In their spare time, they love to travel and see the world.  They enjoy being outdoors, hiking, biking, and working out. </p>
+			</div>
+		</div>
+<div class="row content" style="padding: 10px">
+		<div class="col-4">
+			<img src="../resources/images/associates/Arthur & Karen Rogers.jpg" style="width:100%" alt="Picture of Arthur & Karen Rogers">
+		</div>
+		<div class="col-3">
+			<h1>Arthur & Karen Rogers</h1>
+			<p><br><a href="mailto:ahrogers@yahoo.com">ahrogers@yahoo.com</a></p>
+			<p><br><a href="mailto:khrogers_68@yahoo.com">khrogers_68@yahoo.com</a></p>
+		</div>
+		<div class="col-5">
+			<p>Arthur Rogers is a retired partner with the law firm of Fulbright and Jaworski (now Norton Rose Fulbright). He has been a long-time member of the Board of Trustees at the Alley Theatre. Karen served as a member of the Rice Board of Trustees at Rice from 2000 to 2004. She is a co-author of Rice University: One Hundred Years in Pictures. She also serves on the Women's Athletic Advisory Board and the board of the Society of Rice University Women. They have been community associates at Will Rice since 1972. </p>
+		</div>
+	</div>
+<div class="row content" style="padding: 10px">
+			<div class="col-4">
+				<img src="../resources/images/associates/Charles &quot;Kin&quot; Spain.jpg" style="width:100%" alt="Picture of Charles "Kin" Spain">
+			</div>
+			<div class="col-3">
+				<h1>Charles "Kin" Spain</h1>
+				<p>Justice, Court of Appeals for the Fourteenth District of Texas<br><a href="mailto:cspain@ricealumni.net">cspain@ricealumni.net</a></p>
+			</div>
+			<div class="col-5">
+				<p>Charles “Kin” Spain (WRC ‘81) is a lawyer who worked for the Texas appellate courts for 23 years as a staff attorney and served as a City of Houston municipal court judge from 2010 until he was elected in 2018 as a justice on the Fourteenth Court of Appeals. He is a co-founder of the LGBT Law Section of the State Bar of Texas, the first LGBT section in the United States of a mandatory bar. He is the Scoutmaster of Troop 511 across Main Street at Palmer Memorial Episcopal Church. His hobby is vexillology, the study of flags. Kin’s husband, John Adcock, is a civil appellate lawyer at Beck Redden LLP.</p>
+			</div>
+		</div>
+<div class="row content" style="padding: 10px">
+			<div class="col-4">
+				<img src="../resources/images/associates/Dawn Stuckey.jpg" style="width:100%" alt="Picture of Dawn Stuckey">
+			</div>
+			<div class="col-3">
+				<h1>Dawn Stuckey</h1>
+				<p>Athletic Trainer, Methodist Hospital<br><a href="mailto:dstuckey@rice.edu">dstuckey@rice.edu</a></p>
+			</div>
+			<div class="col-5">
+				<p>Dawn Stuckey has worked as an athletic trainer at Houston Methodist Hospital since April 2018.  Her main responsibility/assignment is to take care of Rice athletics and aid in scheduling physician and imaging appointments.  Previously, Dawn worked as an athletic trainer at Rice for 13 years, and the University still holds a special place in her heart.  Outside of work, she enjoys teaching spin classes at the Rec Center and competing in triathlons of every distance.  Dawn also loves to mentor, so feel free to contact her if you are interested in a medical profession. </p>
+			</div>
+		</div>
+<div class="row content" style="padding: 10px">
+			<div class="col-4">
+				<img src="../resources/images/associates/Bill & Jean Tanner.jpg" style="width:100%" alt="Picture of Bill & Jean Tanner">
+			</div>
+			<div class="col-3">
+				<h1>Bill & Jean Tanner</h1>
+				<p>Software Architect, Schlumberger (Bill)<br><a href="mailto:tanner@alumni.rice.edu">tanner@alumni.rice.edu</a></p>
+			</div>
+			<div class="col-5">
+				<p>Born at a young age, Bill Tanner came to Rice in 1990 and graduated with a BS in Mechanical Engineering in '94.  In order to avoid the real world a bit longer, he stuck around to earn his Masters in Mechanical Engineering in '95.  During his time at Rice he was involved in the Cascade Juggling Club, KTRU, the Mob, and the Rice Players (among other things).  He always meant to do a comic strip for the Thresher, but settled on doing t-shirt designs and even came up with the 90's re-design of Sammy the Owl.  He currently works at Schlumberger as a Solution Architect and enjoys drawing, playing ukulele, and spending time with his family in his spare time.  He was lucky enough to meet his wife Jean (Hanszen '88) after they both had been out of Rice for a while, so they're doing their part to prop up that particular myth.    </p>
+			</div>
+		</div>
+<div class="row content" style="padding: 10px">
+			<div class="col-4">
+				<img src="../resources/images/associates/Isabel Valdez.jpg" style="width:100%" alt="Picture of Isabel Valdez">
+			</div>
+			<div class="col-3">
+				<h1>Isabel Valdez</h1>
+				<p>Physician Assistant, Baylor Family Medicine<br><a href="mailto:isabelv@alumni.rice.edu">isabelv@alumni.rice.edu</a></p>
+			</div>
+			<div class="col-5">
+				<p>I'm a proud WRC alum from the Class of 2001.  I loved my days at WRC as a student, having served as an O-week Advisor, Beer Bike Coordinator, Associates Committee member and loads more. I've come full circle because I'm now serving as an Associate and want to do so much more! Since 2009 (the same amount of years that I've been an Associate), I've been working at Baylor College of Medicine as a Physician Assistant; I see patients and teach students at Baylor. I'm always excited to chat it up with our WRCers so if you don't see me at an Associates' event, you can catch me at WRC Commons when I take a break from my jogs at 5:30 AM on weekdays (YIKES!) or weekends before 10:00 AM.  WRWS! </p>
+			</div>
+		</div>
+<div class="row content" style="padding: 10px">
+			<div class="col-4">
+				<img src="../resources/images/associates/Albert Wei.jpg" style="width:100%" alt="Picture of Albert Wei">
+			</div>
+			<div class="col-3">
+				<h1>Albert Wei</h1>
+				<p>Chief Innovation Officer, ProUnitas<br><a href="mailto:albie411@gmail.com">albie411@gmail.com</a></p>
+			</div>
+			<div class="col-5">
+				<p>I am a proud Will Rice Alum, class of 2012! I served as an RHA for two years and the Chief Justice my senior year. I founded Karma Patrol along with a great team of WRC RHA's. After graduating, I jumped into Teach for America and now work in education tech, designing software that helps care coordinators connect students to holistic supports. You can always find me watching “Friends” reruns or debating with myself on whether I'll make it to the gym to swim laps. I usually end up watching “Friends” reruns.</p>
+			</div>
+		</div>
+

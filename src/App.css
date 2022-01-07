@@ -1,0 +1,69 @@
+:root {
+  --rust: #c03720;
+  --gold: #fecc37;
+}
+
+/*html customizations*/
+h1 {
+  font-family: "Playfair Display";
+  font-weight: bold !important;
+  font-size: 64px !important;
+}
+
+h2 {
+  font-family: "Raleway";
+  font-size: 36px !important;
+}
+
+h3 {
+  font-size: 18;
+  margin-bottom: 0 !important;
+  color: var(--rust);
+}
+
+/*nav*/
+.white {
+  background-color: white;
+}
+
+/*carousel*/
+.carousel {
+  overflow: hidden;
+  width: "100%";
+  height: 75vh;
+}
+
+.slick-dots {
+  bottom: 20px !important;
+}
+
+.slider {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.overlay {
+  position: absolute;
+  width: 0;
+  height: 0;
+  opacity: .5;
+  z-index: 10;
+  overflow: hidden;
+}
+
+.slider img {
+  height: 75vh;
+  object-fit: cover;
+  width: 100%;
+  overflow: hidden;
+}
+
+/*title*/
+.title {
+  position: relative;
+  display: inline-block;
+  padding: 20px 200px 20px 50px;
+  background-color: var(--rust);
+  z-index: 15;
+}

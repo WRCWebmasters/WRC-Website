@@ -1,0 +1,54 @@
+/*fonts*/
+
+* {
+  font-family: "Roboto";
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("./Roboto/Roboto-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("./Roboto/Roboto-Bold.ttf");
+  font-weight: bold;
+  font-style: bold;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("./Roboto/Roboto-Italic.ttf");
+  font-weight: italic;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Playfair Display";
+  src: url("./Playfair_Display/PlayfairDisplay-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Playfair Display";
+  src: url("./Playfair_Display/PlayfairDisplay-Bold.ttf");
+  font-weight: bold;
+  font-style: bold;
+}
+
+@font-face {
+  font-family: "Playfair Display";
+  src: url("./Playfair_Display/PlayfairDisplay-Italic.ttf");
+  font-weight: italic;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Raleway";
+  src: url("./Raleway/Raleway-Medium.ttf");
+}
+
+@font-face {
+  font-family: "Raleway";
+  src: url("./Raleway/Raleway-ExtraBold.ttf");
+  font-weight: bold;
+  font-style: bold;
+}

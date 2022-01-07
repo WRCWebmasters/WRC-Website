@@ -1,12 +1,23 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
-pages/\.idea/
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
 
-\.idea/inspectionProfiles/Project_Default\.xml
+# testing
+/coverage
 
-*.DS_Store
+# production
+/build
 
-*.iml
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
 
-\.idea/
-
-*.icloud
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
