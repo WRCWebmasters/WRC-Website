@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 
-export default function BeerBike() {
+export default function WillRice() {
   useEffect(() => {
     document.title = "Beer Bike";
   });

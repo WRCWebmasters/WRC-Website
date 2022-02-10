@@ -3,7 +3,10 @@ import React, { useEffect } from "react";
 import { useParams } from "react-router-dom";
 
 import BrandResources from "../resources/BrandResources";
-import Budget from "../resources/Budget";
+import Calendar from "../resources/Calendar";
+import Contact from "../resources/Contact";
+import FormsAndFinances from "../resources/FormsAndFinances";
+import OffCampus from "../resources/OffCampus";
 
 export default function ResourcesRouter() {
   const { type } = useParams();
@@ -16,7 +19,10 @@ export default function ResourcesRouter() {
     <>
       <p><a href="/resources">resources</a> > {type}</p>
       {type === "brand-resources" && <BrandResources />}
-      {type === "budget" && <Budget />}
+      {type === "calendar" && <Calendar/>}
+      {type === "contact" && <Contact/>}
+      {type === "forms-and-finances" && <FormsAndFinances/>}
+      {type === "off-campus" && <OffCampus/>}
     </>
   );
 }

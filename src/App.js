@@ -13,7 +13,6 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import AboutRouter from "./pages/routes/AboutRouter";
 import PeopleRouter from "./pages/routes/PeopleRouter";
 import ResourcesRouter from "./pages/routes/ResourcesRouter";
-import GeneralRouter from "./pages/routes/GeneralRouter";
 import OperatingRouter from "./pages/routes/OperatingRouter";
 
 import Header from "./components/Header.js";
@@ -58,7 +57,7 @@ function App() {
             <OperatingRouter />
           </Route>
           <Route path="/general/:type">
-            <GeneralRouter />
+            <p>Page not found</p>
           </Route>
         </Switch>
       </Router>

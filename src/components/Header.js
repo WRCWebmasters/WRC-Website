@@ -1,5 +1,5 @@
 import React from "react";
-import { Navbar, Nav, NavDropdown, Container } from "react-bootstrap";
+import { Navbar, Nav, NavDropdown } from "react-bootstrap";
 
 import logo from "../resources/wrc-logos/classic-crest-transparent [png].png";
 // import { colors } from "../resources/colors";
@@ -22,94 +22,42 @@ class Header extends React.Component {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto">
             <NavDropdown title="ABOUT" id="basic-nav-dropdown">
-              <NavDropdown.Item href="/general/communications">
-                communications
-              </NavDropdown.Item>
-              <NavDropdown.Item href="/general/constitution">
-                constitution bylaws
-              </NavDropdown.Item>
-              <NavDropdown.Item href="/general/contact">
-                contact
-              </NavDropdown.Item>
-              <NavDropdown.Item href="/general/diet">diet</NavDropdown.Item>
-              <NavDropdown.Item
-                href="https://riceconnect.rice.edu/donation/support-will-rice"
-                target="_blank"
-              >
-                donate
-              </NavDropdown.Item>
-              <NavDropdown.Item href="/general/fellows">
-                fellows
-              </NavDropdown.Item>
-              <NavDropdown.Item href="/general/finances">
-                finances
-              </NavDropdown.Item>
-              <NavDropdown.Item href="/general/forms">forms</NavDropdown.Item>
-              <NavDropdown.Item href="/general/history">
-                history
-              </NavDropdown.Item>
-              <NavDropdown.Item href="/general/housing-and-parking">
-                housing and parking
-              </NavDropdown.Item>
-              <NavDropdown.Item href="/general/new-students">
-                new students
-              </NavDropdown.Item>
-              <NavDropdown.Item href="/general/paa">paa</NavDropdown.Item>
-              <NavDropdown.Item href="/general/requesting-money">
-                requesting money
-              </NavDropdown.Item>
-              <NavDropdown.Item href="/general/rha">rha</NavDropdown.Item>
-              <NavDropdown.Item href="/general/strive">strive</NavDropdown.Item>
-              <NavDropdown.Item href="/general/student-leadership">
-                student leadership
-              </NavDropdown.Item>
-              <NavDropdown.Item href="/general/today">today</NavDropdown.Item>
-              <NavDropdown.Item href="/general/traditions">
-                traditions
-              </NavDropdown.Item>
-              <NavDropdown.Item href="/general/william-marsh">
-                william marsh
-              </NavDropdown.Item>
-              {/* <NavDropdown.Divider />
-                <NavDropdown.Item href="#action/3.4">
-                  Separated link
-                </NavDropdown.Item> */}
+              <NavDropdown.Item href="/about/will-rice">Will Rice</NavDropdown.Item>
+              <NavDropdown.Item href="/about/beer-bike">Beer Bike</NavDropdown.Item>
             </NavDropdown>
 
             <NavDropdown title="OPERATING" id="basic-nav-dropdown">
-              <NavDropdown.Item href="/people/a-team">a-team</NavDropdown.Item>
-              <NavDropdown.Item href="/people/alumni-associates">
-                alumni and associates
-              </NavDropdown.Item>
-              <NavDropdown.Item href="/people/caregivers">
-                caregivers
-              </NavDropdown.Item>
+              <NavDropdown.Item href="/operating/budget">Budget</NavDropdown.Item>
+              <NavDropdown.Item href="/operating/constitution">Constitution and Bylaws</NavDropdown.Item>
+              <NavDropdown.Item href="/operating/operating-forms">Operating Forms</NavDropdown.Item>
+              <NavDropdown.Item href="/operating/housing-and-parking ">Housing and Parking</NavDropdown.Item>
             </NavDropdown>
 
             <NavDropdown title="PEOPLE" id="basic-nav-dropdown">
-              <NavDropdown.Item href="/about/beer-bike">
-                beer bike
-              </NavDropdown.Item>
+              <NavDropdown.Item href="/people/a-team">A-Team</NavDropdown.Item>
+              <NavDropdown.Item href="/people/alumni-and-associates">Alumni and Associates</NavDropdown.Item>
+              <NavDropdown.Item href="/people/caregivers">Caregivers</NavDropdown.Item>
+              <NavDropdown.Item href="/people/student-leadership">Student Leadership</NavDropdown.Item>
+              <NavDropdown.Item href="/people/fellows">Fellows</NavDropdown.Item>
+              <NavDropdown.Item href="/people/paas">PAAs</NavDropdown.Item>
+              <NavDropdown.Item href="/people/pcas">PCAs</NavDropdown.Item>
+              <NavDropdown.Item href="/people/rhas">RHAs</NavDropdown.Item>
+              <NavDropdown.Item href="/people/strive">STRIVE</NavDropdown.Item>
             </NavDropdown>
 
             <NavDropdown title="RESOURCES" id="basic-nav-dropdown">
-              <NavDropdown.Item href="/resources/brand-resources">
-                brand resources
-              </NavDropdown.Item>
-              <NavDropdown.Item href="/resources/budget">
-                budget
-              </NavDropdown.Item>
+              <NavDropdown.Item href="/resources/brand-resources">Brand Resources</NavDropdown.Item>
+              <NavDropdown.Item href="/resources/calendar">Calendar</NavDropdown.Item>
+              <NavDropdown.Item href="/resources/communications">Communications Guidebook</NavDropdown.Item>
+              <NavDropdown.Item href="/resources/contact">Contact</NavDropdown.Item>
+              <NavDropdown.Item href="/resources/forms-and-finances">Forms and Finacnes</NavDropdown.Item>
+              <NavDropdown.Item href="/resources/off-campus">Off Campus</NavDropdown.Item>
+              <NavDropdown.Item href="/resources/rice-mutual-aid">Rice Mutual Aid</NavDropdown.Item>
             </NavDropdown>
 
-            <Nav.Link title="DONATE" id="basic-nav-dropdown">
-              DONATE
-            </Nav.Link>
-            <Nav.Link title="NEW STUDENTS" id="basic-nav-dropdown">
-              NEW STUDENTS
-            </Nav.Link>
-            <Nav.Link title="REQUESTING MONEY" id="basic-nav-dropdown">
-              REQUESTING MONEY
-            </Nav.Link>
+            <Nav.Link href="https://riceconnect.rice.edu/donation/support-will-rice" target="_blank">DONATE</Nav.Link>
+            <Nav.Link href="https://wrcoweek.wixsite.com/superhero" target = "_blank">NEW STUDENTS</Nav.Link>
+            <Nav.Link title="REQUESTING MONEY" id="basic-nav-dropdown">REQUESTING MONEY</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Navbar>

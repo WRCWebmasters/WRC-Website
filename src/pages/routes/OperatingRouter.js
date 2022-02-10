@@ -2,8 +2,10 @@ import React, {useEffect} from "react";
 
 import { useParams } from "react-router-dom";
 
-import Calendar from "../operating/Calendar";
-import CalendarDev from "../operating/CalendarDev";
+import Budget from "../operating/Budget";
+import Constitution from "../operating/Constitution";
+import OperatingForms from "../operating/OperatingForms";
+import HousingAndParking from "../operating/HousingAndParking";
 
 export default function OperatingRouter() {
   const { type } = useParams();
@@ -15,8 +17,10 @@ export default function OperatingRouter() {
   return (
     <>
       <p><a href="/operating">operating</a> > {type}</p>
-      {type === "calendar" && <Calendar />}
-      {type === "calendardev" && <CalendarDev />}
+      {type === "budget" && <Budget/>}
+      {type === "constitution" && <Constitution/>}
+      {type === "operating-forms" && <OperatingForms/>}
+      {type === "housing-and-parking" && <HousingAndParking/>}
     </>
   );
 }
