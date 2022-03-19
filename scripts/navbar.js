@@ -42,7 +42,7 @@ var navbarContent = `
 
                 <a class="nav-link dropdown-toggle" href="http://example.com" data-toggle="dropdown"
                     aria-expanded="false">
-                    About
+                    ABOUT
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                     <a class="dropdown-item" href="./history.html">History</a>
@@ -55,7 +55,7 @@ var navbarContent = `
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink"
                     data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    People
+                    PEOPLE
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                     <a class="dropdown-item" href="./a-team.html">A-Team</a>
@@ -74,13 +74,12 @@ var navbarContent = `
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="http://example.com" data-toggle="dropdown"
                     aria-haspopup="true" aria-expanded="false">
-                    Operating
+                    OPERATING
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                     <a class="dropdown-item" href="./diet.html">Diet</a>
                     <a class="dropdown-item" href="./budget.html">Budget and Spending</a>
                     <a class="dropdown-item" href="./constitution-bylaws.html">Constitution/By-Laws</a>
-                    <a class="dropdown-item" href="./housing-and-parking.html">Housing and Parking</a>
                     <a class="dropdown-item" href="./contact.html">Contact</a>
 
                 </div>
@@ -88,7 +87,7 @@ var navbarContent = `
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="http://example.com" data-toggle="dropdown"
                     aria-haspopup="true" aria-expanded="false">
-                    Resources
+                    RESOURCES
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                     <a class="dropdown-item" href="./communications.html">Communications</a>
@@ -101,12 +100,12 @@ var navbarContent = `
             </li>
             <li class="nav-item">
                 <a class="nav-link nav-highlight" href="./new-students.html">
-                    New Students
+                    NEW STUDENTS
                 </a>
             </li>
             <li class="nav-item">
                 <a class="nav-link nav-bold" target = "_blank" href="https://riceconnect.rice.edu/donation/support-will-rice">
-                    Donate
+                    DONATE
                 </a>
             </li>
         </ul>

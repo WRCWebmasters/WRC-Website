@@ -1,7 +1,16 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,700;1,400&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+@font-face {
+  font-family: Avenir;
+  src: url("../src/resources/fonts/avenir_ff/AvenirLTStd-Book.otf");
+}
 
 * {
-  font-family: "Poppins", sans-serif;
+  font-family: "Avenir", sans-serif;
+}
+
+.navbar * {
+  font-family: "Roboto", sans-serif;
 }
 
 :root {
@@ -65,7 +74,7 @@ html h4 {
 
 .navbar {
   background-color: var(--muted-gold);
-  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
   vertical-align: middle;
   padding: 0.3rem !important;
   box-shadow: 0;
@@ -83,6 +92,7 @@ html h4 {
   transition: 0.3s;
   margin-left: 0.5rem;
   color: var(--grey) !important;
+  font-weight: bold;
 }
 
 .nav-link:hover {
@@ -204,11 +214,14 @@ footer a {
 }
 
 .page-title {
-  font-size: 6vw;
+  font-size: 5vw;
   color: var(--rust);
   font-weight: bold;
 }
 
+.page-title .col {
+  font-family: 'Playfair Display', serif;
+}
 /* For nav bars to flex into column major order on mobile */
 .btn-group.btn-group-flex {
   display: flex;
