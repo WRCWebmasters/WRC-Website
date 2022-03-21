@@ -1,0 +1,37 @@
+h1 {
+    margin-bottom: 30px;
+}
+
+h4 {
+    margin-bottom: 10px!important;
+}
+
+a {
+    text-decoration-color: var(--rust);
+}
+
+.card-title {
+    color: var(--rust);
+    transition: color 0.2s;
+}
+
+.card-title:hover {
+    color: var(--muted-rust);
+    transition: color 0.2s;
+}
+
+.mailto {
+    text-decoration-color: var(--light-grey);
+}
+
+/*React bootstrap Card*/
+.card {
+    border: none;
+    /* padding: 1%; */
+}
+
+.card-title {
+    text-align: center;
+    color: var(--rust);
+    font-weight: 600;
+}

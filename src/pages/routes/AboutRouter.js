@@ -14,7 +14,6 @@ export default function AboutRouter() {
 
   return (
     <>
-      <p><a href="/about">about</a> > {type}</p>
       {type === "will-rice" && <WillRice/>}
       {type === "beer-bike" && <BeerBike />}
     </>

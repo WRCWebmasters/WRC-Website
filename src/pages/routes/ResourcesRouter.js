@@ -17,7 +17,6 @@ export default function ResourcesRouter() {
 
   return (
     <>
-      <p><a href="/resources">resources</a> > {type}</p>
       {type === "brand-resources" && <BrandResources />}
       {type === "calendar" && <Calendar/>}
       {type === "contact" && <Contact/>}

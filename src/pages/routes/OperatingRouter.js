@@ -16,11 +16,10 @@ export default function OperatingRouter() {
 
   return (
     <>
-      <p><a href="/operating">operating</a> > {type}</p>
       {type === "budget" && <Budget/>}
       {type === "constitution" && <Constitution/>}
       {type === "operating-forms" && <OperatingForms/>}
-      {type === "housing-and-parking" && <HousingAndParking/>}
+      {/* {type === "housing-and-parking" && <HousingAndParking/>} */}
     </>
   );
 }

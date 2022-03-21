@@ -1,9 +1,4 @@
 /*fonts*/
-
-* {
-  font-family: "Roboto";
-}
-
 @font-face {
   font-family: "Roboto";
   src: url("./Roboto/Roboto-Regular.ttf");
@@ -51,4 +46,23 @@
   src: url("./Raleway/Raleway-ExtraBold.ttf");
   font-weight: bold;
   font-style: bold;
+}
+
+@font-face {
+  font-family: "Avenir";
+  src: url("./Avenir/Avenir.otf");
+}
+
+@font-face {
+  font-family: "Avenir";
+  src: url("./Avenir/Avenir-Black.otf");
+  font-weight: bold;
+  font-style: bold;
+}
+
+@font-face {
+  font-family: "Avenir";
+  src: url("./Avenir/Avenir-Heavy.ttf");
+  font-weight: 600;
+  font-style: heavy; 
 }

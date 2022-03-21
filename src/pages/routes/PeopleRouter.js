@@ -12,6 +12,7 @@ import PCA from "../people/PCA";
 import RHA from "../people/RHA";
 import Strive from "../people/Strive";
 
+import "../people/people.css";
 export default function PeopleRouter() {
   const { type } = useParams();
 
@@ -20,7 +21,6 @@ export default function PeopleRouter() {
   });
   return (
     <>
-      <p><a href="/people">people</a> > {type}</p>
       {type === "a-team" && <ATeam />}
       {type === "alumni-and-associates" && <AlumniAndAssociates />}
       {type === "caregivers" && <Caregivers />}
