@@ -1,4 +1,5 @@
 import React from "react";
+import Fade from "react-reveal/Fade";
 
 // images
 import magistersLandscape from "../../resources/images/a-team/magisters-landscape.jpg";
@@ -21,37 +22,44 @@ export default function ATeam() {
           </div>
 
           <CardGroup>
-            <Card style = {{paddingRight: "3%"}}>
-              <a href = "#magisters-content">
-              <Card.Img
-                variant="top"
-                src={magistersLandscape}
-                alt="Magisters' Family"
-              />
-              <Card.Body>
-                <Card.Title>Magisters</Card.Title>
-              </Card.Body>
-              </a>
+            <Card style={{ paddingRight: "3%" }}>
+              <Fade bottom>
+                <a href="#magisters-content">
+                  <Card.Img
+                    variant="top"
+                    src={magistersLandscape}
+                    alt="Magisters' Family"
+                  />
+                  <Card.Body>
+                    <Card.Title>Magisters</Card.Title>
+                  </Card.Body>
+                </a>
+              </Fade>
             </Card>
+
             <Card>
-              <a href = "#coordinator-content">
-              <Card.Img
-                variant="top"
-                src={coordinatorLandscape}
-                alt="College Coordinator"
-              />
-              <Card.Body>
-                <Card.Title>Coordinator</Card.Title>
-              </Card.Body>
-              </a>
+              <Fade bottom delay={100}>
+                <a href="#coordinator-content">
+                  <Card.Img
+                    variant="top"
+                    src={coordinatorLandscape}
+                    alt="College Coordinator"
+                  />
+                  <Card.Body>
+                    <Card.Title>Coordinator</Card.Title>
+                  </Card.Body>
+                </a>
+              </Fade>
             </Card>
-            <Card style = {{paddingLeft: "2%"}}>
-              <a href = "#old-dorm-RAs-content">
-              <Card.Img variant="top" src={mergedRA} alt="Our RAs" />
-              <Card.Body>
-                <Card.Title>RAs</Card.Title>
-              </Card.Body>
-              </a>
+            <Card style={{ paddingLeft: "2%" }}>
+              <Fade bottom delay={200}>
+                <a href="#old-dorm-RAs-content">
+                  <Card.Img variant="top" src={mergedRA} alt="Our RAs" />
+                  <Card.Body>
+                    <Card.Title>RAs</Card.Title>
+                  </Card.Body>
+                </a>
+              </Fade>
             </Card>
           </CardGroup>
         </div>
@@ -63,7 +71,7 @@ export default function ATeam() {
             <a className="anchor" id="magisters-content"></a>
             <h1> College Magisters </h1>
             <h2> Matt and Rebekah </h2>
-            <a className = "mailto" href="mailto:matthew.bennett@rice.edu">
+            <a className="mailto" href="mailto:matthew.bennett@rice.edu">
               <h4>matthew.bennett@rice.edu</h4>
             </a>
             <p>
@@ -110,13 +118,15 @@ export default function ATeam() {
               us know!
             </p>
           </div>
-          <div className = "col-md-1"/>
+          <div className="col-md-1" />
           <div className="col-md-4 portrait">
-            <img
-              src={MagisterPortrait}
-              className="description-image"
-              alt="Picture of Magisters"
-            />
+            <Fade bottom>
+              <img
+                src={MagisterPortrait}
+                className="description-image"
+                alt="Picture of Magisters"
+              />
+            </Fade>
           </div>
         </div>
 
@@ -126,7 +136,7 @@ export default function ATeam() {
             <a className="anchor" id="coordinator-content"></a>
             <h1> College Coordinator </h1>
             <h2> Dale Thomas </h2>
-            <a className = "mailto" href="mailto:wrc@rice.edu">
+            <a className="mailto" href="mailto:wrc@rice.edu">
               <h4>wrc@rice.edu</h4>
             </a>
             <p>
@@ -162,13 +172,15 @@ export default function ATeam() {
               <br />
             </p>
           </div>
-          <div className = "col-md-1"/>
+          <div className="col-md-1" />
           <div className="col-md-4">
-            <img
-              src={CoordinatorPortrait}
-              className="description-image"
-              alt="Picture of College Coordinator"
-            />
+            <Fade bottom>
+              <img
+                src={CoordinatorPortrait}
+                className="description-image"
+                alt="Picture of College Coordinator"
+              />
+            </Fade>
           </div>
         </div>
 
@@ -178,7 +190,7 @@ export default function ATeam() {
             <a className="anchor" id="old-dorm-RAs-content"></a>
             <h1> Old Dorm RA </h1>
             <h2> Chelsea Drake </h2>
-            <a className = "mailto" href="mailto:cldrake@rice.edu">
+            <a className="mailto" href="mailto:cldrake@rice.edu">
               <h4>cldrake@rice.edu</h4>
             </a>
             <p>
@@ -202,9 +214,11 @@ export default function ATeam() {
               make Will Rice home for you.
             </p>
           </div>
-          <div className = "col-md-1"/>
+          <div className="col-md-1" />
           <div className="col-md-4">
-            {/* <img src="../../resources/images/a-team/chelsea-randall.jpg" className="description-image" alt="Picture of Jeremy and Chelsea">  */}
+            <Fade bottom>
+              {/* <img src="../../resources/images/a-team/chelsea-randall.jpg" className="description-image" alt="Picture of Jeremy and Chelsea">  */}
+            </Fade>
           </div>
         </div>
 
@@ -212,10 +226,10 @@ export default function ATeam() {
 
         <div className="row content">
           <div className="col-md-7">
-            <a className="anchor" id="new-dorm-RAs-content"></a>
+            <a id="new-dorm-RAs-content"></a>
             <h1> New Dorm RAs </h1>
             <h2> Sandy and Will </h2>
-            <a className = "mailto" href="mailto:Sandra.V.Parsons@rice.edu">
+            <a className="mailto" href="mailto:Sandra.V.Parsons@rice.edu">
               <h4>sandra.v.parsons@rice.edu</h4>
             </a>
             <p>
@@ -237,13 +251,15 @@ export default function ATeam() {
               start a conversation with them.
             </p>
           </div>
-          <div className = "col-md-1"/>
+          <div className="col-md-1" />
           <div className="col-md-4">
-            <img
-              src={NewRAPortrait}
-              className="description-image"
-              alt="Picture of Sandy and Will"
-            />
+            <Fade bottom>
+              <img
+                src={NewRAPortrait}
+                className="description-image"
+                alt="Picture of Sandy and Will"
+              />
+            </Fade>
           </div>
         </div>
       </div>
