@@ -69,12 +69,17 @@ export default function Main() {
           style={{
             transform: `translateY(-${offsetY * 0.4}px) translateX(10%)`,
             bottom: "50px",
-            position: 'absolute'
+            position: "absolute",
           }}
         >
-          <h2 style={{ color: "white" }}>Welcome to</h2>
-          <h1 style={{ color: "white" }}>Will Rice College</h1>
+          <h6 style={{ color: "white" }}>Welcome to</h6>
+          <h5 style={{ color: "white", fontWeight: "bold" }}>
+            Will Rice College
+          </h5>
         </div>
+        <video width="320" height="240" controls>
+          <source src="../resources/loading.mp4" type="video/mp4" />
+        </video>
         <div style={{ height: "300px" }} className="quick-links">
           <p>Quick Link</p>
         </div>

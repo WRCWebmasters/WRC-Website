@@ -26,7 +26,7 @@ h1 {
 h2 {
   font-family: "Avenir";
   font-weight: bold!important;
-  font-size: 20px !important;
+  font-size: 2rem !important;
   color: var(--light-grey);
   margin-bottom: 0!important;
 }
@@ -44,10 +44,28 @@ h4 {
   margin-bottom: 0!important;
 }
 
+h5 {
+  font-family: "Playfair Display", serif;
+  font-size: 3.5rem!important;
+}
+
+h6 {
+  font-family: "Raleway", serif;
+  font-size: 2rem!important;
+}
+
 
 /*nav*/
-.white {
+#white {
   background-color: white;
+}
+
+#rust-text {
+  color: var(--rust)!important;
+}
+
+#muted-gold {
+  background-color: var(--muted-gold);
 }
 
 /*carousel*/

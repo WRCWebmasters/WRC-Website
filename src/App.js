@@ -31,13 +31,18 @@ function App() {
             zIndex: 20,
           }}
         >
-          <Route exact path="/">
-            <Banner
-              text="Click here to read our stance on the Black Lives Matter movement."
-              link="/"
-            />
-          </Route>
-          <Header />
+          <Switch>
+            <Route exact path="/">
+              <Banner
+                text="Click here to read our stance on the Black Lives Matter movement."
+                link="/"
+              />
+              <Header />
+            </Route>
+            <Route path="/">
+              <Header color="muted-gold" />
+            </Route>
+          </Switch>
         </div>
         <div style={{ width: "300px", height: "75px" }} />
         <Switch>

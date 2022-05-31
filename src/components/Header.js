@@ -1,19 +1,17 @@
 import React from "react";
-import { Navbar, Nav, NavDropdown } from "react-bootstrap";
+import { Navbar, Nav, NavDropdown, Text } from "react-bootstrap";
 
 import logo from "../resources/wrc-logos/classic-crest-transparent [png].png";
 // import { colors } from "../resources/colors";
 
 class Header extends React.Component {
   render() {
-    const { type } = this.props;
     return (
       <Navbar
-        className="white"
+        id={this.props.color ? this.props.color : "white"}
         expand="lg"
         style={{ height: "75px", width: "100%", position: "fixed" }}
       >
-        <Nav>{type}</Nav>
         <img src={logo} alt="WRC Logo" width="50" height="50" />
         <Navbar.Brand href="/">
           <h3 style={{ fontWeight: "bold" }}>Will Rice College</h3>
@@ -56,8 +54,8 @@ class Header extends React.Component {
             </NavDropdown>
 
             <Nav.Link href="https://riceconnect.rice.edu/donation/support-will-rice" target="_blank">DONATE</Nav.Link>
-            <Nav.Link href="https://wrcoweek.wixsite.com/superhero" target = "_blank">NEW STUDENTS</Nav.Link>
-            <Nav.Link title="REQUESTING MONEY" id="basic-nav-dropdown">REQUESTING MONEY</Nav.Link>
+            <Nav.Link href="https://wrcoweek.wixsite.com/superhero" id = "rust-text" target = "_blank">NEW STUDENTS</Nav.Link>
+            {/* <Nav.Link title="REQUESTING MONEY" id="basic-nav-dropdown">REQUESTING MONEY</Nav.Link> */}
           </Nav>
         </Navbar.Collapse>
       </Navbar>

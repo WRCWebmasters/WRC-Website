@@ -6,7 +6,6 @@
 
 /*Navbar + Footer*/
 .navbar {
-  background-color: var(--muted-gold);
   font-family: "Roboto", sans-serif;
   vertical-align: middle;
   padding: 0.3rem !important;
@@ -55,7 +54,6 @@
 .dropdown-menu {
   border: none !important;
   border-radius: 0 !important;
-  background-color: var(--muted-gold)!important;
 }
 
 .dropdown-item {
