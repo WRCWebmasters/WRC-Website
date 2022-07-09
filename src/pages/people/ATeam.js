@@ -135,41 +135,12 @@ export default function ATeam() {
           <div className="col-md-7">
             <a className="anchor" id="coordinator-content"></a>
             <h1> College Coordinator </h1>
-            <h2> Dale Thomas </h2>
+            <h2> Sheren Brunson </h2>
             <a className="mailto" href="mailto:wrc@rice.edu">
               <h4>wrc@rice.edu</h4>
             </a>
             <p>
-              Hi! I’m Dale, and I am College Coordinator at Will Rice. I have
-              been connected to Rice for as long as I can remember and in
-              several different ways, including long ago as a Magisters’ kid and
-              more recently as the mom of two Rice undergrads. Professionally,
-              my background is in elementary teaching, but when I moved back to
-              Houston after 11 years living outside of London, I decided I was
-              ready for a change, and I’ve loved taking on a different role and
-              working with older students at Will Rice.
-              <br />
-              <br />
-              Unlike the rest of the A-Team, I don’t live in the college, so I
-              head home at night to any of my four big kids who happen to be
-              around, our aloof cats, and a blissfully happy rescue dog. If you
-              were to peek in our windows, you might spy us watching a rom-com,
-              playing online trivia, or spontaneously performing a show tune in
-              our kitchen. Or we might just be doing the dishes or napping on
-              the couch.
-              <br />
-              <br />
-              Over the course of the year, I’m here to help and support you in
-              whatever way you need. Whether you’re looking for a vacuum
-              cleaner, directions to a professor’s office, or a registration
-              form, my office is a good place to start. Probably the most
-              important part of my job—and certainly the part I enjoy the
-              most—is providing a place for you to sit down, see a friendly
-              face, grab a piece of candy, vent about a test, parent, or
-              roommate, or just talk about whatever is going on with you. I’m so
-              looking forward to getting to know you!
-              <br />
-              <br />
+              Sheren Brunson blurb here
             </p>
           </div>
           <div className="col-md-1" />
