@@ -7,15 +7,6 @@ import beerbikebw from "../resources/images/carousel/carousel3.jpg";
 import wrws from "../resources/images/carousel/wrws-seniors-2021.jpeg";
 
 export default function Main() {
-  //parallax scrolling
-  const [offsetY, setOffsetY] = useState(0);
-  const handleScroll = () => setOffsetY(window.pageYOffset);
-
-  useEffect(() => {
-    window.addEventListener("scroll", handleScroll);
-    return () => window.removeEventListener("scroll", handleScroll);
-  });
-
   const carouselCustomizations = {
     // dots: true,
     fade: true,
@@ -39,36 +30,34 @@ export default function Main() {
               src={wrws}
               alt="class of 2022 poses in front of the christmas tree at will rice will skate"
             />
-            {/* <img src={carousel4} alt="img 4" />
-            <img src={carousel5} alt="img 5" />  */}
           </Slider>
           <div
             style={{
               borderTop: `100vh solid white`,
               borderRight: `20vw solid transparent`,
-              transform: `translateX(-${offsetY * 0.2}px`,
+              transform: `translateX(-10%)`,
               top: 0,
               left: 0,
             }}
             className="overlay"
           />
-
           <div
             style={{
               borderBottom: `100vh solid white`,
               borderLeft: `20vw solid transparent`,
-              transform: `translateX(${offsetY * 0.2}px`,
+              transform: `translateX(10%)`,
               left: `80vw`,
               bottom: 0,
             }}
             className="overlay"
           />
         </div>
+
         <div
           className="title"
           style={{
-            transform: `translateY(-${offsetY * 0.4}px) translateX(10%)`,
-            bottom: "50px",
+            transform: `translateY(-50%) translateX(10%)`,
+
             position: "absolute",
           }}
         >
@@ -77,11 +66,8 @@ export default function Main() {
             Will Rice College
           </h5>
         </div>
-        <video width="320" height="240" controls>
-          <source src="../resources/loading.mp4" type="video/mp4" />
-        </video>
         <div style={{ height: "300px" }} className="quick-links">
-          <p>Quick Link</p>
+          <p>Quick Links</p>
         </div>
       </div>
     </>

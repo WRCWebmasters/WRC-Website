@@ -15,6 +15,7 @@ import PeopleRouter from "./pages/routes/PeopleRouter";
 import ResourcesRouter from "./pages/routes/ResourcesRouter";
 import OperatingRouter from "./pages/routes/OperatingRouter";
 
+import Scroll from "./components/SmoothScroll.js";
 import Header from "./components/Header.js";
 import Banner from "./components/Banner.js";
 import Main from "./pages/Main.js";
@@ -24,6 +25,7 @@ function App() {
   // return <AnimationRevealPage disabled>xxxxxxxxxx</AnimationRevealPage>;
   return (
     <>
+      <Scroll/>
       <Router>
         <div
           style={{
