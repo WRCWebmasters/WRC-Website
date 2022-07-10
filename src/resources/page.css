@@ -142,6 +142,8 @@ footer a {
 
 .container {
   margin-top: 20px;
+  padding-left: 10%!important;
+  padding-right: 10%!important;
 }
 
 .page-title {

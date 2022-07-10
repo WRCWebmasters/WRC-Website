@@ -62,8 +62,7 @@ export default function AlumniAndAssociates() {
               .filter((data, idx) => faculty.test(data[1]["Category"]))
               .map((data, idx) => (
                 <AssociateCard
-                  name={data[1]["Name"]}
-                  desc={JSON.stringify(data)}
+                  desc={data[1]}
                 />
               ))}
             {Object.entries(associates)
@@ -72,8 +71,7 @@ export default function AlumniAndAssociates() {
               )
               .map((data, idx) => (
                 <AssociateCard
-                  name={data[1]["Name"]}
-                  desc={JSON.stringify(data)}
+                  desc={data[1]}
                 />
               ))}
             {Object.entries(associates)
@@ -82,8 +80,7 @@ export default function AlumniAndAssociates() {
               )
               .map((data, idx) => (
                 <AssociateCard
-                  name={data[1]["Name"]}
-                  desc={JSON.stringify(data)}
+                  desc={data[1]}
                 />
               ))}
           </div>
