@@ -46,10 +46,10 @@ var navbarContent = `
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                     <a class="dropdown-item" href="./history.html">History</a>
-                    <a class="dropdown-item" href="./williammarsh.html">William Marsh Rice Jr.</a>
+                    <!-- <a class="dropdown-item" href="./williammarsh.html">William Marsh Rice Jr.</a> -->
                     <a class="dropdown-item" href="./traditions.html">Traditions</a>
                     <a class="dropdown-item" href="beer-bike.html">Beer Bike</a>
-                    <a class="dropdown-item" href="./today.html">Today</a>
+                    <!-- <a class="dropdown-item" href="./today.html">Today</a> -->
                 </div>
             </li>
             <li class="nav-item dropdown">
@@ -99,13 +99,13 @@ var navbarContent = `
                 </div>
             </li>
             <li class="nav-item">
-                <a class="nav-link nav-highlight" href="./new-students.html">
-                    NEW STUDENTS
+                <a class="nav-link nav-bold" target = "_blank" href="https://riceconnect.rice.edu/donation/support-will-rice">
+                    DONATE
                 </a>
             </li>
             <li class="nav-item">
-                <a class="nav-link nav-bold" target = "_blank" href="https://riceconnect.rice.edu/donation/support-will-rice">
-                    DONATE
+                <a class="nav-link nav-highlight" href="./new-students.html">
+                    NEW STUDENTS
                 </a>
             </li>
         </ul>
