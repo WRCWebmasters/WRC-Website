@@ -2,13 +2,13 @@ import React from "react";
 
 export default function Caregivers() {
   return (
-    <div class="container">
-      <div class="row page-title">
-        <div class="col">Caregivers</div>
+    <div className="container">
+      <div className="row page-title">
+        <div className="col">Caregivers</div>
       </div>
 
-      <div class="row">
-        <div class="col">
+      <div className="row">
+        <div className="col">
           <h1> About </h1>
           <p>
             Many events registered with SJP will be required to have trained
@@ -26,21 +26,21 @@ export default function Caregivers() {
           </p>
 
           <h1> Head Caregivers </h1>
-          <div class="card-group">
-            <div class="card">
-              <div class="card-body">
-                <h3 class="card-title"> @caregiver1 </h3>
+          <div className="card-group">
+            <div className="card">
+              <div className="card-body">
+                <h3 className="card-title"> @caregiver1 </h3>
                 <a href="mailto:@email-caregiver1">
-                  <h6 class="card-subtitle text-muted"> @email-caregiver1 </h6>
+                  <h6 className="card-subtitle text-muted"> @email-caregiver1 </h6>
                 </a>
               </div>
             </div>
 
-            <div class="card">
-              <div class="card-body">
-                <h3 class="card-title"> @caregiver2 </h3>
+            <div className="card">
+              <div className="card-body">
+                <h3 className="card-title"> @caregiver2 </h3>
                 <a href="mailto:@email-caregiver2">
-                  <h6 class="card-subtitle text-muted"> @email-caregiver2 </h6>
+                  <h6 className="card-subtitle text-muted"> @email-caregiver2 </h6>
                 </a>
               </div>
             </div>

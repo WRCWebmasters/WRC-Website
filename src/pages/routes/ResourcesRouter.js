@@ -11,8 +11,14 @@ import OffCampus from "../resources/OffCampus";
 export default function ResourcesRouter() {
   const { type } = useParams();
 
+  function toPascal(s) {
+    return s.replace(/\w\S*/g, function (t) {
+      return t.charAt(0).toUpperCase() + t.substr(1).toLowerCase();
+    });
+  }
+
   useEffect(() => {
-    document.title = type.split("-").join(" ").toUpperCase();
+    document.title = toPascal(type.split("-").join(" "));
   });
 
   return (

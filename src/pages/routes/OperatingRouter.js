@@ -10,8 +10,14 @@ import HousingAndParking from "../operating/HousingAndParking";
 export default function OperatingRouter() {
   const { type } = useParams();
 
+  function toPascal(s) {
+    return s.replace(/\w\S*/g, function (t) {
+      return t.charAt(0).toUpperCase() + t.substr(1).toLowerCase();
+    });
+  }
+
   useEffect(() => {
-    document.title = type.split("-").join(' ').toUpperCase();
+    document.title = toPascal(type.split("-").join(" "));
   });
 
   return (
