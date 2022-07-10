@@ -9,8 +9,7 @@ export default function AlumniAndAssociates() {
   const [associates, setAssociates] = useState({});
   const [loading, setLoading] = useState(true);
 
-  const faculty = new RegExp(" *Faculty *Associates? *");
-  const community = new RegExp(" *Community *Associates? *");
+  const associate = new RegExp(" *Associate *");
   useEffect(() => {
     csv(associatesData).then((data) => {
       setAssociates(data);
@@ -59,25 +58,7 @@ export default function AlumniAndAssociates() {
               </div>
             </div>
             {Object.entries(associates)
-              .filter((data, idx) => faculty.test(data[1]["Category"]))
-              .map((data, idx) => (
-                <AssociateCard
-                  desc={data[1]}
-                />
-              ))}
-            {Object.entries(associates)
-              .filter(
-                (data, idx) => community.test(data[1]["Category"])
-              )
-              .map((data, idx) => (
-                <AssociateCard
-                  desc={data[1]}
-                />
-              ))}
-            {Object.entries(associates)
-              .filter(
-                (data, idx) => community.test(data[1]["Category"])
-              )
+              .filter((data, idx) => associate.test(data[1]["Category"]))
               .map((data, idx) => (
                 <AssociateCard
                   desc={data[1]}
