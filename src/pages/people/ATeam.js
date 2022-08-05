@@ -140,7 +140,32 @@ export default function ATeam() {
               <h4>wrc@rice.edu</h4>
             </a>
             <p>
-              Sheren Brunson blurb here
+              Hello Phoenixes! I’m Sheren, your friendly, super chatty College
+              Coordinator. I’m really looking forward to meeting and getting to
+              know you all during your years at Will Rice. I hand out room keys,
+              so we'll meet your first day! The rest of the time you can find me
+              in my office by the commons, most likely surrounded by a mountain
+              of packages with half-eaten lunch nearby. In addition to receiving
+              and sorting snail mail and packages, I’m here to serve as a
+              resource and help with anything you may need. If you don’t need
+              anything and just want to talk, I’m here for that too! I have
+              candy and my door is always open…..well Monday through Friday from
+              9-5 that is! Unlike the rest of the Core-Team that live on campus,
+              I go home at night to my little old lady dog, Ms. Bootsy, and my
+              plant babies.
+            </p>
+            <p>
+              Other stuff about me: I’m originally from South Carolina, where I
+              earned a B.A. in Anthropology from University of SC (GO
+              GAMECOCKS!!), I’m a Returned Peace Corp Volunteer (Huedin, Romania
+              2000-2002), and I got a M.A. in International Affairs from The New
+              School in NYC, where I lived for 12 years before moving back to
+              the south and landing in Houston. I love taking care of my plants,
+              hanging out with Ms. Bootsy, listening to the radio and keeping up
+              with current events. My hope for the coming year is that you make
+              great friends and great memories, meet great professors and take
+              great classes, and really embrace the Rice University Culture of
+              Care. With that said, I ask — How can I help? Come Through!!!
             </p>
           </div>
           <div className="col-md-1" />
