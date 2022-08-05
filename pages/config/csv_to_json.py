@@ -207,17 +207,17 @@ def generateLeadershipEntries(inputFile):
     exportDict(allSections, LEADERSHIP_JSON_NAME)
 
 class RhaEntry:
-    def __init__(self, name, email, phone, major, topics):
+    def __init__(self, name, position, year_major, email, phone):
         self.name = name.strip()
         self.email = email if len(email) > 0 else None
         self.phone = phone if len(phone) > 0 else None
-        self.major = major
-        self.topics = topics
+        self.year_major = year_major
+        self.position = position if len(position) > 0 else None
 
 def generateRhaEntries(inputFile):
     allEntries = []
 
-    # CSV columns are: [name] [email] [phone] [year+major] [topics]
+    # CSV columns are: [name] [position] [year+major] [email] [phone]
     with open(inputFile) as csv_file:
         csv_reader = csv.reader(csv_file, delimiter=',')
         line_count = 0
@@ -230,7 +230,7 @@ def generateRhaEntries(inputFile):
     # Export all entries to dictionary 
     finalDict = {}
     for entry in allEntries:
-        val = {'email': entry.email, 'phone': entry.phone, 'major': entry.major, 'topics': entry.topics}
+        val = {'position': entry.position, 'year_major': entry.year_major, 'email': entry.email, 'phone': entry.phone}
         finalDict[entry.name] = val
 
     exportDict(finalDict, RHA_JSON_NAME)

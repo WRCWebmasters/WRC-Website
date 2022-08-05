@@ -16,10 +16,11 @@ $.getJSON(jsonPath, function( data ) {
         var text_container = document.createElement("div");
         text_container.className = "col-9 col-sm-12";
         let name = `<a href="mailto:${value["email"]}"><h4 class="card-title"> ${key} </h4></a>`;
-        let major = `<h5>${value["major"]}</h5>`;
-        let topics = `<p>${value["topics"]}</p>`;
+        let position = `<h5>${value["position"]}</h5>`;
+        let year_major = `<h5>${value["year_major"]}</h5>`;
+        // let topics = `<p>${value["topics"]}</p>`;
 
-        text_container.innerHTML = name + major + topics;
+        text_container.innerHTML = name + position + year_major + topics;
         row.appendChild(image_container);
         row.appendChild(text_container);
         body.appendChild(row);
