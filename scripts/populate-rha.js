@@ -11,7 +11,7 @@ $.getJSON(jsonPath, function( data ) {
         row.className = "row";
         var image_container = document.createElement("div");
         let imageName = `${key.replace(" ", "_")}.jpg`;
-        image_container.innerHTML = "<img class=\"card-img-top\" src=\"" + imagePath + imageName + "\" alt=\"" + key + "\">";
+        image_container.innerHTML = "<img class=\"card-img-top col-3 col-sm-12\" src=\"" + imagePath + imageName + "\" alt=\"" + key + "\">";
         var text_container = document.createElement("div");
         text_container.className = "col-9 col-sm-12";
         let name = `<a href="mailto:${value["email"]}"><h4 class="card-title"> ${key} </h4></a>`;
@@ -24,7 +24,7 @@ $.getJSON(jsonPath, function( data ) {
         body.appendChild(row);
         card.appendChild(body);
 
-        if(position) document.getElementById("head-rha-card-group").appendChild(card);
+        if(value["position"]) document.getElementById("head-rha-card-group").appendChild(card);
         else document.getElementById("rha-card-group").appendChild(card);
     });
 });
