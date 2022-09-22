@@ -50,10 +50,13 @@ def generateGeneralEntries(inputFile):
     exportDict(finalDict, GENERAL_JSON_NAME)
 
 class PaaEntry:
-    def __init__(self, name, email, subjects ):
-        self.subjects = ", ".join(filter(lambda x: x != '', subjects))
+    def __init__(self, name, major, minor, track, email, year ):
         self.email = email if len(email) > 0 else None
         self.name = name
+        self.major = major
+        self.minor = minor
+        self.track = track
+        self.year = year
 
 def generatePaaEntries(inputFile):
     headEntries = []
@@ -70,9 +73,9 @@ def generatePaaEntries(inputFile):
                     isHeadPaa = False
                     continue
                 if isHeadPaa: 
-                    headEntries.append(PaaEntry(row[0], row[1], [x for x in row[2:]]))
+                    headEntries.append(PaaEntry(row[0], row[1], row[2], row[3], row[4], row[5]))
                 else:
-                    yearlongEntries.append(PaaEntry(row[0], row[1], [x for x in row[2:]]))
+                    yearlongEntries.append(PaaEntry(row[0], row[1], row[2], row[3], row[4], row[5]))
             
             line_count += 1
 
@@ -82,11 +85,11 @@ def generatePaaEntries(inputFile):
     yearlongDict = {}
     
     for entry in yearlongEntries:
-        val = {'subjects': entry.subjects, 'email': entry.email}
+        val = {'email': entry.email, 'major': entry.major, 'minor': entry.minor, 'track': entry.track, 'year': entry.year}
         yearlongDict[entry.name] = val
     
     for entry in headEntries:
-        val = {'subjects': entry.subjects, 'email': entry.email}
+        val = {'email': entry.email, 'major': entry.major, 'minor': entry.minor, 'track': entry.track, 'year': entry.year}
         headDict[entry.name] = val
 
     finalDict["head"] = headDict
