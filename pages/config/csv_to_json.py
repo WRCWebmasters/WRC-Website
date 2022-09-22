@@ -95,11 +95,14 @@ def generatePaaEntries(inputFile):
     exportDict(finalDict, PAA_JSON_NAME)
 
 class FellowEntry:
-    def __init__(self, name, email, major, classes, category):
+    def __init__(self, name, netid, year, major, minor, track, category, classes):
         self.name = name
-        self.email = email if len(email) > 0 else None
+        self.year = year
+        self.email = netid + '@rice.edu' if len(netid) > 0 else None
         self.classes = classes
         self.major = major
+        self.minor = minor
+        self.track = track
         self.category = category
 
 def generateFellowEntries(inputFile):
@@ -110,19 +113,19 @@ def generateFellowEntries(inputFile):
         csv_reader = csv.reader(csv_file, delimiter=',')
         line_count = 0
         for row in csv_reader:
-            if line_count == 0: 
-                if (row[0] != "Name" or row[1] != "Email" or row[2] != "Major" or row[3] != "Classes" or row[4] != "Category"):
-                    print("ERROR: " + inputFile + " column names are not in format \"Name, Email, Major, Classes, Category\"")
+            if line_count == 0:
+                if (row[0] != "Name" or row[1] != "Net ID" or row[2] != "Grad Year" or row[3] != "Major(s)" or row[4] != "Minor(s)" or row[5] != "Pre-Professional Track" or row[6] != "Category" or row[7] != "Classes"):
+                    print("ERROR: " + inputFile + " column names are not in the correct format.")
                     return
             else:
-                allEntries.append(FellowEntry(row[0], row[1], row[2], row[3], row[4]))
+                allEntries.append(FellowEntry(row[0], row[1], row[2], row[3], row[4], row[5], row[6], row[7]))
             
             line_count += 1
 
     # Export all entries to dictionary 
     finalDict = {}
     for entry in allEntries:
-        val = {'email': entry.email, 'major': entry.major, 'classes': entry.classes, 'category': entry.category}
+        val = {'email': entry.email, 'year': entry.year, 'major': entry.major, 'minor': entry.minor, 'track': entry.track, 'classes': entry.classes, 'category': entry.category}
         finalDict[entry.name] = val
 
     exportDict(finalDict, FELLOWS_JSON_NAME)

@@ -9,6 +9,12 @@ $.getJSON(jsonPath, function( data ) {
         var td_major = document.createElement("td");
         td_major.innerHTML = value['major'];
 
+        var td_minor = document.createElement("td");
+        td_minor.innerHTML = value['minor'];
+
+        var td_track = document.createElement("td");
+        td_track.innerHTML = value['track'];
+
         var td_classes = document.createElement("td");
         td_classes.innerHTML = value['classes'];
 
@@ -17,6 +23,8 @@ $.getJSON(jsonPath, function( data ) {
 
         tr.appendChild(td_name);
         tr.appendChild(td_major);
+        tr.appendChild(td_minor);
+        tr.appendChild(td_track);
         tr.appendChild(td_classes);
         tr.appendChild(td_email);
 
