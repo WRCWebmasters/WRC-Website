@@ -2,7 +2,7 @@ var footerContent = `
 <footer class="bg-rust">
       <div style="background-color: rgba(0, 0, 0, 0.2)">
         <div style="float: left; padding: 0.75rem" class="float-center">
-          <a class="text-light" href="./home.html">Will Rice College 2022</a>
+          <a class="text-light" href="./home.html">Will Rice College 2023</a>
           <a class="text-light"> | </a>
           <a class="text-light" target="_blank" href="https://www.rice.edu/"
             >Rice University</a
