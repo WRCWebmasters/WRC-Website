@@ -1,0 +1,30 @@
+.btn-link {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.rust {
+    color: var(--rust)!important;
+}
+
+.gold {
+    color: var(--gold)!important;
+}
+
+.card-header {
+    background-color: rgba(0,0,0,.03)!important;
+}
+
+.card {
+    margin-top: 10px;
+}
+
+table, th, tr, td{
+    border: 1px solid #ddd;
+    vertical-align: top;
+    padding: 5px;
+}
+
+th > a, a {
+    color: var(--rust)!important;
+}
