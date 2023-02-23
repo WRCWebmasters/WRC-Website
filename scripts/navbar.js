@@ -1,36 +1,35 @@
 let categories = {
-    "a-team": "@people",
-    "alumni-and-associates": "@people",
-    "beer-bike": "@about",
-    "brand-resources": "@resources",
-    "calendar": "@resources",
-    "caregivers": "@people",
-    "constitution-bylaws": "@operating",
-    "contact": "@operating",
-    "diet": "@operating",
-    "fellows": "@people",
-    "forms": "@resources",
-    "history": "@about",
-    "historytimeline": "@about",
-    "housing-and-parking": "@operating",
-    "new-students": "@people",
-    "paa": "@people",
-    "resources": "@resources",
-    "rha": "@people",
-    "strive": "@people",
-    "student-leadership": "@people",
-    "today": "@about",
-    "traditions": "@about",
-    "williammarsh": "@about"
-}
+  "a-team": "@people",
+  "alumni-and-associates": "@people",
+  "beer-bike": "@about",
+  "brand-resources": "@resources",
+  calendar: "@resources",
+  caregivers: "@people",
+  "constitution-bylaws": "@operating",
+  contact: "@operating",
+  diet: "@operating",
+  fellows: "@people",
+  forms: "@resources",
+  history: "@about",
+  historytimeline: "@about",
+  "housing-and-parking": "@operating",
+  "new-students": "@people",
+  paa: "@people",
+  resources: "@resources",
+  rha: "@people",
+  strive: "@people",
+  "student-leadership": "@people",
+  today: "@about",
+  traditions: "@about",
+  williammarsh: "@about",
+};
 
 var navbarContent = `
-
 <nav class="navbar navbar-light fixed-top navbar-expand-xl">
     <a class="navbar-brand" href="home.html">
         <img src="../resources/wrc-logos/classic-crest-transparent [png].png" width="50" height="50" alt="">
     </a>
-    <a class="navbar-brand" id = "nav-title" href="home.html"><h1 class = "navbar-title">WILL RICE COLLEGE</h1></a>
+    <a class="navbar-brand" id = "nav-title" href="home.html"><h1 class = "navbar-title">Will Rice College</h1></a>
     <a class="navbar-brand" id="nav-title-short" href="home.html"><h1 class = "navbar-title">WRC</h1></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -47,10 +46,10 @@ var navbarContent = `
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                     <a class="dropdown-item" href="./history.html">History</a>
-                    <a class="dropdown-item" href="./williammarsh.html">William Marsh Rice Jr.</a>
+                    <!-- <a class="dropdown-item" href="./williammarsh.html">William Marsh Rice Jr.</a> -->
                     <a class="dropdown-item" href="./traditions.html">Traditions</a>
                     <a class="dropdown-item" href="beer-bike.html">Beer Bike</a>
-                    <a class="dropdown-item" href="./today.html">Today</a>
+                    <!-- <a class="dropdown-item" href="./today.html">Today</a> -->
                 </div>
             </li>
             <li class="nav-item dropdown">
@@ -79,8 +78,8 @@ var navbarContent = `
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                     <a class="dropdown-item" href="./diet.html">Diet</a>
+                    <a class="dropdown-item" href="./budget.html">Budget and Spending</a>
                     <a class="dropdown-item" href="./constitution-bylaws.html">Constitution/By-Laws</a>
-                    <a class="dropdown-item" href="./housing-and-parking.html">Housing and Parking</a>
                     <a class="dropdown-item" href="./contact.html">Contact</a>
 
                 </div>
@@ -91,26 +90,35 @@ var navbarContent = `
                     RESOURCES
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="./communications.html">Communications</a>
                     <a class="dropdown-item" href="./forms.html">Forms</a>
                     <a class="dropdown-item" href="./finances.html">Finances</a>
                     <a class="dropdown-item" href="./calendar.html">Calendar</a>
                     <a class="dropdown-item" href="./brand-resources.html">Brand Resources</a>
+                    <a class="dropdown-item" target = "_blank" href="https://linktr.ee/ricemutualaid">Rice Mutual Aid</a>
                 </div>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link nav-highlight" href="./new-students.html">
-                    NEW STUDENTS
-                </a>
             </li>
             <li class="nav-item">
                 <a class="nav-link nav-bold" target = "_blank" href="https://riceconnect.rice.edu/donation/support-will-rice">
                     DONATE
                 </a>
             </li>
+            <li class="nav-item">
+                <a class="nav-link nav-highlight" href="./new-students.html">
+                    NEW STUDENTS
+                </a>
+            </li>
         </ul>
     </div>
 </nav>
 `;
+
+$(function () {
+  $(document).scroll(function () {
+    var $nav = $(".navbar");
+    $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
+  });
+});
 
 let pagename = location.pathname.split("/").slice(-1)[0].replace(".html", "");
 navbarContent = navbarContent.replace(categories[pagename], "active");

@@ -50,10 +50,13 @@ def generateGeneralEntries(inputFile):
     exportDict(finalDict, GENERAL_JSON_NAME)
 
 class PaaEntry:
-    def __init__(self, name, email, subjects ):
-        self.subjects = ", ".join(filter(lambda x: x != '', subjects))
+    def __init__(self, name, major, minor, track, email, year ):
         self.email = email if len(email) > 0 else None
         self.name = name
+        self.major = major
+        self.minor = minor
+        self.track = track
+        self.year = year
 
 def generatePaaEntries(inputFile):
     headEntries = []
@@ -70,9 +73,9 @@ def generatePaaEntries(inputFile):
                     isHeadPaa = False
                     continue
                 if isHeadPaa: 
-                    headEntries.append(PaaEntry(row[0], row[1], [x for x in row[2:]]))
+                    headEntries.append(PaaEntry(row[0], row[1], row[2], row[3], row[4], row[5]))
                 else:
-                    yearlongEntries.append(PaaEntry(row[0], row[1], [x for x in row[2:]]))
+                    yearlongEntries.append(PaaEntry(row[0], row[1], row[2], row[3], row[4], row[5]))
             
             line_count += 1
 
@@ -82,11 +85,11 @@ def generatePaaEntries(inputFile):
     yearlongDict = {}
     
     for entry in yearlongEntries:
-        val = {'subjects': entry.subjects, 'email': entry.email}
+        val = {'email': entry.email, 'major': entry.major, 'minor': entry.minor, 'track': entry.track, 'year': entry.year}
         yearlongDict[entry.name] = val
     
     for entry in headEntries:
-        val = {'subjects': entry.subjects, 'email': entry.email}
+        val = {'email': entry.email, 'major': entry.major, 'minor': entry.minor, 'track': entry.track, 'year': entry.year}
         headDict[entry.name] = val
 
     finalDict["head"] = headDict
@@ -95,11 +98,14 @@ def generatePaaEntries(inputFile):
     exportDict(finalDict, PAA_JSON_NAME)
 
 class FellowEntry:
-    def __init__(self, name, email, major, classes, category):
+    def __init__(self, name, netid, year, major, minor, track, category, classes):
         self.name = name
-        self.email = email if len(email) > 0 else None
+        self.year = year
+        self.email = netid + '@rice.edu' if len(netid) > 0 else None
         self.classes = classes
         self.major = major
+        self.minor = minor
+        self.track = track
         self.category = category
 
 def generateFellowEntries(inputFile):
@@ -110,19 +116,19 @@ def generateFellowEntries(inputFile):
         csv_reader = csv.reader(csv_file, delimiter=',')
         line_count = 0
         for row in csv_reader:
-            if line_count == 0: 
-                if (row[0] != "Name" or row[1] != "Email" or row[2] != "Major" or row[3] != "Classes" or row[4] != "Category"):
-                    print("ERROR: " + inputFile + " column names are not in format \"Name, Email, Major, Classes, Category\"")
+            if line_count == 0:
+                if (row[0] != "Name" or row[1] != "Net ID" or row[2] != "Grad Year" or row[3] != "Major(s)" or row[4] != "Minor(s)" or row[5] != "Pre-Professional Track" or row[6] != "Category" or row[7] != "Classes"):
+                    print("ERROR: " + inputFile + " column names are not in the correct format.")
                     return
             else:
-                allEntries.append(FellowEntry(row[0], row[1], row[2], row[3], row[4]))
+                allEntries.append(FellowEntry(row[0], row[1], row[2], row[3], row[4], row[5], row[6], row[7]))
             
             line_count += 1
 
     # Export all entries to dictionary 
     finalDict = {}
     for entry in allEntries:
-        val = {'email': entry.email, 'major': entry.major, 'classes': entry.classes, 'category': entry.category}
+        val = {'email': entry.email, 'year': entry.year, 'major': entry.major, 'minor': entry.minor, 'track': entry.track, 'classes': entry.classes, 'category': entry.category}
         finalDict[entry.name] = val
 
     exportDict(finalDict, FELLOWS_JSON_NAME)
@@ -207,17 +213,17 @@ def generateLeadershipEntries(inputFile):
     exportDict(allSections, LEADERSHIP_JSON_NAME)
 
 class RhaEntry:
-    def __init__(self, name, email, phone, major, topics):
+    def __init__(self, name, position, year_major, email, phone):
         self.name = name.strip()
         self.email = email if len(email) > 0 else None
         self.phone = phone if len(phone) > 0 else None
-        self.major = major
-        self.topics = topics
+        self.year_major = year_major
+        self.position = position if len(position) > 0 else None
 
 def generateRhaEntries(inputFile):
     allEntries = []
 
-    # CSV columns are: [name] [email] [phone] [year+major] [topics]
+    # CSV columns are: [name] [position] [year+major] [email] [phone]
     with open(inputFile) as csv_file:
         csv_reader = csv.reader(csv_file, delimiter=',')
         line_count = 0
@@ -230,7 +236,7 @@ def generateRhaEntries(inputFile):
     # Export all entries to dictionary 
     finalDict = {}
     for entry in allEntries:
-        val = {'email': entry.email, 'phone': entry.phone, 'major': entry.major, 'topics': entry.topics}
+        val = {'position': entry.position, 'year_major': entry.year_major, 'email': entry.email, 'phone': entry.phone}
         finalDict[entry.name] = val
 
     exportDict(finalDict, RHA_JSON_NAME)
