@@ -227,15 +227,6 @@ html address {
 	margin-left: 5%;
 }
 
-/*Cards*/
-html .card {
-	border-radius: 0px;
-}
-
-html .card-header {
-	background-color: var(--rust);
-}
-
 /*To make anchor links account for the fixed header*/
 a.anchor {
     display: block;

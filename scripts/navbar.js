@@ -41,7 +41,7 @@ var navbarContent = `
         <ul class="navbar-nav ml-auto">
             <li class="nav-item dropdown">
 
-                <a class="nav-link dropdown-toggle" href="http://example.com" data-toggle="dropdown"
+                <a class="nav-link dropdown-toggle" data-toggle="dropdown"
                     aria-expanded="false">
                     ABOUT
                 </a>
@@ -54,7 +54,7 @@ var navbarContent = `
                 </div>
             </li>
             <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink"
+                <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink"
                     data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     PEOPLE
                 </a>
@@ -73,7 +73,7 @@ var navbarContent = `
                 </div>
             </li>
             <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="http://example.com" data-toggle="dropdown"
+                <a class="nav-link dropdown-toggle" data-toggle="dropdown"
                     aria-haspopup="true" aria-expanded="false">
                     OPERATING
                 </a>
@@ -86,7 +86,7 @@ var navbarContent = `
                 </div>
             </li>
             <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="http://example.com" data-toggle="dropdown"
+                <a class="nav-link dropdown-toggle" data-toggle="dropdown"
                     aria-haspopup="true" aria-expanded="false">
                     RESOURCES
                 </a>
