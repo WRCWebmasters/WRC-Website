@@ -17,7 +17,7 @@ $.getJSON(jsonPath, function( data ) {
         let name = `<a href="mailto:${value["email"]}"><h4 class="card-title"> ${key} </h4></a>`;
         let position = `<h5>${value["position"]}</h5>`;
         let year_major = `<h5>${value["year_major"]}</h5>`;
-        let email_phone = `<h5>${value["email]"]} | ${value["phone"]}`
+        let email_phone = `<h5>${value["email"]} | ${value["phone"]}`
         text_container.innerHTML = name + year_major + email_phone;
         row.appendChild(image_container);
         row.appendChild(text_container);
