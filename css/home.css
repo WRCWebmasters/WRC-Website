@@ -4,6 +4,7 @@ html {
   scroll-behavior: smooth;
   box-sizing: border-box;
   font-size: 16px;
+  height: 2000px;
 }
 
 @media (min-width: 1800px) {
@@ -112,11 +113,53 @@ body::-webkit-scrollbar {
 
 /*Carousel*/
 .carousel-item img {
-  height: 100vh;
+  height: 80vh;
+  width: 100vw;
   object-fit: cover;
+}
+
+#carousel {
+  z-index: 1;
+  position: fixed;
+}
+
+#carousel.scrolled {
+  position: relative;
+  top: 100vh;
+  object-fit: cover;
+
+}
+
+#welcome {
+  margin-top: 60vh;
+  background-color: var(--rust);
+  width: 60vw;
+  height: 25vh;
+  position: relative;
+  display: block;
+  z-index: 100;
+  padding: 5vh 5vw;
+}
+
+#welcome.scrolled {
+  bottom: 100vh;
 }
 /*Cards*/
 
+.main {
+  margin-top: 100vh;
+}
+
+.main.scrolled {
+  margin-top: 20vh;
+}
+
+.shortcuts {
+  display: flex;
+}
+.shortcuts img {
+  width: 35px;
+}
 .card-group {
   justify-content: center;
   padding: 10px 0 100px 0;

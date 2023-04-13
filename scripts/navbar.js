@@ -29,13 +29,14 @@ var navbarContent = `
     <a class="navbar-brand" href="home.html">
         <img src="../resources/wrc-logos/classic-crest-transparent [png].png" width="50" height="50" alt="">
     </a>
-    <a class="navbar-brand" id = "nav-title" href="home.html"><h1 class = "navbar-title">Will Rice College</h1></a>
-    <a class="navbar-brand" id="nav-title-short" href="home.html"><h1 class = "navbar-title">WRC</h1></a>
+        <a class="navbar-brand flex-grow-1" id = "nav-title" href="home.html"><h1 class = "navbar-title">Will Rice College</h1></a>
+        <a class="navbar-brand flex-grow-1" id="nav-title-short" href="home.html"><h1 class = "navbar-title">WRC</h1></a>
+
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
 
-    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <div class="collapse navbar-collapse flex-row-reverse" id="navbarNavDropdown">
         <ul class="navbar-nav ml-auto">
             <li class="nav-item dropdown">
                 <a class="nav-link" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -108,7 +109,7 @@ var navbarContent = `
 $(function () {
     $(document).scroll(function () {
         var $nav = $(".navbar");
-        $nav.toggleClass("scrolled", $(this).scrollTop() > 0);
+        $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height()/2);
     });
 });
 
