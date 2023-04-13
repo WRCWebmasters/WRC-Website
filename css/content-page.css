@@ -9,10 +9,6 @@
   font-family: "Avenir", sans-serif;
 }
 
-.navbar * {
-  font-family: "Roboto", sans-serif;
-}
-
 :root {
   --rust: #be3019;
   --gold: #fecb33;
@@ -70,70 +66,6 @@ html h4 {
 .text-underlined {
   text-decoration: underline;
 }
-/*Navbar + Footer*/
-
-.navbar {
-  background-color: var(--muted-gold);
-  font-family: "Roboto", sans-serif;
-  vertical-align: middle;
-  padding: 0.3rem !important;
-  box-shadow: 0;
-  transition: .3s;
-}
-
-.navbar-title {
-  color: var(--rust);
-  font-weight: bold;
-  font-size: 30px;
-  margin-bottom: 0;
-}
-
-.nav-link {
-  transition: 0.3s;
-  margin-left: 0.5rem;
-  color: var(--grey) !important;
-  font-weight: bold;
-}
-
-.nav-link:hover {
-  color: var(--rust) !important;
-}
-
-.nav-highlight {
-  color: var(--rust) !important;
-  font-weight: bold;
-}
-
-.nav-bold {
-  color: var(--black) !important;
-  font-weight: bold;
-}
-
-.navbar.scrolled {
-  box-shadow: 2px 2px 10px var(--grey);
-  border-radius: 0 0 20px 20px;
-  transition: 0.3s;
-}
-
-.navbar.scrolled .nav-link {
-  color: #555;
-}
-
-.dropdown-menu {
-  border: none !important;
-  border-radius: 0 !important;
-  background-color: var(--muted-gold)!important;
-}
-
-.dropdown-item {
-  transition: 0.3s !important;
-  padding: .25rem 1rem!important;
-}
-
-.dropdown-item:hover {
-  color: var(--rust) !important;
-  background-color: var(--muted-rust)!important;
-}
 
 footer {
   position: absolute;
@@ -159,25 +91,11 @@ footer a {
 }
 
 @media only screen and (max-width: 960px) {
+
   /* For tablets: */
   .float-center {
     float: none !important;
     text-align: center;
-  }
-}
-
-@media only screen and (min-width: 429px) {
-  #nav-title-short {
-    display: none !important;
-  }
-}
-
-@media only screen and (max-width: 428px) {
-  #nav-title {
-    display: none !important;
-  }
-  #nav-title-short {
-    display: block !important;
   }
 }
 
@@ -222,6 +140,7 @@ footer a {
 .page-title .col {
   font-family: 'Playfair Display', serif;
 }
+
 /* For nav bars to flex into column major order on mobile */
 .btn-group.btn-group-flex {
   display: flex;
@@ -305,27 +224,25 @@ button a:hover {
   }
 
   /* making the border-radius correct */
-  .btn-group.btn-group-flex > .btn:first-child {
+  .btn-group.btn-group-flex>.btn:first-child {
     border-radius: 6px 6px 0 0;
     border-bottom: 1px solid black;
   }
 
-  .btn-group.btn-group-flex
-    > .btn:first-child:not(:last-child):not(.dropdown-toggle) {
+  .btn-group.btn-group-flex>.btn:first-child:not(:last-child):not(.dropdown-toggle) {
     border-top-right-radius: 6px;
   }
 
-  .btn-group.btn-group-flex
-    > .btn:not(:first-child):not(:last-child):not(.dropdown-toggle) {
+  .btn-group.btn-group-flex>.btn:not(:first-child):not(:last-child):not(.dropdown-toggle) {
     border-bottom: 1px solid black;
   }
 
-  .btn-group.btn-group-flex > .btn:last-child:not(:first-child) {
+  .btn-group.btn-group-flex>.btn:last-child:not(:first-child) {
     border-radius: 0 0 6px 6px;
   }
 
   /* fixing margin */
-  .btn-group.btn-group-flex .btn + .btn {
+  .btn-group.btn-group-flex .btn+.btn {
     margin-left: 0;
   }
 }

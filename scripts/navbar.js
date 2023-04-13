@@ -1,60 +1,54 @@
 let categories = {
-  "a-team": "@people",
-  "alumni-and-associates": "@people",
-  "beer-bike": "@about",
-  "brand-resources": "@resources",
-  calendar: "@resources",
-  caregivers: "@people",
-  "constitution-bylaws": "@operating",
-  contact: "@operating",
-  diet: "@operating",
-  fellows: "@people",
-  forms: "@resources",
-  history: "@about",
-  historytimeline: "@about",
-  "housing-and-parking": "@operating",
-  "new-students": "@people",
-  paa: "@people",
-  resources: "@resources",
-  rha: "@people",
-  strive: "@people",
-  "student-leadership": "@people",
-  today: "@about",
-  traditions: "@about",
-  williammarsh: "@about",
+    "a-team": "@people",
+    "alumni-and-associates": "@people",
+    "beer-bike": "@about",
+    "brand-resources": "@resources",
+    calendar: "@resources",
+    caregivers: "@people",
+    "constitution-bylaws": "@operating",
+    contact: "@operating",
+    diet: "@operating",
+    fellows: "@people",
+    forms: "@resources",
+    history: "@about",
+    historytimeline: "@about",
+    "housing-and-parking": "@operating",
+    "new-students": "@people",
+    paa: "@people",
+    resources: "@resources",
+    rha: "@people",
+    strive: "@people",
+    "student-leadership": "@people",
+    today: "@about",
+    traditions: "@about",
+    williammarsh: "@about",
 };
 
 var navbarContent = `
-<nav class="navbar navbar-light fixed-top navbar-expand-xl">
+<nav class="navbar navbar-light fixed-top navbar-expand-lg">
     <a class="navbar-brand" href="home.html">
         <img src="../resources/wrc-logos/classic-crest-transparent [png].png" width="50" height="50" alt="">
     </a>
     <a class="navbar-brand" id = "nav-title" href="home.html"><h1 class = "navbar-title">Will Rice College</h1></a>
     <a class="navbar-brand" id="nav-title-short" href="home.html"><h1 class = "navbar-title">WRC</h1></a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
     </button>
 
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
         <ul class="navbar-nav ml-auto">
             <li class="nav-item dropdown">
-
-                <a class="nav-link dropdown-toggle" data-toggle="dropdown"
-                    aria-expanded="false">
+                <a class="nav-link" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                     ABOUT
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                     <a class="dropdown-item" href="./history.html">History</a>
-                    <!-- <a class="dropdown-item" href="./williammarsh.html">William Marsh Rice Jr.</a> -->
                     <a class="dropdown-item" href="./traditions.html">Traditions</a>
                     <a class="dropdown-item" href="beer-bike.html">Beer Bike</a>
-                    <!-- <a class="dropdown-item" href="./today.html">Today</a> -->
                 </div>
             </li>
             <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink"
-                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <a class="nav-link " href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                     PEOPLE
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
@@ -72,8 +66,7 @@ var navbarContent = `
                 </div>
             </li>
             <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" data-toggle="dropdown"
-                    aria-haspopup="true" aria-expanded="false">
+                <a class="nav-link " href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                     OPERATING
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
@@ -85,8 +78,7 @@ var navbarContent = `
                 </div>
             </li>
             <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" data-toggle="dropdown"
-                    aria-haspopup="true" aria-expanded="false">
+                <a class="nav-link " href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                     RESOURCES
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
@@ -114,10 +106,10 @@ var navbarContent = `
 `;
 
 $(function () {
-  $(document).scroll(function () {
-    var $nav = $(".navbar");
-    $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
-  });
+    $(document).scroll(function () {
+        var $nav = $(".navbar");
+        $nav.toggleClass("scrolled", $(this).scrollTop() > 0);
+    });
 });
 
 let pagename = location.pathname.split("/").slice(-1)[0].replace(".html", "");

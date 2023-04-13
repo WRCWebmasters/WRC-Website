@@ -84,8 +84,8 @@ body::-webkit-scrollbar {
 
 /*BLM*/
 .BLM {
-  background-color: var(--muted-gold);
-  padding-top: 60px;
+  margin-top: 60px;
+  padding-top: 20px;
   padding-bottom: 20px;
   display: flex;
   flex-direction: row;
@@ -94,7 +94,6 @@ body::-webkit-scrollbar {
 }
 
 .BLM div {
-  width: 45%;
   font-size: 0.8rem;
   font-weight: bold;
 }
@@ -104,20 +103,10 @@ body::-webkit-scrollbar {
     display: block;
     width: 100%;
   }
-  #blm-img {
-    margin: 0 auto;
-    width: 60%;
-  }
   #blm-text {
     margin: 0 auto;
     width: 90%;
     text-align: center;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  #blm-img {
-    width: 90%;
   }
 }
 
@@ -127,9 +116,6 @@ body::-webkit-scrollbar {
   object-fit: cover;
 }
 /*Cards*/
-.cards {
-  background-color: var(--muted-gold);
-}
 
 .card-group {
   justify-content: center;

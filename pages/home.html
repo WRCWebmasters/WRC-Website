@@ -1,292 +1,163 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script
-      async
-      src="https://www.googletagmanager.com/gtag/js?id=UA-120376955-1"
-    ></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag("js", new Date());
 
-      gtag("config", "UA-120376955-1");
-    </script>
-    <!-- <meta http-equiv="refresh" content="3" /> -->
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-120376955-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
 
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
-    <title>Will Rice College</title>
-    <link rel="shortcut icon" href="../resources/icons/favicon.ico" />
-    <link rel="stylesheet" href="../css/content-page.css" />
-    <link rel="stylesheet" href="../css/home.css" />
+    gtag("config", "UA-120376955-1");
+  </script>
+  <!-- <meta http-equiv="refresh" content="3" /> -->
 
-    <link
-      rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css"
-      integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M"
-      crossorigin="anonymous"
-    />
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <title>Will Rice College</title>
+  <link rel="shortcut icon" href="../resources/icons/favicon.ico" />
+  <link rel="stylesheet" href="../css/content-page.css" />
+  <link rel="stylesheet" href="../css/navbar.css" />
 
-    <script
-      src="https://code.jquery.com/jquery-3.4.0.min.js"
-      integrity="sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg="
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"
-      integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"
-      integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1"
-      crossorigin="anonymous"
-    ></script>
-    <script>
-      $(document).ready(function () {
-        $("#navigation").load("./components/navigation.html");
-      });
-    </script>
-  </head>
+  <link rel="stylesheet" href="../css/home.css" />
 
-  <body>
-    <div id="home-nav-wrapper">
-      <div id="home-navigator">
-        <a href="#1"><p>BLM</p></a>
-        <a href="#2"><p>home</p></a>
-        <a href="#3"><p>quick links</p></a>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.4.0.min.js"
+    integrity="sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+    integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+    crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div id="navbar-placeholder"></div>
+  <div class="container-fluid">
+
+    <!-- <div id="1" class="BLM content">
+      <div id="blm-text">
+        Dehumanization, marginalization, and violence impact so many different
+        communities. At Will Rice, we stand against all types of discriminatory
+        attitudes and behaviors. From Black Lives Matter to Reproductive Rights,
+        Will Ricers engage civically and socially to strengthen our community
+        bonds and uplift one another.
+        <br /><br />
+        We must hear the voices of our systemically disenfranchised students,
+        practice empathy, and do anything in our power to support them.
+        We must not speak over them but should elevate their voices, their stories,
+        and their priorities. Like the Phoenix, we must rise up and evolve to be a
+        more anti-racist and inclusive Will Rice. People are not a monolith.
+        We aim to advocate for all people of diverse backgrounds.
+      </div>
+    </div> -->
+
+    <div id="carouselExampleControls" class="carousel slide carousel-fade" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="d-block w-100" src="../resources/images/carousel/carousel0.jpg" alt="First slide" />
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="../resources/images/carousel/carousel1.jpg" alt="Second slide" />
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="../resources/images/carousel/carousel2.png" alt="Third slide" />
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="../resources/images/carousel/carousel3.jpeg" alt="Fourth slide" />
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="../resources/images/carousel/carousel4.jpg" alt="Fifth slide" />
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="../resources/images/carousel/carousel5.jpg" alt="Sixth slide" />
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="../resources/images/carousel/carousel6.jpg" alt="Seventh slide" />
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="../resources/images/carousel/carousel7.jpg" alt="Eighth slide" />
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="../resources/images/carousel/carousel8.jpg" alt="Ninth slide" />
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="../resources/images/carousel/carousel9.jpg" alt="Tenth slide" />
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="../resources/images/carousel/carousel10.jpg" alt="Eleventh slide" />
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="../resources/images/carousel/carousel11.jpg" alt="Twelfth slide" />
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="../resources/images/carousel/carousel12.jpg" alt="Thirteenth slide" />
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+
+    <div class="cards" id="3">
+      shortcuts
+      <!-- Icons come from here: https://www.flaticon.com -->
+      <!-- Use your judgement to match the style.  -->
+      <div class="card-group card-group-flex">
+        <div data-href="@link-financial-assistance" data-src="../resources/icons/financial-assistance.svg"
+          data-title="Financial Assistance Form" class="quick-link col-lg-2 col-xl-1"></div>
+
+        <div data-href="./calendar.html" data-src="../resources/icons/calendar.svg" data-title="Calendar"
+          class="col-lg-2 col-xl-1 quick-link"></div>
+
+        <div data-href="./diet.html" data-src="../resources/icons/diet.svg" data-title="Diet"
+          class="quick-link col-lg-2 col-xl-1"></div>
+
+        <div data-href="./forms.html#space" data-src="../resources/icons/space-reservation.svg"
+          data-title="Space Reservation" class="quick-link col-lg-2 col-xl-1"></div>
+
+        <div data-href="@link-party-registration" data-src="../resources/icons/party-registration.svg"
+          data-title="Party Registration" class="quick-link col-lg-2 col-xl-1"></div>
+
+        <div data-href="./housing-and-parking.html" data-src="../resources/icons/housing.svg"
+          data-title="Housing and Parking" class="quick-link col-lg-2 col-xl-1"></div>
+
+        <div data-href="./requesting-money.html" data-src="../resources/icons/requesting-money.svg"
+          data-title="Budget Spending Requests" class="quick-link col-lg-2 col-xl-1"></div>
+
+        <div data-href="./contact.html" data-src="../resources/icons/contact.svg" data-title="Contact"
+          class="quick-link col-lg-2 col-xl-1"></div>
       </div>
     </div>
 
-    <div id="navbar-placeholder"></div>
-    <div class="container-fluid">
-      <div id="1" class="BLM content">
-        <div id="blm-img">
-          <a target = "_blank" href="http://pngimg.com/image/94004">
-            <img
-              alt="Black Lives Matter"
-              src="../resources/images/BLM Image.png"
-              width="100%"
-            />
-          </a>
-        </div>
-        <div id="blm-text">
-          Dehumanization, marginalization, and violence impact so many different
-          communities. At Will Rice, we stand against all types of discriminatory 
-          attitudes and behaviors. From Black Lives Matter to Reproductive Rights, 
-          Will Ricers engage civically and socially to strengthen our community 
-          bonds and uplift one another. 
-         <br /><br />
-          We must hear the voices of our systemically disenfranchised students, 
-          practice empathy, and do anything in our power to support them. 
-          We must not speak over them but should elevate their voices, their stories,
-          and their priorities. Like the Phoenix, we must rise up and evolve to be a 
-          more anti-racist and inclusive Will Rice.People are not a monolith. 
-          We aim to advocate for all people of diverse backgrounds.
-        </div>
-      </div>
-
-      <div id="2" class="carousel slide" data-ride="carousel">
-        <ol class="carousel-indicators">
-          <li data-target="#2" data-slide-to="0" class="active"></li>
-          <li data-target="#2" data-slide-to="1"></li>
-          <li data-target="#2" data-slide-to="2"></li>
-          <li data-target="#2" data-slide-to="3"></li>
-          <li data-target="#2" data-slide-to="4"></li>
-          <li data-target="#2" data-slide-to="5"></li>
-          <li data-target="#2" data-slide-to="6"></li>
-          <li data-target="#2" data-slide-to="7"></li>
-          <li data-target="#2" data-slide-to="8"></li>
-          <li data-target="#2" data-slide-to="9"></li>
-          <li data-target="#2" data-slide-to="10"></li>
-          <li data-target="#2" data-slide-to="11"></li>
-          <li data-target="#2" data-slide-to="12"></li>
-        </ol>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img
-              class="d-block w-100"
-              src="../resources/images/carousel/carousel0.jpg"
-              alt="First slide"
-            />
-          </div>
-          <div class="carousel-item">
-            <img
-              class="d-block w-100"
-              src="../resources/images/carousel/carousel1.jpg"
-              alt="Second slide"
-            />
-          </div>
-          <div class="carousel-item">
-            <img
-              class="d-block w-100"
-              src="../resources/images/carousel/carousel2.png"
-              alt="Third slide"
-            />
-          </div>
-          <div class="carousel-item">
-            <img
-              class="d-block w-100"
-              src="../resources/images/carousel/carousel3.jpeg"
-              alt="Fourth slide"
-            />
-          </div>
-          <div class="carousel-item">
-            <img
-              class="d-block w-100"
-              src="../resources/images/carousel/carousel4.jpg"
-              alt="Fifth slide"
-            />
-          </div>
-          <div class="carousel-item">
-            <img
-              class="d-block w-100"
-              src="../resources/images/carousel/carousel5.jpg"
-              alt="Sixth slide"
-            />
-          </div>
-          <div class="carousel-item">
-            <img
-              class="d-block w-100"
-              src="../resources/images/carousel/carousel6.jpg"
-              alt="Seventh slide"
-            />
-          </div>
-          <div class="carousel-item">
-            <img
-              class="d-block w-100"
-              src="../resources/images/carousel/carousel7.jpg"
-              alt="Eighth slide"
-            />
-          </div>
-          <div class="carousel-item">
-            <img
-              class="d-block w-100"
-              src="../resources/images/carousel/carousel8.jpg"
-              alt="Ninth slide"
-            />
-          </div>
-          <div class="carousel-item">
-            <img
-              class="d-block w-100"
-              src="../resources/images/carousel/carousel9.jpg"
-              alt="Tenth slide"
-            />
-          </div>
-          <div class="carousel-item">
-            <img
-              class="d-block w-100"
-              src="../resources/images/carousel/carousel10.jpg"
-              alt="Eleventh slide"
-            />
-          </div>
-          <div class="carousel-item">
-            <img
-              class="d-block w-100"
-              src="../resources/images/carousel/carousel11.jpg"
-              alt="Twelfth slide"
-            />
-          </div>
-          <div class="carousel-item">
-            <img
-              class="d-block w-100"
-              src="../resources/images/carousel/carousel12.jpg"
-              alt="Thirteenth slide"
-            />
-          </div>
-        </div>
-        <a
-          class="carousel-control-prev"
-          href="#2"
-          role="button"
-          data-slide="prev"
-        >
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-        <a
-          class="carousel-control-next"
-          href="#2"
-          role="button"
-          data-slide="next"
-        >
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </a>
-      </div>
-      <div class="cards" id="3">
-        <!-- Icons come from here: https://www.flaticon.com -->
-        <!-- Use your judgement to match the style.  -->
-        <div class="card-group card-group-flex">
-          <div
-            data-href="@link-financial-assistance"
-            data-src="../resources/icons/financial-assistance.svg"
-            data-title="Financial Assistance Form"
-            class="quick-link col-lg-2 col-xl-1"
-          ></div>
-
-          <div
-            data-href="./calendar.html"
-            data-src="../resources/icons/calendar.svg"
-            data-title="Calendar"
-            class="col-lg-2 col-xl-1 quick-link"
-          ></div>
-
-          <div
-            data-href="./diet.html"
-            data-src="../resources/icons/diet.svg"
-            data-title="Diet"
-            class="quick-link col-lg-2 col-xl-1"
-          ></div>
-
-          <div
-            data-href="./forms.html#space"
-            data-src="../resources/icons/space-reservation.svg"
-            data-title="Space Reservation"
-            class="quick-link col-lg-2 col-xl-1"
-          ></div>
-
-          <div
-            data-href="@link-party-registration"
-            data-src="../resources/icons/party-registration.svg"
-            data-title="Party Registration"
-            class="quick-link col-lg-2 col-xl-1"
-          ></div>
-
-          <div
-            data-href="./housing-and-parking.html"
-            data-src="../resources/icons/housing.svg"
-            data-title="Housing and Parking"
-            class="quick-link col-lg-2 col-xl-1"
-          ></div>
-
-          <div
-            data-href="./requesting-money.html"
-            data-src="../resources/icons/requesting-money.svg"
-            data-title="Budget Spending Requests"
-            class="quick-link col-lg-2 col-xl-1"
-          ></div>
-
-          <div
-            data-href="./contact.html"
-            data-src="../resources/icons/contact.svg"
-            data-title="Contact"
-            class="quick-link col-lg-2 col-xl-1"
-          ></div>
-        </div>
-      </div>
+    <div class="myth-power-value">
+      <span>myth</span>
+      <span>power</span>
+      <span>value</span>
     </div>
-    <div id="footer-placeholder"></div>
-    <script src="../scripts/card.js"></script>
-    <script src="../scripts/footer.js"></script>
-    <script src="../scripts/navbar.js"></script>
-    <script src="../scripts/populate-general.js"></script>
-  </body>
+
+    <div class="bb-countdown">
+      days until beer bike
+    </div>
+  </div>
+  <div id="footer-placeholder"></div>
+  <script src="../scripts/card.js"></script>
+  <script src="../scripts/footer.js"></script>
+  <script src="../scripts/navbar.js"></script>
+  <script src="../scripts/populate-general.js"></script>
+</body>
+
 </html>
