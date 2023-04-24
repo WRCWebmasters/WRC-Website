@@ -78,6 +78,10 @@ var navbarContent = `
 
         </div>
       </div>
+      <a href="contact.html" class="nav-item nav-link">FINANCIAL ASSISTANCE</a>
+
+      <a href="contact.html" class="nav-item nav-link">SPACE RESERVATION</a>
+
       <a href="contact.html" class="nav-item nav-link">DONATE</a>
       <a href="new-students.html" class="nav-item nav-link">NEW STUDENTS</a>
 
