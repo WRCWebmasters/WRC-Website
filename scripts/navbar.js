@@ -25,8 +25,9 @@ let categories = {
 };
 
 var navbarContent = `
-  <a href="index.html" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
-    <h1 style="font-size: 2rem" class="m-0">Will Rice College</h1>
+  <a id="title" href="home.html" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
+  <img src="../resources/wrc-logos/classic-crest-transparent [png].png" width="40" height="40" alt="">
+    <h2 style="font-size: 2rem" class="m-0">Will Rice College</h2>
   </a>
   <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
     <span class="navbar-toggler-icon"></span>
@@ -36,9 +37,11 @@ var navbarContent = `
       <div class="nav-item dropdown">
         <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">ABOUT</a>
         <div class="dropdown-menu m-0">
+          <a href="beer-bike.html" class="dropdown-item">Beer Bike</a>
+          <a href="diversity.html" class="dropdown-item">Diversity</a>
+          <a href="garden.html" class="dropdown-item">Garden</a>
           <a href="history.html" class="dropdown-item">History</a>
           <a href="traditions.html" class="dropdown-item">Traditions</a>
-          <a href="beer-bike.html" class="dropdown-item">Beer Bike</a>
         </div>
       </div>
       <div class="nav-item dropdown">
@@ -69,32 +72,44 @@ var navbarContent = `
       <div class="nav-item dropdown">
         <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">RESOURCES</a>
         <div class="dropdown-menu m-0">
-          <a href="feature.html" class="dropdown-item">Communications</a>
-          <a href="quote.html" class="dropdown-item">Forms</a>
-          <a href="team.html" class="dropdown-item">Finances</a>
-          <a href="testimonial.html" class="dropdown-item">Calendar</a>
-          <a href="404.html" class="dropdown-item">Brand Resources</a>
-          <a href="404.html" class="dropdown-item">Rice Mutual Aid</a>
+          <a href="communications.html" class="dropdown-item">Communications</a>
+          <a href="forms.html" class="dropdown-item">Forms</a>
+          <a href="finances.html" class="dropdown-item">Finances</a>
+          <a href="calendar.html" class="dropdown-item">Calendars</a>
+          <a href="brand-resources.html" class="dropdown-item">Brand Resources</a>
+          <a href="https://linktr.ee/ricemutualaid" target="_blank" class="dropdown-item">Rice Mutual Aid</a>
 
         </div>
       </div>
-      <a href="contact.html" class="nav-item nav-link">FINANCIAL ASSISTANCE</a>
+      <a href="https://docs.google.com/forms/d/e/1FAIpQLSeyfsUhSL3uE04xBhw3_rhijYqfCpXU8dCKD3mciANnVf6uzg/viewform" target="_blank" class="nav-item nav-link">MAGISTER'S FUND</a>
+      <a href="forms.html#space" class="nav-item nav-link">SPACE RESERVATION</a>
 
-      <a href="contact.html" class="nav-item nav-link">SPACE RESERVATION</a>
-
-      <a href="contact.html" class="nav-item nav-link">DONATE</a>
-      <a href="new-students.html" class="nav-item nav-link">NEW STUDENTS</a>
+      <a target="_blank" href="https://riceconnect.rice.edu/donation/support-will-rice" class="nav-item nav-link">DONATE</a>
+      <a target="_blank" href="https://wrcoweek.wixsite.com/wrcoweek2022/home" class="nav-item nav-link">NEW STUDENTS</a>
 
     </div>
   </div>
 
 `;
 
+$(function () {
+    $(document).scroll(function () {
+      var $nav = $(".navbar h2, .navbar img");
+      var $navitem = $(".nav-link");
+      var $navbrand = $(".navbar-brand");
+      var $navbar = $(".navbar-nav");
+      $nav.toggleClass("hidden", $(this).scrollTop() > 2*$nav.height());
+      $navitem.toggleClass("small-nav", $(this).scrollTop() > 2*$nav.height());
+      $navbrand.toggleClass("small-nav", $(this).scrollTop() > 2*$nav.height());
+      $navbar.toggleClass("center", $(this).scrollTop() > 2*$nav.height());
+    });
+  });
+
 let pagename = location.pathname.split("/").slice(-1)[0].replace(".html", "");
 navbarContent = navbarContent.replace(categories[pagename], "active");
 
 let navbarElement = document.createElement("nav");
-navbarElement.className = "navbar navbar-expand-lg bg-white navbar-light sticky-top p-0";
+navbarElement.className = "navbar navbar-expand-lg bg-light-border navbar-light sticky-top p-0";
 
 navbarElement.innerHTML = navbarContent;
 document.getElementById("navbar-placeholder").replaceWith(navbarElement);

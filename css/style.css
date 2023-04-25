@@ -47,6 +47,10 @@ h6,
     background-color: var(--rust);
 }
 
+.bg-light-border {
+    background-color: white;
+    border-bottom: .2px solid var(--dark-rust);
+}
 /*** Spinner ***/
 #spinner {
     opacity: 0;
@@ -136,6 +140,21 @@ h6,
     margin-left: 8px;
 }
 
+.hidden {
+    display: none;
+    margin: 0!important;
+}
+
+.small-nav {
+    margin: 0 15px!important;
+    padding: 10px 0!important;
+    height: 40px!important;
+}
+
+.center {
+    
+    margin-right: auto!important;
+}
 @media (max-width: 991.98px) {
     .navbar .navbar-nav .nav-link {
         margin-right: 0;
@@ -236,7 +255,7 @@ h6,
     bottom: 6vh;
 }
 
-.top-feature h2 {
+.top-feature h4 {
     color: white;
     font-size: 2.5rem;
     font-weight: 500!important;

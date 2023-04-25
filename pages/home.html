@@ -47,8 +47,8 @@
   <div class="container-fluid bg-gold text-light px-0 py-2">
     <div class="row gx-0 d-none d-lg-flex">
       <div class="col-lg-7 px-5 text-start">
-        <p class="text-dark" style="margin-bottom:0"><strong>click here to read our statement on diversity &
-            inclusivity.</strong></p>
+        <a href="diversity.html" class="text-dark" style="margin-bottom:0"><strong>click here to read our statement on diversity &
+            inclusivity.</strong></a>
       </div>
     </div>
   </div>
@@ -121,7 +121,7 @@
       <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
         <div class="bg-rust shadow d-flex align-items-center h-100 px-5 py-5" style="min-height: 160px;">
           <div class="ps-3">
-            <h2>Welcome to</h2>
+            <h4>Welcome to</h4>
             <h3>Will Rice College</h3>
           </div>
         </div>
@@ -136,23 +136,22 @@
     data-image-src="../resources/images/carousel/carousel0.jpg">
 
     <div class="container py-5">
-      <h1 style="text-align: center" class="display-5 mb-5 text-light wow fadeIn">DAYS UNTIL BEER BIKE 2024</h1>
-      <div id="demo"></div>
+      <h2 style="text-align: center" class="display-5 mb-5 text-light wow fadeIn">DAYS UNTIL BEER BIKE 2024</h2>
       <div class="row g-5">
         <div class="col-sm-6 col-lg-3 text-center wow fadeIn" data-wow-delay="0.1s">
-          <h1 id="days" class="display-4 text-white" data-toggle="counter-up"></h1>
+          <h2 id="days" class="display-4 text-white" data-toggle="counter-up"></h2>
           <span class="fs-5 fw-semi-bold text-light">days</span>
         </div>
         <div class="col-sm-6 col-lg-3 text-center wow fadeIn" data-wow-delay="0.3s">
-          <h1 id="hours" class="display-4 text-white" data-toggle="counter-up"></h1>
+          <h2 id="hours" class="display-4 text-white" data-toggle="counter-up"></h2>
           <span class="fs-5 fw-semi-bold text-light">hours</span>
         </div>
         <div class="col-sm-6 col-lg-3 text-center wow fadeIn" data-wow-delay="0.5s">
-          <h1 id="minutes" class="display-4 text-white" data-toggle="counter-up"></h1>
+          <h2 id="minutes" class="display-4 text-white" data-toggle="counter-up"></h2>
           <span class="fs-5 fw-semi-bold text-light">minutes</span>
         </div>
         <div class="col-sm-6 col-lg-3 text-center wow fadeIn" data-wow-delay="0.7s">
-          <h1 id="seconds" class="display-4 text-white" data-toggle="counter-up"></h1>
+          <h2 id="seconds" class="display-4 text-white" data-toggle="counter-up"></h2>
           <span class="fs-5 fw-semi-bold text-light">seconds</span>
         </div>
       </div>
@@ -283,43 +282,43 @@
   <script src="../lib/isotope/isotope.pkgd.min.js"></script>
   <script src="../lib/lightbox/js/lightbox.min.js"></script>
 
-  <!-- Template Javascript -->
-  <script>
-    // Set the date we're counting down to
-    var countDownDate = new Date("Mar 30, 2024 00:00:00").getTime();
-
-    // Update the count down every 1 second
-    var x = setInterval(function () {
-
-      // Get today's date and time
-      var now = new Date().getTime();
-
-      // Find the distance between now and the count down date
-      var distance = countDownDate - now;
-
-      // Time calculations for days, hours, minutes and seconds
-      var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-      var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-      var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-      var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-
-      // Output the result in an element with id="demo"
-      document.getElementById("days").innerHTML = days;
-      document.getElementById("minutes").innerHTML = minutes;
-      document.getElementById("hours").innerHTML = hours;
-      document.getElementById("seconds").innerHTML = seconds;
-
-      // If the count down is over, write some text 
-      if (distance < 0) {
-        clearInterval(x);
-        document.getElementById("demo").innerHTML = "EXPIRED";
-      }
-    }, 1000);
-  </script>
-
   <script src="../scripts/navbar.js"></script>
   <script src="../scripts/footer.js"></script>
   <script src="../js/main.js"></script>
+
+    <!-- Template Javascript -->
+    <script>
+      // Set the date we're counting down to
+      var countDownDate = new Date("Mar 30, 2024 00:00:00").getTime();
+  
+      // Update the count down every 1 second
+      var x = setInterval(function () {
+  
+        // Get today's date and time
+        var now = new Date().getTime();
+  
+        // Find the distance between now and the count down date
+        var distance = countDownDate - now;
+  
+        // Time calculations for days, hours, minutes and seconds
+        var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+        var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+  
+        // Output the result in an element with id="demo"
+        document.getElementById("days").innerHTML = days;
+        document.getElementById("minutes").innerHTML = minutes;
+        document.getElementById("hours").innerHTML = hours;
+        document.getElementById("seconds").innerHTML = seconds;
+  
+        // If the count down is over, write some text 
+        if (distance < 0) {
+          clearInterval(x);
+          document.getElementById("demo").innerHTML = "EXPIRED";
+        }
+      }, 1000);
+    </script>
 </body>
 
 </html>

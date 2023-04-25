@@ -1,7 +1,7 @@
 var footerContent = `
   <div class="container py-5"  data-wow-delay="0.1s">
     <div style="display: flex; justify-content: center;">
-      <img class="footer-logo" width="60px" src="../resources/images/wrcphoenixlogo_original.png" />
+      <img class="footer-logo" width="50px" src="../resources/images/wrcphoenixlogo_original.png" />
     </div>
     <hr style="  border-top: 3px solid var(--gold); margin: 30px 0" />
     <div class="row g-5">
@@ -9,8 +9,7 @@ var footerContent = `
       <div class="col-lg-3 col-md-6">
         <h4 class="text-white mb-4">Quick Links</h4>
         <a class="btn btn-link" target="_blank"
-          href="https://docs.google.com/forms/d/e/1FAIpQLSeyfsUhSL3uE04xBhw3_rhijYqfCpXU8dCKD3mciANnVf6uzg/viewform">Financial
-          Assistance Form</a>
+          href="https://docs.google.com/forms/d/e/1FAIpQLSeyfsUhSL3uE04xBhw3_rhijYqfCpXU8dCKD3mciANnVf6uzg/viewform">Magister's Fund</a>
         <a class="btn btn-link" href="calendar.html">Calendar</a>
         <a class="btn btn-link" href="diet.html">Diet</a>
         <a class="btn btn-link" href="forms.html#space">Space Reservation</a>
@@ -52,6 +51,6 @@ var footerContent = `
 `;
 
 let footerElement = document.createElement("div");
-footerElement.className = "container-fluid bg-dark text-light footer mt-5 py-5 wow fadeIn"; 
+footerElement.className = "container-fluid bg-dark text-light footer mt-5 py-2 wow fadeIn"; 
 footerElement.innerHTML = footerContent;
 document.getElementById("footer-placeholder").replaceWith(footerElement);
