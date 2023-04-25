@@ -51,6 +51,6 @@ var footerContent = `
 `;
 
 let footerElement = document.createElement("div");
-footerElement.className = "container-fluid bg-dark text-light footer mt-5 py-2 wow fadeIn"; 
+footerElement.className = "container-fluid bg-dark text-light footer mt-5 py-2"; 
 footerElement.innerHTML = footerContent;
 document.getElementById("footer-placeholder").replaceWith(footerElement);

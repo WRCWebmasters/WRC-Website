@@ -35,12 +35,18 @@
 </head>
 
 <body>
+    <!-- Spinner Start -->
+    <div id="spinner"
+        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" role="status" style="width: 3rem; height: 3rem;"></div>
+    </div>
+    <!-- Spinner End -->
     <div id="navbar-placeholder"></div>
 
     <div class="container">
-<h1>A-Team</h1>
+        <h1>A-Team</h1>
 
-        <div class="card-deck">
+        <div class="wow fadeIn card-group">
             <div class="card">
                 <div class="card-body">
                     <div class="row">
@@ -52,7 +58,7 @@
                         </div>
                         <div class="col">
                             <a href="#magisters-content">
-                                <h1>Magisters</h1>
+                                <h5>Magisters</h5>
                             </a>
                         </div>
                     </div>
@@ -70,7 +76,7 @@
                         </div>
                         <div class="col">
                             <a href="#coordinator-content">
-                                <h1 class="card-title">Coordinator</h1>
+                                <h5 class="card-title">Coordinator</h5>
                             </a>
                         </div>
                     </div>
@@ -87,7 +93,7 @@
                         </div>
                         <div class="col">
                             <a href="#old-dorm-RAs-content">
-                                <h1 class="card-title">RAs</h1>
+                                <h5 class="card-title">RAs</h5>
                             </a>
                         </div>
                     </div>
@@ -98,13 +104,13 @@
         <br>
 
         <!-- Photos of the a-team from here on down should be 750x1125 for consistency -->
-        <div class="row content">
-            <div class="col-md-9">
+        <div class="wow fadeIn row content">
+            <div class=" col col-md-9">
                 <a class="anchor" id="magisters-content"></a>
-                <h1> College Magisters </h1>
-                <h2> Matt and Rebekah </h2>
+                <h2> College Magisters </h2>
+                <h3> Matt and Rebekah </h3>
                 <a href="mailto:Matthew.Bennett@rice.edu">
-                    <h4>Matthew.Bennett@rice.edu</h4>
+                    <h6>Matthew.Bennett@rice.edu</h6>
                 </a>
                 <p>
                     We are Matthew and Rebekah Bennett, Magisters of Will Rice
@@ -149,21 +155,21 @@
                     just let us know!
                 </p>
             </div>
-            <div class="col-md-3">
-                <img src="../resources/images/a-team/magisters-portrait.jpg" class="description-image"
+            <div class="col col-md-3">
+                <img src="../resources/images/a-team/magisters-portrait.jpg" class="description-image img-fluid"
                     alt="Picture of Magisters">
             </div>
         </div>
 
         <br>
 
-        <div class="row content">
+        <div class="wow fadeIn row content">
             <div class="col-md-9">
                 <a class="anchor" id="coordinator-content"></a>
-                <h1> College Coordinator </h1>
-                <h2> Sheren Brunson </h2>
+                <h2> College Coordinator </h2>
+                <h3> Sheren Brunson </h3>
                 <a href="mailto:srb9@rice.edu">
-                    <h4>srb9@rice.edu</h4>
+                    <h6>srb9@rice.edu</h6>
                 </a>
                 <p>
                     I’m Sheren, the Will Rice College Coordinator. I am the newest member of the A-Team, although I have
@@ -186,7 +192,7 @@
                 </p>
             </div>
             <div class="col-md-3">
-                <img src="../resources/images/a-team/coordinator-portrait.jpg" class="description-image"
+                <img  src="../resources/images/a-team/coordinator-portrait.jpg" class="description-image img-fluid"
                     alt="Picture of College Coordinator">
             </div>
         </div>
@@ -194,13 +200,13 @@
 
         <br>
 
-        <div class="row content">
+        <div class="wow fadeIn row content">
             <div class="col-md-9">
                 <a class="anchor" id="old-dorm-RAs-content"></a>
-                <h1> Old Dorm RA </h1>
-                <h2> Chelsea Drake </h2>
+                <h2> Old Dorm RA </h2>
+                <h3> Chelsea Drake </h3>
                 <a href="mailto:cldrake@rice.edu">
-                    <h4>cldrake@rice.edu</h4>
+                    <h6>cldrake@rice.edu</h6>
                 </a>
                 <p>
                     Hey Will Rice! I’m the Old Dorm RA and I’m so excited to be part of this community.
@@ -220,20 +226,20 @@
                 </p>
             </div>
             <div class="col-md-3">
-                <img src="../resources/images/a-team/chelsea-drake-portrait.jpeg" class="description-image"
+                <img  src="../resources/images/a-team/chelsea-drake-portrait.jpeg" class="description-image img-fluid"
                     alt="Picture of Chelsea">
             </div>
         </div>
 
         <br>
 
-        <div class="row content">
+        <div class="wow fadeIn row content">
             <div class="col-md-9">
                 <a class="anchor" id="new-dorm-RAs-content"></a>
-                <h1> New Dorm RAs </h1>
-                <h2> Sandy and Will </h2>
+                <h2> New Dorm RAs </h2>
+                <h3> Sandy and Will </h3>
                 <a href="mailto:Sandra.V.Parsons@rice.edu">
-                    <h4>Sandra.V.Parsons@rice.edu</h4>
+                    <h6>Sandra.V.Parsons@rice.edu</h6>
                 </a>
                 <p>
                     Sandy is on the faculty in the
@@ -255,7 +261,7 @@
 
             </div>
             <div class="col-md-3">
-                <img src="../resources/images/a-team/sandy-will.jpeg" class="description-image"
+                <img src="../resources/images/a-team/sandy-will.jpeg" class="img-fluid description-image img-fluid"
                     alt="Picture of Sandy and Will">
             </div>
         </div>
@@ -285,7 +291,7 @@
     <script src="../scripts/navbar.js"></script>
     <script src="../scripts/footer.js"></script>
 
-    <script src="../js/main.js"></script>
+    <script src="../scripts/main.js"></script>
     <script src="../scripts/populate-general.js"> </script>
 
 </body>

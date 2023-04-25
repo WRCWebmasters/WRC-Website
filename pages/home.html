@@ -47,7 +47,8 @@
   <div class="container-fluid bg-gold text-light px-0 py-2">
     <div class="row gx-0 d-none d-lg-flex">
       <div class="col-lg-7 px-5 text-start">
-        <a href="diversity.html" class="text-dark" style="margin-bottom:0"><strong>click here to read our statement on diversity &
+        <a href="diversity.html" class="text-dark" style="margin-bottom:0"><strong>click here to read our statement on
+            diversity &
             inclusivity.</strong></a>
       </div>
     </div>
@@ -122,7 +123,7 @@
         <div class="bg-rust shadow d-flex align-items-center h-100 px-5 py-5" style="min-height: 160px;">
           <div class="ps-3">
             <h4>Welcome to</h4>
-            <h3>Will Rice College</h3>
+            <h1 style="color:white; margin-bottom: 0.25rem!important; margin-top: 0.5rem!important">Will Rice College</h1>
           </div>
         </div>
       </div>
@@ -249,17 +250,15 @@
   <div id="footer-placeholder"></div>
   <!-- Copyright Start -->
   <div class="container-fluid copyright py-4">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-          &copy; will rice college, 2023
-        </div>
-        <div class="col-md-6 text-center text-md-end">
-          <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
-          <a target="_blank"
-            href="https://themewagon.com/themes/free-responsive-bootstrap-5-gardening-website-template-gardener/">find
-            the template here!</a>
-        </div>
+    <div class="row">
+      <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+        &copy; will rice college, 2023
+      </div>
+      <div class="col-md-6 text-center text-md-end">
+        <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+        <a target="_blank"
+          href="https://themewagon.com/themes/free-responsive-bootstrap-5-gardening-website-template-gardener/">find
+          the template here!</a>
       </div>
     </div>
   </div>
@@ -284,41 +283,41 @@
 
   <script src="../scripts/navbar.js"></script>
   <script src="../scripts/footer.js"></script>
-  <script src="../js/main.js"></script>
+  <script src="../scripts/main.js"></script>
 
-    <!-- Template Javascript -->
-    <script>
-      // Set the date we're counting down to
-      var countDownDate = new Date("Mar 30, 2024 00:00:00").getTime();
-  
-      // Update the count down every 1 second
-      var x = setInterval(function () {
-  
-        // Get today's date and time
-        var now = new Date().getTime();
-  
-        // Find the distance between now and the count down date
-        var distance = countDownDate - now;
-  
-        // Time calculations for days, hours, minutes and seconds
-        var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-        var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-  
-        // Output the result in an element with id="demo"
-        document.getElementById("days").innerHTML = days;
-        document.getElementById("minutes").innerHTML = minutes;
-        document.getElementById("hours").innerHTML = hours;
-        document.getElementById("seconds").innerHTML = seconds;
-  
-        // If the count down is over, write some text 
-        if (distance < 0) {
-          clearInterval(x);
-          document.getElementById("demo").innerHTML = "EXPIRED";
-        }
-      }, 1000);
-    </script>
+  <!-- Template Javascript -->
+  <script>
+    // Set the date we're counting down to
+    var countDownDate = new Date("Mar 30, 2024 00:00:00").getTime();
+
+    // Update the count down every 1 second
+    var x = setInterval(function () {
+
+      // Get today's date and time
+      var now = new Date().getTime();
+
+      // Find the distance between now and the count down date
+      var distance = countDownDate - now;
+
+      // Time calculations for days, hours, minutes and seconds
+      var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+      var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+      var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+      var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+      // Output the result in an element with id="demo"
+      document.getElementById("days").innerHTML = days;
+      document.getElementById("minutes").innerHTML = minutes;
+      document.getElementById("hours").innerHTML = hours;
+      document.getElementById("seconds").innerHTML = seconds;
+
+      // If the count down is over, write some text 
+      if (distance < 0) {
+        clearInterval(x);
+        document.getElementById("demo").innerHTML = "EXPIRED";
+      }
+    }, 1000);
+  </script>
 </body>
 
 </html>

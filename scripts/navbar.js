@@ -1,33 +1,7 @@
-let categories = {
-    "a-team": "@people",
-    "alumni-and-associates": "@people",
-    "beer-bike": "@about",
-    "brand-resources": "@resources",
-    calendar: "@resources",
-    caregivers: "@people",
-    "constitution-bylaws": "@operating",
-    contact: "@operating",
-    diet: "@operating",
-    fellows: "@people",
-    forms: "@resources",
-    history: "@about",
-    historytimeline: "@about",
-    "housing-and-parking": "@operating",
-    "new-students": "@people",
-    paa: "@people",
-    resources: "@resources",
-    rha: "@people",
-    strive: "@people",
-    "student-leadership": "@people",
-    today: "@about",
-    traditions: "@about",
-    williammarsh: "@about",
-};
-
 var navbarContent = `
   <a id="title" href="home.html" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
   <img src="../resources/wrc-logos/classic-crest-transparent [png].png" width="40" height="40" alt="">
-    <h2 style="font-size: 2rem" class="m-0">Will Rice College</h2>
+    <h5 style="font-size: 2rem" class="m-0">Will Rice College</h5>
   </a>
   <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
     <span class="navbar-toggler-icon"></span>
@@ -92,9 +66,10 @@ var navbarContent = `
 
 `;
 
+// when scroll, navbar shrinks
 $(function () {
     $(document).scroll(function () {
-      var $nav = $(".navbar h2, .navbar img");
+      var $nav = $(".navbar h5, .navbar img");
       var $navitem = $(".nav-link");
       var $navbrand = $(".navbar-brand");
       var $navbar = $(".navbar-nav");
@@ -105,12 +80,9 @@ $(function () {
     });
   });
 
-let pagename = location.pathname.split("/").slice(-1)[0].replace(".html", "");
-navbarContent = navbarContent.replace(categories[pagename], "active");
-
+// script to replace a <div id="navbar-placeholder"></div> with this navbar html
 let navbarElement = document.createElement("nav");
 navbarElement.className = "navbar navbar-expand-lg bg-light-border navbar-light sticky-top p-0";
-
 navbarElement.innerHTML = navbarContent;
 document.getElementById("navbar-placeholder").replaceWith(navbarElement);
 
