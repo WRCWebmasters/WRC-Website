@@ -388,7 +388,7 @@
     height: 100%;
     top: 0;
     left: 0;
-    background: rgba(255, 245, 214, .6);
+    background: rgba(255, 245, 214, .8);
     transition: .5s;
 }
 
