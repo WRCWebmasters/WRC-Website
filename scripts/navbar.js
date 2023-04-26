@@ -51,7 +51,7 @@ var navbarContent = `
           <a href="finances.html" class="dropdown-item">Finances</a>
           <a href="calendar.html" class="dropdown-item">Calendars</a>
           <a href="brand-resources.html" class="dropdown-item">Brand Resources</a>
-          <a href="https://linktr.ee/ricemutualaid" target="_blank" class="dropdown-item">Rice Mutual Aid</a>
+          <a href="financial-assistance.html" target="_blank" class="dropdown-item">Financial Assistance</a>
 
         </div>
       </div>
