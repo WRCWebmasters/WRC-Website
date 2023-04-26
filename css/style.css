@@ -107,7 +107,7 @@
 
 .navbar .navbar-nav .nav-link {
     margin-right: 35px;
-    padding: 25px 0;
+    padding: 25px 1rem;
     color: var(--dark-rust);
     font-size: 14px;
     font-weight: 500;
@@ -159,7 +159,7 @@
         display: block;
         border: none;
         margin-top: 0;
-        top: 150%;
+        top: 100%;
         opacity: 0;
         visibility: hidden;
         transition: .5s;
