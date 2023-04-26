@@ -13,7 +13,7 @@ var navbarContent = `
         <div class="dropdown-menu m-0">
           <a href="beer-bike.html" class="dropdown-item">Beer Bike</a>
           <a href="diversity.html" class="dropdown-item">Diversity</a>
-          <a href="garden.html" class="dropdown-item">Garden</a>
+          <a href="sustainability.html" class="dropdown-item">Sustainability</a>
           <a href="history.html" class="dropdown-item">History</a>
           <a href="traditions.html" class="dropdown-item">Traditions</a>
         </div>
