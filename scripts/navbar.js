@@ -49,7 +49,6 @@ var navbarContent = `
             <div class="dropdown-menu m-0">
               <a href="communications.html" class="dropdown-item">Communications</a>
               <a href="forms.html" class="dropdown-item">Forms</a>
-              <a href="finances.html" class="dropdown-item">Finances</a>
               <a href="calendar.html" class="dropdown-item">Calendars</a>
               <a href="brand-resources.html" class="dropdown-item">Brand Resources</a>
           <a href="financial-assistance.html" target="_blank" class="dropdown-item">Financial Assistance</a>
