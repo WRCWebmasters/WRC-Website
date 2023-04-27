@@ -102,12 +102,12 @@
 
 .navbar .navbar-brand,
 .navbar a.btn {
-    height: 60px
+    height: 40px
 }
 
 .navbar .navbar-nav .nav-link {
-    margin-right: 35px;
-    padding: 25px 1rem;
+    margin: 0 15px;
+    padding: 10px 0;
     color: var(--dark-rust);
     font-size: 14px;
     font-weight: 500;
@@ -140,9 +140,9 @@
 }
 
 .center {
-    
     margin-right: auto!important;
 }
+
 @media (max-width: 991.98px) {
     .navbar .navbar-nav .nav-link {
         margin-right: 0;

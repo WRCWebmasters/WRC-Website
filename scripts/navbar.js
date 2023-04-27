@@ -4,14 +4,14 @@ var navbarContent = `
 </button>
 <div class="container d-flex justify-content-center">
   <div class="row">
-    <div class="col-12 d-flex justify-content-center mb-3">
+    <div class="navbar-brand d-flex justify-content-center mb-3">
       <a id="title" href="home.html" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
         <img src="../resources/wrc-logos/classic-crest-transparent [png].png" width="40" height="40" alt="Will Rice Logo">
         <h5 style="font-size: 2rem" class="m-0">Will Rice College</h5>
       </a>
     </div>
     <div class="collapse navbar-collapse" id="navbarCollapse">
-        <div class="navbar-nav ms-auto p-4 p-lg-0">
+        <div class="navbar-nav m-auto p-4 p-lg-0">
           <div class="nav-item dropdown">
             <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">ABOUT</a>
             <div class="dropdown-menu m-0">
@@ -63,7 +63,7 @@ var navbarContent = `
           <a href="forms.html#space" class="nav-item nav-link">SPACE RESERVATION</a>
 
           <a target="_blank" href="https://riceconnect.rice.edu/donation/support-will-rice" class="nav-item nav-link">DONATE</a>
-      <a target="_blank" href="https://wrcoweek.wixsite.com/wrcoweek2022/home" class="nav-item nav-link">O-WEEK</a>
+          <a target="_blank" href="https://wrcoweek.wixsite.com/wrcoweek2022/home" class="nav-item nav-link">O-WEEK</a>
 
         </div>
       </div>
@@ -79,9 +79,8 @@ $(function () {
       var $navitem = $(".nav-link");
       var $navbrand = $(".navbar-brand");
       var $navbar = $(".navbar-nav");
-      $nav.toggleClass("hidden", $(this).scrollTop() > 2*$nav.height());
       $navitem.toggleClass("small-nav", $(this).scrollTop() > 2*$nav.height());
-      $navbrand.toggleClass("small-nav", $(this).scrollTop() > 2*$nav.height());
+      $navbrand.toggleClass("d-lg-none", $(this).scrollTop() > 2*$nav.height());
       $navbar.toggleClass("center", $(this).scrollTop() > 2*$nav.height());
     });
   });
