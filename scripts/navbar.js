@@ -1,7 +1,4 @@
 var navbarContent = `
-<button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-  <span class="navbar-toggler-icon"></span>
-</button>
 <div class="container d-flex justify-content-center">
   <div class="row">
     <div class="navbar-brand d-flex justify-content-center mb-3">
@@ -69,6 +66,9 @@ var navbarContent = `
       </div>
     </div>
   </div>
+  <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+  <span class="navbar-toggler-icon"></span>
+  </button>
 
 `;
 
