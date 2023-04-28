@@ -26,7 +26,7 @@ var footerContent = `
       <div class="col-lg-3 col-md-6">
         <h4 class="text-white mb-4">Contact</h4>
         <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>(713) 348 6061</p>
-        <p class="mb-2"><i class="fa fa-envelope me-3"></i>willrice@rice.edu</p>
+        <p class="mb-2"><i class="fa fa-envelope me-3"></i>wrc@rice.edu</p>
         <div class="d-flex pt-2">
           <a class="btn btn-square btn-outline-light rounded-circle me-2" target="_blank"
             href="https://www.facebook.com/groups/365957593418249"><i class="fab fa-facebook-f"></i></a>
