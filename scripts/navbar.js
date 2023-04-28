@@ -51,7 +51,7 @@ var navbarContent = `
               <a href="forms.html" class="dropdown-item">Forms</a>
               <a href="calendar.html" class="dropdown-item">Calendars</a>
               <a href="brand-resources.html" class="dropdown-item">Brand Resources</a>
-          <a href="financial-assistance.html" target="_blank" class="dropdown-item">Financial Assistance</a>
+          <a href="financial-assistance.html" class="dropdown-item">Financial Assistance</a>
 
             </div>
           </div>
