@@ -92,6 +92,18 @@
 
 
 /*** Navbar ***/
+@media (max-width: 992px) {
+    .navbar-row1 {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100vw;
+    }
+
+    .navbar-row1 button {
+        height: 40px; /* very hardcoded lol */
+    }
+}
 .bg-gold {
     background-color: var(--gold);
 }

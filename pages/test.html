@@ -1,9 +1,9 @@
 var navbarContent = `
-<div style = "padding-top: 0px" class="container d-flex justify-content-center">
+<div class="container d-flex justify-content-center">
     <div class="row">
         <div class="navbar-row1">
             <div class="navbar-brand d-flex justify-content-center mb-3">
-                <a style="margin-top: 5px" id="title" href="home.html" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
+                <a id="title" href="home.html" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
                     <img src="../resources/wrc-logos/classic-crest-transparent [png].png" width="40" height="40"
                         alt="Will Rice Logo">
                     <h5 style="font-size: 2rem" class="m-0">Will Rice College</h5>
@@ -73,24 +73,3 @@ var navbarContent = `
         </div>
     </div>
 </div>
-`;
-
-// when scroll, navbar shrinks
-$(function () {
-    $(document).scroll(function () {
-      var $nav = $(".navbar h5, .navbar img");
-      var $navitem = $(".nav-link");
-      var $navbrand = $(".navbar-brand");
-      var $navbar = $(".navbar-nav");
-      $navitem.toggleClass("small-nav", $(this).scrollTop() > 2*$nav.height());
-      $navbrand.toggleClass("d-lg-none", $(this).scrollTop() > 2*$nav.height());
-      $navbar.toggleClass("center", $(this).scrollTop() > 2*$nav.height());
-    });
-  });
-
-// script to replace a <div id="navbar-placeholder"></div> with this navbar html
-let navbarElement = document.createElement("nav");
-navbarElement.className = "navbar navbar-expand-lg bg-light-border navbar-light sticky-top p-0";
-navbarElement.innerHTML = navbarContent;
-document.getElementById("navbar-placeholder").replaceWith(navbarElement );
-
