@@ -19,11 +19,12 @@ var navbarContent = `
                 <div class="nav-item dropdown">
                     <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">ABOUT</a>
                     <div class="dropdown-menu m-0">
+                        <a href="history.html" class="dropdown-item">History</a>
+                        <a href="traditions.html" class="dropdown-item">Traditions</a>
                         <a href="beer-bike.html" class="dropdown-item">Beer Bike</a>
                         <a href="diversity.html" class="dropdown-item">Diversity</a>
                         <a href="sustainability.html" class="dropdown-item">Sustainability</a>
-                        <a href="history.html" class="dropdown-item">History</a>
-                        <a href="traditions.html" class="dropdown-item">Traditions</a>
+
                     </div>
                 </div>
                 <div class="nav-item dropdown">
@@ -47,6 +48,7 @@ var navbarContent = `
                         <a href="budget.html" class="dropdown-item">Budget & Spending</a>
                         <a href="constitution-bylaws.html" class="dropdown-item">Constitution & By-laws</a>
                         <a href="contact.html" class="dropdown-item">Contact</a>
+                        <a href="facilities.html" class="dropdown-item">Facilities</a>
                     </div>
                 </div>
                 <div class="nav-item dropdown">
@@ -54,6 +56,7 @@ var navbarContent = `
                     <div class="dropdown-menu m-0">
                         <a href="communications.html" class="dropdown-item">Communications</a>
                         <a href="forms.html" class="dropdown-item">Forms</a>
+                        
                         <a href="calendar.html" class="dropdown-item">Calendars</a>
                         <a href="brand-resources.html" class="dropdown-item">Brand Resources</a>
                         <a href="financial-assistance.html" class="dropdown-item">Financial Assistance</a>
