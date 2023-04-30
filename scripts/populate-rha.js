@@ -16,10 +16,10 @@ $.getJSON(jsonPath, function( data ) {
         image_container.innerHTML = "<img class=\"card-img-top col-r\" src=\"" + imagePath + imageName + "\" alt=\"" + key + "\">";
         var text_container = document.createElement("div");
         text_container.className = "col-9 col-sm-12";
-        let name = `<a href="mailto:${value["email"]}"><h4 class="card-title"> ${key} </h4></a>`;
+        let name = `<a href="mailto:${value["email"]}"><h3 class="card-title"> ${key} </h3></a>`;
         let position = `<h5>${value["position"]}</h5>`;
-        let year_major = `<p>${value["year_major"]}</p>`;
-        let email_phone = `<p>${value["email"]} | ${value["phone"]}</p>`
+        let year_major = `<h6>${value["year_major"]}</h6>`;
+        let email_phone = `<h6>${value["email"]} | ${value["phone"]}</h6>`
         text_container.innerHTML = name + year_major + email_phone;
         row.appendChild(image_container);
         row.appendChild(text_container);
