@@ -1,114 +1,141 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-120376955-1"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'UA-120376955-1');
-    </script>  
-    
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>WRC PAAs</title>
-    <link rel="shortcut icon" href="../resources/icons/favicon.ico">
-    <link rel="stylesheet" href="../css/content-page.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css"
-          integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
-    
-    <script src="https://code.jquery.com/jquery-3.4.0.min.js"   
-          integrity="sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg="   
-          crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"
-          integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4"
-          crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"
-          integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1"
-          crossorigin="anonymous"></script>
+    <title>PAAs - WRC</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
 
+    <!-- Favicon -->
+    <link href="../resources/icons/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Jost:wght@500;600;700&family=Open+Sans:wght@400;500&family=Playfair+Display:wght@400;500;700;800&family=Raleway:wght@400;500;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="../lib/animate/animate.min.css" rel="stylesheet">
+    <link href="../lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="../lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="../css/style.css" rel="stylesheet">
 </head>
 
 <body>
-        <div id="navbar-placeholder"></div>
-<div class="container">
-    <div class="row page-title">
-        <div class="col">
-            Peer Academic Advisors
-        </div>
+    <!-- Spinner Start -->
+    <div id="spinner"
+        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" role="status" style="width: 3rem; height: 3rem;"></div>
     </div>
+    <!-- Spinner End -->
+    <div id="navbar-placeholder"></div>
 
-    <br>
+    <div class="container">
+        <h1>Peer Academic Advisors</h1>
 
-    <!-- PAAs -->
-    <div class="row">
-        <div class="col">
-            <h2 class="title"> About </h2>
-            <p>Will Rice's Peer Academic Advisors, or PAAs, combine detailed knowledge of university academic policies
-                with the personal academic experiences of Rice students. These students have been thoroughly trained to
-                offer accurate advice regarding specific classes, research opportunities, studying abroad, and academic
-                rules, regulations, and procedures. Even if PAAs cannot answer every question, they will help students
-                find someone who can. <br>
-                <br>
-                If you need help with course selection, meeting graduation requirements or other academic issues, feel
-                free to talk to any of the PAAs listed here. The PAAs also host study breaks before each course
-                registration period for you to ask questions about classes and requirements.
-            </p>
+        <!-- PAAs -->
+        <div class="wow fadeIn row">
+            <div class="col">
+                <h2>About</h2>
+                <p>Will Rice's Peer Academic Advisors, or PAAs, combine detailed knowledge of university academic
+                    policies
+                    with the personal academic experiences of Rice students. These students have been thoroughly trained
+                    to
+                    offer accurate advice regarding specific classes, research opportunities, studying abroad, and
+                    academic
+                    rules, regulations, and procedures. Even if PAAs cannot answer every question, they will help
+                    students
+                    find someone who can. <br>
+                    <br>
+                    If you need help with course selection, meeting graduation requirements or other academic issues,
+                    feel
+                    free to talk to any of the PAAs listed here. The PAAs also host study breaks before each course
+                    registration period for you to ask questions about classes and requirements. Another option is to get academic 
+                    advice from an advisor at the OAA (<a href="https://oaa.rice.edu/about-us">the Office of Academic Advising</a>). 
+                </p>
 
-            <h2 class="title"> Head PAAs </h2>
-            <div class="card-group" id="head-paa-card-group">
-                <!-- Below is an example entry in this card group. The group is dynamically populated via JS (see config/paa.csv and scripts/populate-paa.js)  -->
-                <!-- <div class="card">
+                <h2 class="wow fadeIn title"> Head PAAs </h2>
+                <div class="card-group" id="head-paa-card-group">
+                    <!-- Below is an example entry in this card group. The group is dynamically populated via JS (see config/paa.csv and scripts/populate-paa.js)  -->
+                    <!-- <div class="card">
                     <div class="card-body">
                         <h3 class="card-title"> Priyanka Jain </h3>
                         <a href="mailto:pj7@rice.edu"><h6 class="card-subtitle text-muted"> pj7@rice.edu </h6></a>
                         <p class="card-text"> Computer Science, Visual and Dramatic Arts </p>
                     </div>
                 </div> -->
-            </div>
-            <br>
-            <h2 class="title"> Year-Long PAAs </h2>
-            <div class="table-responsive">
-                <table class="table table-striped">
-                    <thead>
-                    <tr>
-                        <th>Year-long PAAs</th>
-                        <th>Major</th>
-                        <th>Minor</th>
-                        <th>Track</th>
-                        <th>Year</th>
-                        <th>Email</th>
-                    </tr>
-                    </thead>
-                    <tbody id="paa-body-table">
-                    <!-- Below is an example entry in this table. The table is dynamically populated via JS (see config/paa.csv and scripts/populate-paa.js)  -->
-                    <!-- <tr>
+                </div>
+                <br>
+                <h2 class="wow fadeIn title"> Year-Long PAAs </h2>
+                <div class="table-responsive">
+                    <table class="wow fadeIn table table-striped">
+                        <thead>
+                            <tr>
+                                <th>Year-long PAAs</th>
+                                <th>Major</th>
+                                <th>Minor</th>
+                                <th>Track</th>
+                                <th>Year</th>
+                                <th>Email</th>
+                            </tr>
+                        </thead>
+                        <tbody id="paa-body-table">
+                            <!-- Below is an example entry in this table. The table is dynamically populated via JS (see config/paa.csv and scripts/populate-paa.js)  -->
+                            <!-- <tr>
                         <td>Juliana Ganim</td>
                         <td>Psychology, Pre-Law</td>
                         <td><a href="mailto:agf2@rice.edu">agf2@rice.edu</a></td>
                     </tr> -->
-                    
 
-                    </tbody>
-                </table>
+
+                        </tbody>
+                    </table>
+                </div>
             </div>
         </div>
+
     </div>
 
-</div>
+
+    <div id="footer-placeholder"></div>
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"><i
+            class="bi bi-arrow-up"></i></a>
 
 
-<div id = "footer-placeholder"></div>
-    
-<script src = "../scripts/footer.js"></script>
-<script src="../scripts/navbar.js"> </script>
-<script src="../scripts/populate-general.js"> </script>
-<script src="../scripts/populate-paa.js"> </script>
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../lib/wow/wow.min.js"></script>
+    <script src="../lib/easing/easing.min.js"></script>
+    <script src="../lib/waypoints/waypoints.min.js"></script>
+    <script src="../lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="../lib/counterup/counterup.min.js"></script>
+    <script src="../lib/parallax/parallax.min.js"></script>
+    <script src="../lib/isotope/isotope.pkgd.min.js"></script>
+    <script src="../lib/lightbox/js/lightbox.min.js"></script>
+
+    <script src="../scripts/navbar.js"></script>
+    <script src="../scripts/footer.js"></script>
+    <script src="../scripts/main.js"></script>
+    <script src="../scripts/populate-general.js"> </script>
+
+    <script src="../scripts/populate-paa.js"> </script>
 </body>
 
 
 </html>
-
-

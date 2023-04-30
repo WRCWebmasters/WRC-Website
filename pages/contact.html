@@ -1,55 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-120376955-1"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'UA-120376955-1');
-    </script>
-
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>WRC Contact</title>
-    <link rel="shortcut icon" href="../resources/icons/favicon.ico">
-    <link rel="stylesheet" href="../css/content-page.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css"
-          integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <title>Contact - WRC</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
 
+    <!-- Favicon -->
+    <link href="../resources/icons/favicon.ico" rel="icon">
 
-    <script src="https://code.jquery.com/jquery-3.4.0.min.js"
-        integrity="sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg="
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"
-        integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4"
-        crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"
-        integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1"
-        crossorigin="anonymous"></script>
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Jost:wght@500;600;700&family=Open+Sans:wght@400;500&family=Playfair+Display:wght@400;500;700;800&family=Raleway:wght@400;500;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="../lib/animate/animate.min.css" rel="stylesheet">
+    <link href="../lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="../lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="../css/style.css" rel="stylesheet">
 </head>
 
 <body>
-<div id="navbar-placeholder"></div>
+    <!-- Spinner Start -->
+    <div id="spinner"
+        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" role="status" style="width: 3rem; height: 3rem;"></div>
+    </div>
+    <!-- Spinner End -->
+    <div id="navbar-placeholder"></div>
 
 <div class="container">
-    <div class="row page-title">
-        <div class="col">
-            Contact
-        </div>
-    </div>
+    <h1>Contact</h1>
 
     <br>
     <!-- Address -->
-    <div class="card">
-        <a class="anchor" id="address"></a>
-        <div class="card-header">
-            <span class="content-title"><h1 class="text-white" style="display: inline"> Address </h1></span>
-        </div>
+    <!-- <div class="wow fadeIn card">
+        <a class="anchor" id="address"></a> -->
+        <h2>Address</h2>
+        <!-- <div class="card-header">
+            <span class="content-title"><h2  style="display: inline"> Address </h2></span>
+        </div> -->
+        <div class="wow fadeIn card-group">
+            <div class="card">
+                <div class="card-body">
+                    <h3 class="card-title"> We are located at:</h3>
+                    <address>
+                        <h5><a href="https://www.google.com/maps/dir//6330+Main+St,+Houston,+TX+77005/@29.7162296,-95.4013897,17z/data=!4m16!1m7!3m6!1s0x8640c07a29d6878b:0x61791afa4ea08c7f!2s6330+Main+St,+Houston,+TX+77005!3b1!8m2!3d29.716225!4d-95.399201!4m7!1m0!1m5!1m1!1s0x8640c07a29d6878b:0x61791afa4ea08c7f!2m2!1d-95.399201!2d29.716225" class="text-dark">
+                            Will Rice College<br>
+                            6330 Main St.<br>
+                            Houston, TX, 77005<br>
+        
+                        </a></h5>
+                    </address>
+                    <p>An easy place to Uber to is Cambridge Office Building, which is just across the street from Will Rice (and much easier 
+                        to map to). From Cambridge, walk past Lovett (the large grey residential building with small windows) to get to Will Rice. 
+                    </p>
+                    <!-- <p class="card-text"> Chemical and Biomolecular Engineering </p> -->
+                </div>
+            </div>
 
-        <div class="card-body">
+            <div class="card">
+                <div class="card-body">
+                    <h3 class="card-title">Mail</h3>
+                    <p>To send mail to your Will Ricer, address the package to:</p>
+                    <address>
+                        <h5>
+                            [Full Name]<br>
+                            6330 Main St.<br>
+                            Houston, TX, 77005<br>
+                        </h5>
+                    </address>
+                    <p>This will send the package to the Will Rice mail room, overseen by our college coordinator @coordinator (see below).</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-body">
+                    <h3 class="card-title"> Driving to Will Rice</h3><br>
+                        <p>To get here via car, take <a href="../resources/images/Rice-University-Color-Campus-Map-wrc-annotated.pdf" class="text-dark text-underlined">Entrance 3</a> 
+                            into Rice. Don't worry if you miss it — you can also take <a href="../resources/images/Rice-University-Color-Campus-Map-wrc-annotated.pdf" class="text-dark text-underlined">Entrance 4.</a> <br>
+                        </p>
+                        <p> If Google Maps is more your style, follow <a href="https://www.google.com/maps/dir//6330+Main+St,+Houston,+TX+77005/@29.7162296,-95.4013897,17z/data=!4m16!1m7!3m6!1s0x8640c07a29d6878b:0x61791afa4ea08c7f!2s6330+Main+St,+Houston,+TX+77005!3b1!8m2!3d29.716225!4d-95.399201!4m7!1m0!1m5!1m1!1s0x8640c07a29d6878b:0x61791afa4ea08c7f!2m2!1d-95.399201!2d29.716225" 
+                            >this link</a>  to get directions.
+                        </p>
+                </div>
+            </div>
+        </div>
+        <!-- <div class="card-body">
             <h3> We are located at:</h3>
             <address>
                 <h5><a href="https://www.google.com/maps/dir//6330+Main+St,+Houston,+TX+77005/@29.7162296,-95.4013897,17z/data=!4m16!1m7!3m6!1s0x8640c07a29d6878b:0x61791afa4ea08c7f!2s6330+Main+St,+Houston,+TX+77005!3b1!8m2!3d29.716225!4d-95.399201!4m7!1m0!1m5!1m1!1s0x8640c07a29d6878b:0x61791afa4ea08c7f!2m2!1d-95.399201!2d29.716225" class="text-dark">
@@ -72,70 +123,121 @@
             <h3>To get here via car, take <a href="../resources/images/Rice-University-Color-Campus-Map-wrc-annotated.pdf" class="text-dark text-underlined">Entrance 3</a> into Rice. Don't worry if you miss it - you can also take <a href="../resources/images/Rice-University-Color-Campus-Map-wrc-annotated.pdf" class="text-dark text-underlined">Entrance 4.</a> <br>
             <br>
             <a href="https://www.google.com/maps/dir//6330+Main+St,+Houston,+TX+77005/@29.7162296,-95.4013897,17z/data=!4m16!1m7!3m6!1s0x8640c07a29d6878b:0x61791afa4ea08c7f!2s6330+Main+St,+Houston,+TX+77005!3b1!8m2!3d29.716225!4d-95.399201!4m7!1m0!1m5!1m1!1s0x8640c07a29d6878b:0x61791afa4ea08c7f!2m2!1d-95.399201!2d29.716225" class="text-dark text-underlined">If Google Maps is more your style, follow this link to get directions.</a></h3>
-        </div>
-    </div>
+        </div> -->
+    
     <br>
     <!-- College Coordinator -->
-    <div class="card">
+    <h2>College Coordinator</h2>
+    <div class="wow fadeIn card-group">
+        <div class="card">
+            <div class="card-body">
+                <h3 class="card-title"> About @coordinator</h3>
+                <p>The college coordinator is in their office during normal working hours. You can read more about @coordinator (and the rest of the A-Team) <a href="./a-team.html#coordinator-content" class="text-dark"> here</a>. </p>
+                <!-- <p class="card-text"> Chemical and Biomolecular Engineering </p> -->
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-body">
+                <h3 class="card-title"> Phone Number</h3>
+                <p> The phone number of the Will Rice office is 713-348-6061.</p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-body">
+                <h3 class="card-title"> Email</h3>
+                <p> The college coordinator's email is <a href="mailto:@email-coordinator" class="text-dark text-underlined">@email-coordinator</a>.</p>
+            </div>
+        </div>
+    </div>
+    <!-- <div class="wow fadeIn card">
         <a class="anchor" id="coordinator"></a>
         <div class="card-header">
-            <span class="content-title"><h1 class="text-white" style="display: inline"> College Coordinator </h1></span>
+            <span class="content-title"><h2  style="display: inline"> College Coordinator </h2></span>
         </div>
 
         <div class="card-body">
             <h3> Our college coordinator is <a href="./a-team.html#coordinator-content" class="text-dark">@coordinator.</a> You can reach her at <a href="mailto:@email-coordinator" class="text-dark text-underlined">@email-coordinator</a>.</h3>
         </div>
     </div>
-    <br>
+    <br> -->
 
-    <!--Phone Number-->
-    <div class="card">
+    <!-- Phone Number
+    <div class="wow fadeIn card">
         <a class="anchor" id="phone"></a>
         <div class="card-header">
-            <span class="content-title"><h1 class="text-white" style="display: inline"> Phone Number </h1></span>
+            <span class="content-title"><h2  style="display: inline"> Phone Number </h2></span>
         </div>
 
         <div class="card-body">
             <h3> The phone number of the Will Rice office is 713-348-6061.</h3>
         </div>
     </div>
-    <br>
+    <br> -->
 
     <!-- Social Media -->
-    <div class="card">
-        <a class="anchor" id="social-media"></a>
+    <br/>
+    <h2>Social Media</h2>
+    <div class="wow fadeIn card">
+        <!-- <a class="anchor" id="social-media"></a>
         <div class="card-header">
-            <span class="content-title"><h1 class="text-white" style="display: inline"> Social Media</h1></span>
-        </div>
+            <span class="content-title"><h2  style="display: inline"> Social Media</h2></span>
+        </div> -->
 
         <div class="card-body">
-            <h3><a target="_blank" href="https://www.facebook.com/groups/365957593418249/" class="text-dark">Facebook</a></h3>
+            <h3><a target="_blank" href="https://www.facebook.com/groups/365957593418249/" class="text-dark">Facebook Group</a></h3>
+            <h3><a target="_blank" href="https://www.facebook.com/willrice.photos/" class="text-dark">Will Rice Historian</a></h3>
+            
             <h3><a target="_blank" href="https://www.instagram.com/willricecollege/" class="text-dark">Instagram</a></h3>
+            <h3><a target="_blank" href="https://www.instagram.com/wrcoweek/" class="text-dark">O-Week Instagram</a></h3>
             <!-- <h3><a target="_blank" href="https://www.youtube.com/channel/UCgd95w9atLLRBdg6FF8fVsA" class="text-dark">YouTube</a></h3> -->
             <h3><a target="_blank" href="https://www.youtube.com/user/willriceelections" class="text-dark">Elections YouTube</a></h3>
-            <h3><a target="_blank" href="https://www.flickr.com/photos/will_rice_college/" class="text-dark">Flickr</a></h3><br>
+            <!-- <h3><a target="_blank" href="https://www.flickr.com/photos/will_rice_college/" class="text-dark">Flickr</a></h3><br> -->
         </div>
     </div>
     <br>
     <!-- Webmaster Contact -->
-    <div class="card">
-        <a class="anchor" id="webmasters"></a>
+    <h2>Webslingers</h2>
+    <div class="wow fadeIn card">
+        <!-- <a class="anchor" id="webmasters"></a>
         <div class="card-header">
-            <span class="content-title"><h1 class="text-white" style="display: inline"> Questions, comments, suggestions? </h1></span>
-        </div>
+            <span class="content-title"><h2  style="display: inline">  </h2></span>
+        </div> -->
 
         <div class="card-body">
-            <h3>Contact the webslingers  <a href="mailto:@email-webmasters" target="_top">here! </a></h3>
+            <h3>You can send the webslingers a message in 
+                #website-request on Slack! If you are not on the Slack, you can contact the webslingers at 
+                <a href="mailto:wrcwebmasters@gmail.com" target="_top">wrcwebmasters@gmail.com. </a>  </h3>
         </div>
     </div>
 
+</div>
 </div>
 
 
 <div id = "footer-placeholder"></div>
 
-<script src = "../scripts/footer.js"></script>
-<script src="../scripts/navbar.js"> </script>
+
+  <!-- Back to Top -->
+  <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+  <!-- JavaScript Libraries -->
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="../lib/wow/wow.min.js"></script>
+  <script src="../lib/easing/easing.min.js"></script>
+  <script src="../lib/waypoints/waypoints.min.js"></script>
+  <script src="../lib/owlcarousel/owl.carousel.min.js"></script>
+  <script src="../lib/counterup/counterup.min.js"></script>
+  <script src="../lib/parallax/parallax.min.js"></script>
+  <script src="../lib/isotope/isotope.pkgd.min.js"></script>
+  <script src="../lib/lightbox/js/lightbox.min.js"></script>
+
+  <script src="../scripts/navbar.js"></script>
+  <script src="../scripts/footer.js"></script>
+  <script src="../scripts/main.js"></script>
+
 <script src="../scripts/populate-general.js"> </script>
 </body>
 

@@ -1,122 +1,168 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-120376955-1"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'UA-120376955-1');
-    </script>  
-    
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Requesting Money</title>
-    <link rel="shortcut icon" href="../resources/icons/favicon.ico">
-    <link rel="stylesheet" href="../css/content-page.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css"
-          integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <title>Requesting Money - WRC</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
 
-    <script src="https://code.jquery.com/jquery-3.4.0.min.js"   
-        integrity="sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg="   
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"
-        integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4"
-        crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"
-        integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1"
-        crossorigin="anonymous"></script>
+    <!-- Favicon -->
+    <link href="../resources/icons/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Jost:wght@500;600;700&family=Open+Sans:wght@400;500&family=Playfair+Display:wght@400;500;700;800&family=Raleway:wght@400;500;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="../lib/animate/animate.min.css" rel="stylesheet">
+    <link href="../lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="../lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="../css/style.css" rel="stylesheet">
 </head>
 
 <body>
+    <!-- Spinner Start -->
+    <div id="spinner"
+        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" role="status" style="width: 3rem; height: 3rem;"></div>
+    </div>
+    <!-- Spinner End -->
     <div id="navbar-placeholder"></div>
-<div class="container">
-    <div class="row page-title">
-        <div class="col">
-            Requesting Money
+
+    <div class="container">
+        <div class="row page-title">
+            <h1 class="col">
+                Requesting Money
+            </h1>
         </div>
+
+        <div class="row content">
+            <div class="col-12">
+                If you have an idea for Will Rice that you need money to accomplish there are three ways to obtain
+                funds:
+                <br><br>
+                The first way is to contact a relevant committee. Check out the committee poster in the commons or the
+                committee members under the Student Leadership section of the website to see who you can talk to.
+                <br><br>
+                If your idea does not fall under a committee category, or the relevant committee does not have
+                sufficient funds to make it happen there are two options for requesting money: The Diet Fund and the
+                Treasurers Idea Fund.
+                <br>
+                <ul>
+                    <li>The Diet Fund has a total of $3000 to be used throughout the year. Most money requests go to the
+                        Diet Fund.</li>
+                    <li>The Treasurer Idea Fund has a total of $200 that is typically used on 1-2 events.</li>
+                </ul>
+
+                If your idea is a large-scale event or major purchase, request from the Diet Fund; if your idea is a
+                small-scale event or a minor purchase, request from the Treasurer Idea Fund.
+                <br><br>
+            </div>
+        </div>
+
+        <!--    Diet Fund-->
+        <div class="card">
+            <a class="anchor" id="diet"></a>
+            <div class="card-header">
+                <span class="content-title">
+                    <h2 style="display: inline"> Diet Fund </h2>
+                </span>
+            </div>
+
+            <div class="card-body">
+                <h3> To request money from the Diet Fund: </h3>
+                <ol>
+                    <li>Create a budget and write up a description of the funding breakdown.
+                        <ul>
+                            <li>Description must include: What each item is, What it will be used for, Cost per item and
+                                number of items, Where you’re expecting to buy the items, and lastly how your request
+                                will benefit the Will Rice Community.</li>
+                        </ul>
+                    </li>
+                    <li>Email the President + Treasurers with your money request and budget breakdown by 11:59PM the day
+                        before Diet. </li>
+                    <li>Email the President (<a href="mailto:wrcpres@gmail.com">wrcpres@gmail.com</a>) a slide
+                        containing your request and your budget breakdown by noon on the day of Diet.</li>
+                    <li>Come present at Diet! You need a majority approval from your voting members.
+                        <ul>
+                            <li>If your proposal is less than $200, you can present at an Executive Council meeting and
+                                it will be voted on the following Diet.</li>
+                            <li>If your proposal is over $200, it will be a two Diet process. You will present your
+                                proposal at the first Diet, then it will be voted on 2 weeks later.</li>
+                        </ul>
+                    </li>
+                </ol>
+            </div>
+        </div>
+        <br>
+
+        <!--    Treasurers Idea Fund-->
+        <div class="card">
+            <a class="anchor" id="treasurer"></a>
+            <div class="card-header">
+                <span class="content-title">
+                    <h2 style="display: inline"> Treasurers Idea Fund </h2>
+                </span>
+            </div>
+
+            <div class="card-body">
+                <h3> To request money from the Treasurers Idea Fund: </h3>
+                <ol>
+                    <li>Create a budget and write up a description of the funding breakdown.
+                        <ul>
+                            <li>Description must include: What each item is, What it will be used for, Cost per item and
+                                number of items, Where you’re expecting to buy the items, and lastly how your request
+                                will benefit the Will Rice Community.</li>
+                        </ul>
+                    </li>
+                    <li>Come talk to the Treasurers about your idea. You only need approval from the two treasurers to
+                        use this fund!</li>
+                </ol>
+            </div>
+        </div>
+        <br>
+
     </div>
 
-    <div class="row content">
-        <div class="col-12">
-            If you have an idea for Will Rice that you need money to accomplish there are three ways to obtain funds.
-            <br><br>
-            The first way is to contact a relevant committee. Check out the committee poster in the commons or the committee members under the Student Leadership section of the website to see who you can talk to.
-            <br><br>
-            If your idea does not fall under a committee category, or the relevant committee does not have sufficient funds to make it happen there are two options for requesting money: The Diet Fund and the Treasurers Idea Fund.
-            <br>
-            <ul>
-                <li>The Diet Fund has a total of $3000 to be used throughout the year. Most money requests go to the Diet Fund.</li>
-                <li>The Treasurer Idea Fund has a total of $200 that is typically used on 1-2 events.</li>
-            </ul>
 
-            If your idea is a large-scale event or major purchase, request from the Diet Fund; if your idea is a small-scale event or a minor purchase, request from the Treasurer Idea Fund.
-            <br><br>
-        </div>
-    </div>
+    <div id="footer-placeholder"></div>
 
-<!--    Diet Fund-->
-    <div class="card">
-        <a class="anchor" id="diet"></a>
-        <div class="card-header">
-            <span class="content-title"><h1 class="text-white" style="display: inline"> Diet Fund </h1></span>
-        </div>
-
-        <div class="card-body">
-            <h3> To request money from the Diet Fund: </h3>
-            <ol>
-                <li>Create a budget and write up a description of the funding breakdown.
-                    <ul>
-                        <li>Description must include: What each item is, What it will be used for, Cost per item and number of items, Where you’re expecting to buy the items, and lastly how your request will benefit the Will Rice Community.</li>
-                    </ul>
-                </li>
-                <li>Email the President + Treasurers with your money request and budget breakdown by 11:59PM the day before Diet. </li>
-                <li>Email the President (<a href="mailto:wrcpres@gmail.com">wrcpres@gmail.com</a>) a slide containing your request and your budget breakdown by noon on the day of Diet.</li>
-                <li>Come present at Diet! You need a majority approval from your voting members.
-                    <ul>
-                        <li>If your proposal is less than $200, you can present at an Executive Council meeting and it will be voted on the following Diet.</li>
-                        <li>If your proposal is over $200, it will be a two Diet process. You will present your proposal at the first Diet, then it will be voted on 2 weeks later.</li>
-                    </ul>
-                </li>
-            </ol>
-        </div>
-    </div>
-    <br>
-
-<!--    Treasurers Idea Fund-->
-    <div class="card">
-        <a class="anchor" id="treasurer"></a>
-        <div class="card-header">
-            <span class="content-title"><h1 class="text-white" style="display: inline"> Treasurers Idea Fund </h1></span>
-        </div>
-
-        <div class="card-body">
-            <h3> To request money from the Treasurers Idea Fund: </h3>
-            <ol>
-                <li>Create a budget and write up a description of the funding breakdown.
-                    <ul>
-                        <li>Description must include: What each item is, What it will be used for, Cost per item and number of items, Where you’re expecting to buy the items, and lastly how your request will benefit the Will Rice Community.</li>
-                    </ul>
-                </li>
-                <li>Come talk to the Treasurers about your idea, you only need approval from the two treasurers to use this fund.</li>
-            </ol>
-        </div>
-    </div>
-    <br>
-
-</div>
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"><i
+            class="bi bi-arrow-up"></i></a>
 
 
-<div id = "footer-placeholder"></div>
-    
-<script src = "../scripts/footer.js"></script>
-<script src="../scripts/navbar.js"> </script>
-<script src="../scripts/populate-general.js"> </script>
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../lib/wow/wow.min.js"></script>
+    <script src="../lib/easing/easing.min.js"></script>
+    <script src="../lib/waypoints/waypoints.min.js"></script>
+    <script src="../lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="../lib/counterup/counterup.min.js"></script>
+    <script src="../lib/parallax/parallax.min.js"></script>
+    <script src="../lib/isotope/isotope.pkgd.min.js"></script>
+    <script src="../lib/lightbox/js/lightbox.min.js"></script>
+
+    <script src="../scripts/navbar.js"></script>
+    <script src="../scripts/footer.js"></script>
+    <script src="../scripts/main.js"></script>
+    <script src="../scripts/populate-general.js"> </script>
 </body>
 
 
 </html>
-
-

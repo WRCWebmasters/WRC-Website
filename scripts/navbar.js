@@ -1,128 +1,99 @@
-let categories = {
-  "a-team": "@people",
-  "alumni-and-associates": "@people",
-  "beer-bike": "@about",
-  "brand-resources": "@resources",
-  calendar: "@resources",
-  caregivers: "@people",
-  "constitution-bylaws": "@operating",
-  contact: "@operating",
-  diet: "@operating",
-  fellows: "@people",
-  forms: "@resources",
-  history: "@about",
-  historytimeline: "@about",
-  "housing-and-parking": "@operating",
-  "new-students": "@people",
-  paa: "@people",
-  resources: "@resources",
-  rha: "@people",
-  strive: "@people",
-  "student-leadership": "@people",
-  today: "@about",
-  traditions: "@about",
-  williammarsh: "@about",
-};
-
 var navbarContent = `
-<nav class="navbar navbar-light fixed-top navbar-expand-xl">
-    <a class="navbar-brand" href="home.html">
-        <img src="../resources/wrc-logos/classic-crest-transparent [png].png" width="50" height="50" alt="">
-    </a>
-    <a class="navbar-brand" id = "nav-title" href="home.html"><h1 class = "navbar-title">Will Rice College</h1></a>
-    <a class="navbar-brand" id="nav-title-short" href="home.html"><h1 class = "navbar-title">WRC</h1></a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ml-auto">
-            <li class="nav-item dropdown">
-
-                <a class="nav-link dropdown-toggle" href="http://example.com" data-toggle="dropdown"
-                    aria-expanded="false">
-                    ABOUT
+<div style = "padding-top: 0px" class="container d-flex justify-content-center">
+    <div class="row">
+        <div class="navbar-row1">
+            <div class="navbar-brand d-flex justify-content-center mb-3">
+                <a style="margin-top: 5px" id="title" href="home.html" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
+                    <img src="../resources/wrc-logos/classic-crest-transparent [png].png" width="40" height="40"
+                        alt="Will Rice Logo">
+                    <h5 style="font-size: 2rem" class="m-0">Will Rice College</h5>
                 </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                    <a class="dropdown-item" href="./history.html">History</a>
-                    <!-- <a class="dropdown-item" href="./williammarsh.html">William Marsh Rice Jr.</a> -->
-                    <a class="dropdown-item" href="./traditions.html">Traditions</a>
-                    <a class="dropdown-item" href="beer-bike.html">Beer Bike</a>
-                    <!-- <a class="dropdown-item" href="./today.html">Today</a> -->
+            </div>
+            <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse"
+                data-bs-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav m-auto p-4 p-lg-0">
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">ABOUT</a>
+                    <div class="dropdown-menu m-0">
+                        <a href="history.html" class="dropdown-item">History</a>
+                        <a href="traditions.html" class="dropdown-item">Traditions</a>
+                        <a href="beer-bike.html" class="dropdown-item">Beer Bike</a>
+                        <a href="diversity.html" class="dropdown-item">Diversity</a>
+                        <a href="sustainability.html" class="dropdown-item">Sustainability</a>
+
+                    </div>
                 </div>
-            </li>
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink"
-                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    PEOPLE
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                    <a class="dropdown-item" href="./a-team.html">A-Team</a>
-                    <a class="dropdown-item" href="./alumni-and-associates.html">Alumni + Associates</a>
-
-                    <hr>
-                    <a class="dropdown-item" href="./student-leadership.html">Student Leadership</a>
-                    <a class="dropdown-item" href="./paa.html">PAAs</a>
-                    <a class="dropdown-item" href="./fellows.html">Fellows</a>
-                    <a class="dropdown-item" href="./rha.html">RHAs</a>
-                    <a class="dropdown-item" href="./strive.html">STRIVE</a>
-                    <a class="dropdown-item" href="./caregivers.html">Caregivers</a>
-
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">PEOPLE</a>
+                    <div class="dropdown-menu m-0">
+                        <a href="a-team.html" class="dropdown-item">A-Team</a>
+                        <a href="alumni-and-associates.html" class="dropdown-item">Alumni & Associates</a>
+                        <a href="student-leadership.html" class="dropdown-item">Student Leadership</a>
+                        <a href="paa.html" class="dropdown-item">PAAs</a>
+                        <a href="fellows.html" class="dropdown-item">Fellows</a>
+                        <a href="rha.html" class="dropdown-item">RHAs</a>
+                        <a href="pca.html" class="dropdown-item">PCAs</a>
+                        <a href="strive.html" class="dropdown-item">STRIVE</a>
+                        <a href="caregivers.html" class="dropdown-item">Caregivers</a>
+                    </div>
                 </div>
-            </li>
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="http://example.com" data-toggle="dropdown"
-                    aria-haspopup="true" aria-expanded="false">
-                    OPERATING
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                    <a class="dropdown-item" href="./diet.html">Diet</a>
-                    <a class="dropdown-item" href="./budget.html">Budget and Spending</a>
-                    <a class="dropdown-item" href="./constitution-bylaws.html">Constitution/By-Laws</a>
-                    <a class="dropdown-item" href="./contact.html">Contact</a>
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">OPERATING</a>
+                    <div class="dropdown-menu m-0">
+                        <a href="diet.html" class="dropdown-item">Diet</a>
+                        <a href="budget.html" class="dropdown-item">Budget & Spending</a>
+                        <a href="constitution-bylaws.html" class="dropdown-item">Constitution & By-laws</a>
+                        <a href="contact.html" class="dropdown-item">Contact</a>
+                        <a href="facilities.html" class="dropdown-item">Facilities</a>
+                    </div>
+                </div>
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">RESOURCES</a>
+                    <div class="dropdown-menu m-0">
+                        <a href="communications.html" class="dropdown-item">Communications</a>
+                        <a href="forms.html" class="dropdown-item">Forms</a>
+                        
+                        <a href="calendar.html" class="dropdown-item">Calendars</a>
+                        <a href="brand-resources.html" class="dropdown-item">Brand Resources</a>
+                        <a href="financial-assistance.html" class="dropdown-item">Financial Assistance</a>
 
+                    </div>
                 </div>
-            </li>
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="http://example.com" data-toggle="dropdown"
-                    aria-haspopup="true" aria-expanded="false">
-                    RESOURCES
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                    <a class="dropdown-item" href="./communications.html">Communications</a>
-                    <a class="dropdown-item" href="./forms.html">Forms</a>
-                    <a class="dropdown-item" href="./finances.html">Finances</a>
-                    <a class="dropdown-item" href="./calendar.html">Calendar</a>
-                    <a class="dropdown-item" href="./brand-resources.html">Brand Resources</a>
-                    <a class="dropdown-item" target = "_blank" href="https://linktr.ee/ricemutualaid">Rice Mutual Aid</a>
-                </div>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link nav-bold" target = "_blank" href="https://riceconnect.rice.edu/donation/support-will-rice">
-                    DONATE
-                </a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link nav-highlight" href="./new-students.html">
-                    NEW STUDENTS
-                </a>
-            </li>
-        </ul>
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSeyfsUhSL3uE04xBhw3_rhijYqfCpXU8dCKD3mciANnVf6uzg/viewform"
+                    target="_blank" class="nav-item nav-link">MAGISTER'S FUND</a>
+                <a href="forms.html#space" class="nav-item nav-link">SPACE RESERVATION</a>
+
+                <a target="_blank" href="https://riceconnect.rice.edu/donation/support-will-rice"
+                    class="nav-item nav-link">DONATE</a>
+                <a target="_blank" href="https://wrcoweek.wixsite.com/wrcoweek2022/home"
+                    class="nav-item nav-link">O-WEEK</a>
+
+            </div>
+        </div>
     </div>
-</nav>
+</div>
 `;
 
+// when scroll, navbar shrinks
 $(function () {
-  $(document).scroll(function () {
-    var $nav = $(".navbar");
-    $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
+    $(document).scroll(function () {
+      var $nav = $(".navbar h5, .navbar img");
+      var $navitem = $(".nav-link");
+      var $navbrand = $(".navbar-brand");
+      var $navbar = $(".navbar-nav");
+      $navitem.toggleClass("small-nav", $(this).scrollTop() > 2*$nav.height());
+      $navbrand.toggleClass("d-lg-none", $(this).scrollTop() > 2*$nav.height());
+      $navbar.toggleClass("center", $(this).scrollTop() > 2*$nav.height());
+    });
   });
-});
 
-let pagename = location.pathname.split("/").slice(-1)[0].replace(".html", "");
-navbarContent = navbarContent.replace(categories[pagename], "active");
-
-let navbarElement = document.createElement("div");
+// script to replace a <div id="navbar-placeholder"></div> with this navbar html
+let navbarElement = document.createElement("nav");
+navbarElement.className = "navbar navbar-expand-lg bg-light-border navbar-light sticky-top p-0";
 navbarElement.innerHTML = navbarContent;
-document.getElementById("navbar-placeholder").appendChild(navbarElement);
+document.getElementById("navbar-placeholder").replaceWith(navbarElement );
+
