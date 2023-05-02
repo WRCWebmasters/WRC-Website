@@ -49,6 +49,7 @@ var navbarContent = `
                         <a href="constitution-bylaws.html" class="dropdown-item">Constitution & By-laws</a>
                         <a href="contact.html" class="dropdown-item">Contact</a>
                         <a href="facilities.html" class="dropdown-item">Facilities</a>
+                        <a href="housing-and-parking.html" class="dropdown-item">Housing & Parking</a>
                     </div>
                 </div>
                 <div class="nav-item dropdown">
