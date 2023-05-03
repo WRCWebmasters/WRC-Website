@@ -61,7 +61,7 @@ var navbarContent = `
                         <a href="calendar.html" class="dropdown-item">Calendars</a>
                         <a href="brand-resources.html" class="dropdown-item">Brand Resources</a>
                         <a href="financial-assistance.html" class="dropdown-item">Financial Assistance</a>
-
+                        <a href="disability.html" class="dropdown-item">Disability Resources</a>
                     </div>
                 </div>
                 <a href="https://docs.google.com/forms/d/e/1FAIpQLSeyfsUhSL3uE04xBhw3_rhijYqfCpXU8dCKD3mciANnVf6uzg/viewform"
