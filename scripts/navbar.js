@@ -57,15 +57,13 @@ var navbarContent = `
                     <div class="dropdown-menu m-0">
                         <a href="communications.html" class="dropdown-item">Communications</a>
                         <a href="forms.html" class="dropdown-item">Forms</a>
-                        
                         <a href="calendar.html" class="dropdown-item">Calendars</a>
                         <a href="brand-resources.html" class="dropdown-item">Brand Resources</a>
                         <a href="financial-assistance.html" class="dropdown-item">Financial Assistance</a>
                         <a href="disability.html" class="dropdown-item">Disability Resources</a>
                     </div>
                 </div>
-                <a href="https://docs.google.com/forms/d/e/1FAIpQLSeyfsUhSL3uE04xBhw3_rhijYqfCpXU8dCKD3mciANnVf6uzg/viewform"
-                    target="_blank" class="nav-item nav-link">MAGISTER'S FUND</a>
+              
                 <a href="forms.html#space" class="nav-item nav-link">SPACE RESERVATION</a>
 
                 <a target="_blank" href="https://riceconnect.rice.edu/donation/support-will-rice"
@@ -78,6 +76,9 @@ var navbarContent = `
     </div>
 </div>
 `;
+// ADD BACK IN IN AUGUST:
+// <a href="https://docs.google.com/forms/d/e/1FAIpQLSeyfsUhSL3uE04xBhw3_rhijYqfCpXU8dCKD3mciANnVf6uzg/viewform"
+// target="_blank" class="nav-item nav-link">MAGISTER'S FUND</a>>
 
 // when scroll, navbar shrinks
 $(function () {
