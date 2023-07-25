@@ -113,6 +113,7 @@ def generateFellowEntries(inputFile):
 
     # CSV columns are: [name] [email] [major] [classes]
     with open(inputFile) as csv_file:
+        print("opened fellow file")
         csv_reader = csv.reader(csv_file, delimiter=',')
         line_count = 0
         for row in csv_reader:
