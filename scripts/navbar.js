@@ -70,15 +70,15 @@ var navbarContent = `
                     class="nav-item nav-link">DONATE</a>
                 <a target="_blank" href="https://wrcoweek.wixsite.com/aeroweek2023"
                     class="nav-item nav-link">O-WEEK</a>
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSczZwF5q51FzRpfHqD0BxQmBZgvIsD3KSRo80pWyt72OSH7nQ/viewform"
+                    target="_blank" class="nav-item nav-link">MAGISTER'S FUND</a>
 
             </div>
         </div>
     </div>
 </div>
 `;
-// ADD BACK IN IN AUGUST:
-// <a href="https://docs.google.com/forms/d/e/1FAIpQLSeyfsUhSL3uE04xBhw3_rhijYqfCpXU8dCKD3mciANnVf6uzg/viewform"
-// target="_blank" class="nav-item nav-link">MAGISTER'S FUND</a>>
+
 
 // when scroll, navbar shrinks
 $(function () {
