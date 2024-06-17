@@ -68,9 +68,12 @@ var navbarContent = `
 
                 <a target="_blank" href="https://riceconnect.rice.edu/donation/support-will-rice"
                     class="nav-item nav-link">DONATE</a>
+                <!--
                 <a target="_blank" href="https://wrcoweek.wixsite.com/aeroweek2023"
                     class="nav-item nav-link">O-WEEK</a>
-                <a href="https://docs.google.com/forms/d/e/1FAIpQLSczZwF5q51FzRpfHqD0BxQmBZgvIsD3KSRo80pWyt72OSH7nQ/viewform"
+                -->
+                <a href="https
+                ://docs.google.com/forms/d/e/1FAIpQLSczZwF5q51FzRpfHqD0BxQmBZgvIsD3KSRo80pWyt72OSH7nQ/viewform"
                     target="_blank" class="nav-item nav-link">MAGISTER'S FUND</a>
 
             </div>
