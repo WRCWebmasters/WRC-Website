@@ -9,7 +9,7 @@ var footerContent = `
       <div class="col-lg-3 col-md-6">
         <h4 class="text-white mb-4">Quick Links</h4>
         <a class="btn btn-link" target="_blank"
-          href="https://docs.google.com/forms/d/e/1FAIpQLSczZwF5q51FzRpfHqD0BxQmBZgvIsD3KSRo80pWyt72OSH7nQ/viewform">Magister's Fund</a>
+          href="https://docs.google.com/forms/d/e/1FAIpQLSczZwF5q51FzRpfHqD0BxQmBZgvIsD3KSRo80pWyt72OSH7nQ/viewform">Doc C Fund</a>
         <a class="btn btn-link" href="calendar.html">Calendar</a>
         <a class="btn btn-link" href="diet.html">Diet</a>
         <a class="btn btn-link" href="forms.html#space">Space Reservation</a>
