@@ -1,27 +1,30 @@
 Name,Net ID,Grad Year,Major(s),Minor(s),Pre-Professional Track,Category,Classes
-Sean Bishop,sm27,2024,Chemical and Biomolecular Engineering,,Pre-grad,Engineering,"CHBE, MATH 101/102/211/212"
-Yeonju Kim,yk59,,Bioengineering,,Pre-grad,Engineering,"CHEM 211, MATH 212/211, BIOE classes, Writing & Presentations (Engineering)"
-Jack Eisinger,Jme11,,Psychology,"Business, Data Science",,Social Science,"PSYC 101/202/354, BUSI 296/310, Presentations (Social Science)"
-William Pan,whp2,,"Electrical Engineering, Mathematics",,Pre-grad,Engineering,"COMP 182, MATH 354/355, ELEC 220/241/242/261/305/378, NEUR 383"
-Daniel Plascencia,dp60,,Mechanical Engineering,Engineering Design,Pre-grad,Engineering,"MATH 355/102/212, MECH 202, PHYS 101"
-Nikitha Kota,nk57,,"Biosciences; Studies in Women, Gender, and Sexuality",,Pre-med,"Humanities, Natural Science","CHEM 121/211, BIOS 300, Writing & Presentations (Natural Science, Humanities)"
-Jaesang Lim,jl262,,Biosciences with a Concentration in Cell Biology,,Pre-med,Natural Science,"BIOS 201, CHEM 211, Presentations (Natural Science)"
-Misha Gupta,mmg10,,Mathematical Economics,"Engineering Design, Data Science",,Social Science,"MATH 101/102, Writing (Social Science)"
-Adam Vuong,abv3,,"Bioengineering ","Chinese Language Certificate ",Pre-grad,Engineering,"CHIN 141/142, CMOR 220, PHYS 101, MATH 101/102/212, Presentations (Engineering)"
-Marty Brandwein,mb156,,Computer Science,,,Engineering,"COMP 140, MATH 102, Writing (Humanities)"
-"Esha Sarakinti ",ers15,,"Health sciences ","Data science, Spanish certificate ","Pre med ",Natural Science,"Gen Chem, BIOS 201/202, Writing (Natural Science"
-Thomas Lu,tjl5,,"Computer Science, Computational and Applied Mathematics",Data Science,,Engineering,"CAAM 210/336, COMP 140, STAT 310"
-Ivana Hsyung,ijh2,,CHBE,CAAM (CMOR),Pre-grad,Engineering,"CAAM 210/CMOR 220, CAAM 335/336, MATH 101/221/211/354/355, Writing & Presentations"
-Kate Doherty,Kd56,,Mechanical Engineering,Spanish,Pre-med,Engineering,"PHYS 101/102, Gen Chem, MATH 102, CAAM 210, PSYC 101, Presentations (Natural Science, Engineering)"
-Brandon Chen,bac10,,Cognitive Science,"Biochemistry and Cell Biology, Medical Humanities",Pre-med,Social Science,"CHEM 211/212, BIOS 300/301"
-Tessa Domsky,tnd3,,VADA,Art History,Pre-grad,Humanities,"Writing & Presentations (Humanities, Social Science)"
-Anya Sathyajit,abs15,,Cognitive Science,,,Social Science,"MATH 101/102 "
-Eli Case,edc5,,Mechanical Engineering,Computational and Applied Mathematics,,Engineering,"MATH 211/212, CMOR 220/302/304, PHYS 111/112, MECH, Presentations (Engineering)"
-Kendall Lyman,kkl6,,"Biosciences, History",,Pre-med,"Natural Science, Humanities","HIST, PSYC 101/203/380, ANTH 203, CHEM 176, Writing (Humanities)"
-Shriya Reddy,sdr6,,"Chemistry, Computer Science",,Pre-grad,"Natural Science, Engineering","CHEM 211, CHEM 212/320, COMP 140"
-Ellen Maerean,ekm6,,Health Sciences,Cell Biology and Biochemistry,Pre-med,Natural Science,CHEM 121/122
-Ayooluwanitemi Aitokhuehi,"aoa5 ",,"Mathematics, Computer Science",,,Engineering,"MATH classes, COMP 140/182/215/382/322"
-Brooke Nguyen,bln3,,Psychology,,"Pre-med, Pre-dental",Social Science,"PSYC 101/202/203, Presentations (Social Science)"
-Manya Shah,ms194,,"Psychology, Business (Management) ",,Pre-law,Social Science,"SOSC 302, PSYC 101/203, any intro Psych classes "
-Giancarlo Valenzuela,gv16,,Biosciences: Cell Biology and Genetics,,,Natural Science,"BIOS 201/202/301, CHEM 121/122/211 "
-Tanya Pawawongsak,tp43,,Earth Environmental and Planetary Sciences,,,Natural Science,
+Kamisi Adentuji,oea6,2027,Chemistry,,Pre-Med,Natural Sciences,"MATH 101/102/211, BIOS 201, CHEM 211"
+Jonathan Cheng,jc212,2026,"Computational and Applied Mathematics, Statistics",Data Science,Pre-Grad,Engineering,"STAT, CAAM"
+Sammy Cox,sc187,2026,Chemistry,,Pre-Grad,Natural Sciences,"CHEM, BIOS 301/302"
+Kate Doherty,kd56,2026,"Mechanical Engineering",Spanish,Pre-Med,Engineering,"CHEM, MATH, PHYS, MECH"
+Mariela Garcia,mmg10,2027,Chemical and Biomolecular Engineering,Biochemistry and Cell Biology,,Engineering,"CHEM 211/313/320, MATH 102/211, CHBE 243/301"
+Margaret He,mlh10,2027,"Neuroscience",,Pre-Med,"Natural Sciences","CHEM 121/122, PSYC 101/203, BIOS 385, NEUR 362"
+Joy Kim,jk127,2027,Biosciences,,Pre-Med,Natural Sciences,CHEM 211/313
+Sashi Kulatilaka,sk271,2028,Biosciences,Neuroscience,Pre-Med,Natural Sciences,"CHEM 121/122/211, Writing/Presentations (Natural Sciences), SPAN"
+Lena Lowry,lil3,2027,"Mathematics, Economics",,,"Natural Sciences, Social Sciences","MATH, COMP, CMOR, ECON"
+Thomas Lu,tjl5,2026,"Computer Science, Computational and Applied Mathematics","Data Science",,Engineering,"COMP, CMOR"
+Julianne Ma,jm288,2028,"Psychology, English",,Pre-Grad,"Social Sciences, Humanities","PSYC"
+Navya Nanda,nn32,2027,Biosciences,Global Health Technologies,Pre-Med,Natural Sciences,"BIOS 301, PHYS 125, CHEM 121/122, BIOS 201/202"
+Annie Nguyen,ahn6,2027,Biosciences,Art History,Pre-Med,Natural Sciences,"PHYS 125/126, CHEM 121/122/211/313, BIOS"
+"Shriya Reddy",sdr6,2026,"Chemistry, Biosciences","Data Science","Pre-Med/Pre-Grad",Natural Sciences,"CHEM 211, CHEM 313/320, BIOS 301/302/341/372, COMP 140"
+Esha Sarakinti,ers15,2026,"Health Sciences",Biochemistry and Cell Biology,Pre-Med,Natural Sciences,"CHEM 121/122,211/313, BIOS 201/202"
+Maher Tharakan,mjt10,2026,Sports Medicine and Exercise Physiology,Biochemistry and Cell Biology,Pre-Med,Natural Sciences,"KINE 300/301, BIOS 341"
+Adam Vuong,abv3,2026,Bioengineering,Engineering Design,Pre-Grad,Engineering,"BIOE, MATH 101/102/211/212, ELEC 243, MECH 202, ENGI, PHYS 101/112"
+Grant Xu,gx11,2028,Biosciences,"Sociology",Pre-Med,Natural Sciences,"BIOS 201/202/300, CHEM 211, MATH 354, COMP 140"
+Katherine Yue,kty2,2027,"Business, Psychology",,,Social Sciences,"BUSI, PSYC, MEOS"
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
