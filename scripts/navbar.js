@@ -37,7 +37,6 @@ var navbarContent = `
                         <a href="fellows.html" class="dropdown-item">Fellows</a>
                         <a href="rha.html" class="dropdown-item">RHAs</a>
                         <a href="pca.html" class="dropdown-item">PCAs</a>
-                        <a href="strive.html" class="dropdown-item">STRIVE</a>
                         <a href="caregivers.html" class="dropdown-item">Caregivers</a>
                     </div>
                 </div>
