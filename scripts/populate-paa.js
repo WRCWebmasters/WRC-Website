@@ -14,7 +14,11 @@ $.getJSON(jsonPath, function( data ) {
         email.innerHTML = "<a href=\"mailto:" + value["email"] + "\">" + value["email"] + "</a>";
         var subjects = document.createElement("p");
         subjects.className = "card-text";
-        subjects.innerHTML = "Major: " + value["major"] + "\nMinor: " + value["minor"] + "\nTrack: " + value["track"] + "\n" + value["year"];
+        subjects.innerHTML =
+            "Major: " + (value["major"] || "") + "<br>" +
+            "Minor: " + (value["minor"] || "") + "<br>" +
+            "Track: " + (value["track"] || "") + "<br>" + 
+            "Year: " + (value["year"] || "");
 
 
         body.appendChild(title);

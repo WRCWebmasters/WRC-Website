@@ -72,6 +72,8 @@ def generatePaaEntries(inputFile):
                 if row[0] == "BREAK":
                     isHeadPaa = False
                     continue
+                if all(cell.strip() == "" for cell in row):
+                    continue
                 if isHeadPaa: 
                     headEntries.append(PaaEntry(row[0], row[1], row[2], row[3], row[4], row[5]))
                 else:

@@ -1,7 +1,7 @@
 Name,Net ID,Grad Year,Major(s),Minor(s),Pre-Professional Track,Category,Classes
 Kamisi Adentuji,oea6,2027,Chemistry,,Pre-Med,Natural Sciences,"MATH 101/102/211, BIOS 201, CHEM 211"
 Jonathan Cheng,jc212,2026,"Computational and Applied Mathematics, Statistics",Data Science,Pre-Grad,Engineering,"STAT, CAAM"
-Sammy Cox,sc187,2026,Chemistry,,Pre-Grad,Natural Sciences,"CHEM, BIOS 301/302"
+Sammy Cox,sc187,2026,Chemistry,"Biochemistry and Cell Biology, Asian Studies",Pre-Grad,Natural Sciences,"CHEM, BIOS 301/302"
 Kate Doherty,kd56,2026,"Mechanical Engineering",Spanish,Pre-Med,Engineering,"CHEM, MATH, PHYS, MECH"
 Mariela Garcia,mmg10,2027,Chemical and Biomolecular Engineering,Biochemistry and Cell Biology,,Engineering,"CHEM 211/313/320, MATH 102/211, CHBE 243/301"
 Margaret He,mlh10,2027,"Neuroscience",,Pre-Med,"Natural Sciences","CHEM 121/122, PSYC 101/203, BIOS 385, NEUR 362"
@@ -12,7 +12,7 @@ Thomas Lu,tjl5,2026,"Computer Science, Computational and Applied Mathematics","D
 Julianne Ma,jm288,2028,"Psychology, English",,Pre-Grad,"Social Sciences, Humanities","PSYC"
 Navya Nanda,nn32,2027,Biosciences,Global Health Technologies,Pre-Med,Natural Sciences,"BIOS 301, PHYS 125, CHEM 121/122, BIOS 201/202"
 Annie Nguyen,ahn6,2027,Biosciences,Art History,Pre-Med,Natural Sciences,"PHYS 125/126, CHEM 121/122/211/313, BIOS"
-"Shriya Reddy",sdr6,2026,"Chemistry, Biosciences","Data Science","Pre-Med/Pre-Grad",Natural Sciences,"CHEM 211, CHEM 313/320, BIOS 301/302/341/372, COMP 140"
+"Shriya Reddy",sdr6,2026,"Chemistry","Biochemistry and Cell Biology","Pre-Med",Natural Sciences,"CHEM 211, CHEM 313/320, BIOS 301/302/341/372, COMP 140"
 Esha Sarakinti,ers15,2026,"Health Sciences",Biochemistry and Cell Biology,Pre-Med,Natural Sciences,"CHEM 121/122,211/313, BIOS 201/202"
 Maher Tharakan,mjt10,2026,Sports Medicine and Exercise Physiology,Biochemistry and Cell Biology,Pre-Med,Natural Sciences,"KINE 300/301, BIOS 341"
 Adam Vuong,abv3,2026,Bioengineering,Engineering Design,Pre-Grad,Engineering,"BIOE, MATH 101/102/211/212, ELEC 243, MECH 202, ENGI, PHYS 101/112"
