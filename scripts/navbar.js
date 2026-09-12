@@ -30,7 +30,7 @@ var navbarContent = `
                 <div class="nav-item dropdown">
                     <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">PEOPLE</a>
                     <div class="dropdown-menu m-0">
-                        <a href="a-team.html" class="dropdown-item">A-Team</a>
+                        <a href="a-team.html" class="dropdown-item">Core Team</a>
                         <a href="alumni-and-associates.html" class="dropdown-item">Alumni & Associates</a>
                         <a href="student-leadership.html" class="dropdown-item">Student Leadership</a>
                         <a href="paa.html" class="dropdown-item">PAAs</a>
